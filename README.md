@@ -9,6 +9,8 @@ Use cases may include:
 
 ## Structure
 
+<img alt="Dataset visual" src="https://user-images.githubusercontent.com/12954909/229289854-db6841e4-d27d-49fb-9133-502fe9dd5d2c.png" width="500px" />
+
 A total of 2361 conversations between two ChatGPT instances with 29796 utterances.
 
 ### `.gpt4.txt`
