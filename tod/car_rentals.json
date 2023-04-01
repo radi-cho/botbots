@@ -1,0 +1,2498 @@
+[
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Speedy Wheels] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Speedy Wheels] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm the pick-up and return details. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. Can you please provide me with your reservation number so I can pull up your details?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your reservation number. May I know the pick-up and return dates and locations?"
+            ],
+            [
+                "agent2",
+                "Yes, I am scheduled to pick up the car on [pick up date|August 1st] at [pick up location|LAX] and return it on [return date|August 5th] at the same location."
+            ],
+            [
+                "agent1",
+                "Great! We have your reservation on file. What type of car did you reserve?"
+            ],
+            [
+                "agent2",
+                "I reserved a [car make and model|Mercedes-Benz S-Class]."
+            ],
+            [
+                "agent1",
+                "Excellent choice! Our Mercedes-Benz S-Class is a luxurious and comfortable car. The rental rate for this car is [rate|$200] per day. Would you like me to calculate the total cost for your rental?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you also let me know if there are any additional fees or charges that I should be aware of?"
+            ],
+            [
+                "agent1",
+                "Sure, based on your rental dates and rate, the total cost for your rental would be [total cost|$1000]. Please note that there may be additional fees or charges depending on any extra services you may have requested, such as additional insurance coverage or a GPS system. Would you like me to check if there are any additional fees or charges on your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, please. I don't remember if I added any extra services to my reservation."
+            ],
+            [
+                "agent1",
+                "I have checked your reservation and I can confirm that you have not added any extra services to your reservation. The total cost of your rental is [$1000], which includes the rental rate and all applicable taxes and fees. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day and enjoy your rental! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Classy Rides] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Classy Rides] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Classy Rides. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation for a [car make|Mercedes-Benz] [car model|C-Class] and I was wondering if I could extend my rental period for an additional day. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. Can you please provide me with your reservation number so I can look up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|CR123456]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have located your reservation. May I know what dates you would like to extend your rental for?"
+            ],
+            [
+                "agent2",
+                "I would like to extend my rental for one more day, so the new return date would be [new return date|August 20th]."
+            ],
+            [
+                "agent1",
+                "Great! I can see that the Mercedes-Benz C-Class is available for that extra day. Your new rate for the additional day would be [new rate|$150]. This would bring your total cost to [total cost|$750]. Would you like me to go ahead and make the change to your reservation?"
+            ],
+            [
+                "agent2",
+                "That sounds good to me. Yes, please go ahead and make the change to my reservation."
+            ],
+            [
+                "agent1",
+                "Perfect! I have updated your reservation to reflect the new return date of [new return date|August 20th]. Your new total cost is [total cost|$750]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Thank you for choosing Classy Rides. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "economy",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Speedy Wheels] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Speedy Wheels] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm the pick-up details. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help. Can you please provide me with your reservation number so I can pull up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your reservation number. May I have your full name as well, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my full name is [full name|John Smith]."
+            ],
+            [
+                "agent1",
+                "Thank you, [full name|John]. I have located your reservation. Can you please confirm the pick-up location, date, and time?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to confirm that I will be picking up the car at [pick-up location|JFK Airport] on [pick-up date|August 1st] at [pick-up time|10:00 AM]."
+            ],
+            [
+                "agent1",
+                "Great! I can confirm that your pick-up location is [pick-up location|JFK Airport] on [pick-up date|August 1st] at [pick-up time|10:00 AM]. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I have a question about the rate for my rental. Can you please tell me the daily rate for the [car make|Toyota] [car model|Camry]?"
+            ],
+            [
+                "agent1",
+                "Certainly! The daily rate for the [car make|Toyota] [car model|Camry] is [rate|$50] per day."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. Can you also tell me the total cost of my rental, including any taxes and fees?"
+            ],
+            [
+                "agent1",
+                "Sure thing! Based on your reservation details, the total cost of your rental, including taxes and fees, will be [total cost|$500]."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. That's all I needed to know. Have a great day!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or concerns, don't hesitate to reach out to us. Have a great day and enjoy your rental with [agency|Speedy Wheels]! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "economy",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Classy Rides] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Classy Rides] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Classy Rides]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm the pick-up and drop-off times. Can you please help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. May I have your reservation number, please?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|CR123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your reservation number. I can see that your pick-up date is [pick up date|August 10th] at [pick up time|10:00 AM] and your return date is [return date|August 15th] at [return time|2:00 PM]. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "That's great, thank you for confirming that. I also wanted to know if it's possible to extend my rental period by one day. Is that something I can do?"
+            ],
+            [
+                "agent1",
+                "Yes, it's possible to extend your rental period. May I know until when would you like to extend your rental?"
+            ],
+            [
+                "agent2",
+                "I would like to extend my rental until [new return date|August 16th]."
+            ],
+            [
+                "agent1",
+                "Sure, I can help you with that. Let me check the availability of the car you rented. Yes, we have availability for the car you rented until [new return date|August 16th]. Your new total cost will be [new total cost|$250]. Would you like me to update your reservation with the new return date?"
+            ],
+            [
+                "agent2",
+                "Yes, please update my reservation with the new return date. Also, can you please confirm the new rate per day for the additional day?"
+            ],
+            [
+                "agent1",
+                "Sure, I have updated your reservation with the new return date. The new rate per day for the additional day is [new rate|$50]."
+            ],
+            [
+                "agent2",
+                "Great, thank you for confirming that. One last thing, can you please let me know the drop-off location for the car?"
+            ],
+            [
+                "agent1",
+                "Certainly! The drop-off location for the car is the same as the pick-up location, which is our [agency|Classy Rides] office located at [office address|123 Main Street, Anytown]."
+            ],
+            [
+                "agent2",
+                "Got it, thank you for letting me know. Is there anything else I can help you with?"
+            ],
+            [
+                "agent1",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent2",
+                "You're welcome! It was my pleasure assisting you. Have a great day!"
+            ],
+            [
+                "agent1",
+                "You too! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Speedy Wheels] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Speedy Wheels] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Speedy Wheels. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in renting a luxury car for a weekend trip. Can you please provide me with some information about your available cars and rates?"
+            ],
+            [
+                "agent1",
+                "Of course! We have a wide range of luxury cars available for rent, including models from BMW, Mercedes-Benz, Audi, and more. Our rates vary depending on the make and model of the car, as well as the duration of the rental. Can you please provide me with the dates you are interested in renting and the type of car you are looking for?"
+            ],
+            [
+                "agent2",
+                "Sure, I'm looking to rent a BMW for the weekend. I would like to pick it up on Friday, September 10th, and return it on Sunday, September 12th. Can you please let me know the rates for this rental period?"
+            ],
+            [
+                "agent1",
+                "Certainly! For a BMW rental from Friday, September 10th to Sunday, September 12th, our current rate is $200 per day. This includes unlimited mileage and basic insurance coverage. Would you like to proceed with this rental?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you please confirm the total cost for the rental, including any additional fees or taxes?"
+            ],
+            [
+                "agent1",
+                "Sure! The total cost for the rental, including the $200 per day rate, comes out to $600. In addition to this, we do require a security deposit of $500, which will be refunded to you upon the return of the car in the same condition it was rented out. There may also be additional taxes and fees depending on your location. Would you like me to check on this for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you please let me know the total cost including taxes and fees?"
+            ],
+            [
+                "agent1",
+                "Certainly! The total cost including taxes and fees comes out to $720. This includes the $600 rental fee, a $60 tax, and a $60 processing fee. Does this work for you?"
+            ],
+            [
+                "agent2",
+                "Yes, that works for me. Can you please confirm the pick-up and drop-off location for the BMW rental?"
+            ],
+            [
+                "agent1",
+                "Absolutely! Our pick-up and drop-off location for the BMW rental is at our Speedy Wheels office located at 123 Main Street. Please let me know if you have any other questions or concerns."
+            ],
+            [
+                "agent2",
+                "Great, thank you for confirming that. I have reserved the BMW for you from Friday, September 10th to Sunday, September 12th at our Speedy Wheels office located at 123 Main Street. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent1",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent2",
+                "You're welcome! Thank you for choosing Speedy Wheels. Have a great day!"
+            ],
+            [
+                "agent1",
+                "You too! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Classy Rides] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Classy Rides] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Classy Rides. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm some details. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. Can you please provide me with your reservation number so I can pull up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|CR123456]."
+            ],
+            [
+                "agent1",
+                "Thank you! I have pulled up your reservation. How may I assist you with your booking?"
+            ],
+            [
+                "agent2",
+                "I just wanted to confirm the pick-up and return dates for my rental. Can you please remind me of those dates?"
+            ],
+            [
+                "agent1",
+                "Certainly! I see that you have reserved a [car make and model] from [pick up date] to [return date]. Is that correct?"
+            ],
+            [
+                "agent2",
+                "Yes, that's correct. Also, I wanted to know if it's possible to extend my rental period by a day. Is that something I can do?"
+            ],
+            [
+                "agent1",
+                "Yes, it's possible to extend your rental period. However, it's subject to availability. May I know the date you want to extend your rental until?"
+            ],
+            [
+                "agent2",
+                "I would like to extend my rental until [new return date]. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Let me check for you. Yes, we do have availability for the [car make and model] until [new return date]. I can extend your rental period and provide you with a new rate. Would you like me to proceed with the extension?"
+            ],
+            [
+                "agent2",
+                "Yes, please proceed with the extension. Can you also let me know the new rate and the total cost of the rental?"
+            ],
+            [
+                "agent1",
+                "Sure, I have updated your reservation to reflect the new return date. The new rate for the additional day is [new rate]. The total cost of your rental including the additional day will be [total cost]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all I needed. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "economy",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Speedy Wheels] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Speedy Wheels] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm the details. Can you please help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. Can you please provide me with your reservation number?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your reservation number. May I have your full name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my full name is [full name|John Smith]."
+            ],
+            [
+                "agent1",
+                "Thank you, [full name|John]. I have located your reservation. Can you please confirm the pick-up and return dates for your rental?"
+            ],
+            [
+                "agent2",
+                "Yes, I am scheduled to pick up the car on [pick up date|August 1st] and return it on [return date|August 5th]."
+            ],
+            [
+                "agent1",
+                "Great! And which location will you be picking up the car from?"
+            ],
+            [
+                "agent2",
+                "I will be picking up the car from [pick up location|Speedy Wheels Downtown]."
+            ],
+            [
+                "agent1",
+                "Perfect! And what type of car did you reserve?"
+            ],
+            [
+                "agent2",
+                "I reserved a [car make and model|Toyota Camry]."
+            ],
+            [
+                "agent1",
+                "Got it! And just to confirm, you will be the primary driver for this rental, correct?"
+            ],
+            [
+                "agent2",
+                "Yes, that's correct. I will be the primary driver."
+            ],
+            [
+                "agent1",
+                "Great! Your rental rate for the Toyota Camry is [rate|$50] per day. This includes [included miles|unlimited mileage] and [insurance coverage|basic insurance coverage]. Would you like to add any additional insurance coverage or any extra features to your rental?"
+            ],
+            [
+                "agent2",
+                "No, I think the basic insurance coverage and unlimited mileage will be sufficient for my needs."
+            ],
+            [
+                "agent1",
+                "Understood. Based on your rental dates and the rate for the Toyota Camry, your estimated total cost for the rental is [total cost|$200]. This includes all taxes and fees. Would you like to proceed with this reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, that sounds good to me. I would like to proceed with the reservation."
+            ],
+            [
+                "agent1",
+                "Great! I have confirmed your reservation for the Toyota Camry from [pick up date|August 1st] to [return date|August 5th] at [pick up location|Speedy Wheels Downtown]. Your estimated total cost for the rental is [total cost|$200]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "economy",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Classy Rides] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Classy Rides] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Classy Rides]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm the details. Can you please help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. Can you please provide me with your reservation number?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|CR123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing me with your reservation number. May I know the pick-up and return dates for your rental?"
+            ],
+            [
+                "agent2",
+                "Yes, I am scheduled to pick up the car on [pick up date|August 1st] and return it on [return date|August 5th]."
+            ],
+            [
+                "agent1",
+                "Great! And which location will you be picking up the car from?"
+            ],
+            [
+                "agent2",
+                "I will be picking up the car from your [pick up location|downtown] location."
+            ],
+            [
+                "agent1",
+                "Perfect! And what type of car did you reserve?"
+            ],
+            [
+                "agent2",
+                "I reserved a [car make and model|Toyota Corolla]."
+            ],
+            [
+                "agent1",
+                "Got it! I see that you have reserved a [car make and model|Toyota Corolla] for [pick up date|August 1st] and returning it on [return date|August 5th] at our [pick up location|downtown] location. Your rental rate is [rate|$40] per day. Would you like to add any additional options to your rental, such as GPS or an additional driver?"
+            ],
+            [
+                "agent2",
+                "No, I don't need any additional options. Can you please confirm the total cost of my rental?"
+            ],
+            [
+                "agent1",
+                "Sure! Based on the information you provided, your total rental cost will be [total cost|$200]. This includes the rental rate of [rate|$40] per day for 5 days, plus any applicable taxes and fees."
+            ],
+            [
+                "agent2",
+                "Great, thank you for confirming that for me. I appreciate your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or concerns, please don't hesitate to contact us. Have a great day and enjoy your rental! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Speedy Wheels] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Speedy Wheels] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a few questions about renting a car from your agency. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help. What would you like to know?"
+            ],
+            [
+                "agent2",
+                "I would like to know what kind of cars you have available for rent and what are the rates for a weekend rental?"
+            ],
+            [
+                "agent1",
+                "We have a variety of luxury cars available for rent, including sedans, SUVs, and sports cars. The rates for a weekend rental depend on the specific car you would like to rent, as well as the location and time of year. Could you tell me which location you're interested in renting from and the dates you have in mind? That way, I can give you a more accurate quote."
+            ],
+            [
+                "agent2",
+                "Sure, I'm interested in renting a sedan from your downtown location for the weekend of October 8th to October 10th. What kind of rates can you offer me?"
+            ],
+            [
+                "agent1",
+                "Great! I can definitely help you with that. Our downtown location has a variety of sedans available for rent. For the weekend of October 8th to October 10th, our rates for a sedan rental start at [rate| $100 per day]. Keep in mind that rates may vary depending on the specific sedan you choose. Would you like me to check availability and provide a more detailed quote?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you provide me with a quote for a [car make|Toyota] [car model|Camry] for the same dates?"
+            ],
+            [
+                "agent1",
+                "Certainly! I can confirm that we have a [car make|Toyota] [car model|Camry] available for rent at our downtown location for the weekend of October 8th to October 10th. The rate for this rental is [rate| $105 per day]. This includes all taxes and fees, but does not include any additional features or insurance. So for a two-day rental, the total cost would be [total cost| $210]. Would you like to go ahead and reserve this car?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Before I make the reservation, I would like to know if there are any additional features or insurance that I can add to the rental?"
+            ],
+            [
+                "agent1",
+                "Definitely! We offer a variety of additional features that you can add to your rental, such as GPS navigation, child seats, and roadside assistance. We also offer different insurance options to help protect you and the vehicle during your rental period. Our representatives can go over these options with you when you arrive to pick up the car. If you would like to add any of these features or insurance options to your reservation, please let me know and I can adjust the quote accordingly."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I think I'll stick with the standard rental for now. Can you please go ahead and make the reservation for me?"
+            ],
+            [
+                "agent1",
+                "Sure thing! I'll just need a few pieces of information to get your reservation set up. Can you please provide me with your full name, your phone number, and your email address?"
+            ],
+            [
+                "agent2",
+                "Sure, my full name is [full name|John Doe], my phone number is [phone number|555-123-4567], and my email address is [email|johndoe@email.com]."
+            ],
+            [
+                "agent1",
+                "Great! I have your reservation for a [car make|Toyota] [car model|Camry] at our downtown location for the weekend of October 8th to October 10th. Your total cost will be [total cost| $210]. You will receive a confirmation email shortly with all of the details. Is there anything else I can assist you with today?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. Don't hesitate to reach out if you have any further questions or concerns. Have a great day and enjoy your rental! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Classy Rides] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Classy Rides] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Classy Rides. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in booking a car for my upcoming trip. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to assist you with that. When do you need the car and for how long?"
+            ],
+            [
+                "agent2",
+                "I need the car from [pick up date|October 5th] to [return date|October 10th]. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Yes, we have availability for those dates. What type of car are you interested in renting?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a luxury sedan. Can you recommend a model?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have a wide selection of luxury sedans. Some of our most popular models include the [car make|BMW], [car make|Mercedes-Benz], and [car make|Audi]. Would you like me to provide you with some more information on these models?"
+            ],
+            [
+                "agent2",
+                "I'm interested in the BMW. Can you tell me more about the available options and pricing?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several BMW models available, including the [car model|BMW 3 Series], [car model|BMW 5 Series], and [car model|BMW 7 Series]. Our rates for these vehicles start at [rate|$150] per day. The total cost for your rental will depend on the specific model and any additional services you require. Would you like me to give you an estimate for the BMW 3 Series?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you also let me know what additional services you offer?"
+            ],
+            [
+                "agent1",
+                "Sure thing! For the BMW 3 Series, the estimated total cost for your rental would be around [total cost|$900]. This includes the base rate of [rate|$150] per day, plus any taxes and fees.\n\nAs for additional services, we offer a variety of options to enhance your rental experience. These include GPS navigation, child safety seats, and additional insurance coverage. We also offer a personal concierge service, which provides you with a dedicated representative who can assist you with anything you may need during your rental period. Would you like more information on any of these services?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you provide me with more information on the personal concierge service?"
+            ],
+            [
+                "agent1",
+                "Absolutely! Our personal concierge service is designed to provide you with a hassle-free rental experience. Your dedicated representative will be available 24/7 to assist you with anything you may need during your rental period, such as restaurant recommendations, event tickets, or even booking a spa day. They can also help you with any issues related to your rental, such as extending your rental period or arranging for a different vehicle if you're not satisfied with your current one. The cost for this service is [rate|$50] per day."
+            ],
+            [
+                "agent2",
+                "That sounds like a really useful service. I think I'll go ahead and book the BMW 3 Series with the personal concierge service. Can you please let me know what information you need from me to complete the booking?"
+            ],
+            [
+                "agent1",
+                "Great! I'm glad to hear that. To book your rental, I'll need the following information:\n\n- Your full name\n- Your contact information (phone number and email address)\n- Your driver's license number and expiration date\n- Your pickup and dropoff location\n- Your preferred method of payment\n\nOnce I have this information, I can complete your reservation and send you a confirmation email with all the details of your rental."
+            ],
+            [
+                "agent2",
+                "Thank you! Here is my information:\n\n- Full name: [full name|John Smith]\n- Contact information: [phone number|555-1234], [email|johnsmith@email.com]\n- Driver's license number: [license number|123456789]\n- License expiration date: [expiration date|December 31, 2022]\n- Pickup and dropoff location: [location|Los Angeles International Airport]\n- Preferred method of payment: [payment method|Visa credit card]\n\nLet me know if you need any further information."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your information, John. I've gone ahead and booked your rental for the BMW 3 Series with the personal concierge service. Your pickup and dropoff location will be at the Los Angeles International Airport. Your total rental cost, including the base rate, taxes, and fees, is [total cost|$950]. Your preferred method of payment, Visa credit card, will be charged on the day of pickup. You will receive a confirmation email shortly with all the details of your rental, including your reservation number and the contact information for your personal concierge. Is there anything else you need help with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help. I'm really looking forward to my trip now!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! It was a pleasure assisting you. If you have any further questions or concerns, don't hesitate to reach out to us. Have a great trip and enjoy your rental! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "economy",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Speedy Wheels] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Speedy Wheels] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a few questions about renting a car from your agency. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help answer any questions you have. What do you need help with?"
+            ],
+            [
+                "agent2",
+                "I'm interested in renting a car for a week, from [pick up date|August 1st] to [return date|August 8th]. Can you tell me what cars you have available during that time and what the rates are?"
+            ],
+            [
+                "agent1",
+                "Sure thing! We have several cars available during that time. Can you tell me what type of car you're looking for? We have economy, compact, mid-size, and full-size cars available."
+            ],
+            [
+                "agent2",
+                "I'm interested in renting a mid-size car. What options do you have available and how much would it cost?"
+            ],
+            [
+                "agent1",
+                "Great choice! We have several mid-size cars available during the dates you requested including the [car make|Toyota] [car model|Camry], the [car make|Honda] [car model|Accord], and the [car make|Nissan] [car model|Altima]. The rates for mid-size cars start at [rate|$50] per day. For a one week rental, your total cost would be [total cost|$350]. Keep in mind that additional fees, such as taxes and insurance, may apply."
+            ],
+            [
+                "agent2",
+                "Thank you for that information. That sounds like a good deal. Can you tell me more about the insurance options you offer?"
+            ],
+            [
+                "agent1",
+                "Sure! We offer two types of insurance coverage: Loss Damage Waiver (LDW) and Personal Accident Insurance (PAI). Our LDW covers the cost of damages to the rental car, while our PAI provides coverage for medical expenses and accidental death benefits. The cost of LDW is [LDW rate|$15] per day, and the cost of PAI is [PAI rate|$5] per day. Please keep in mind that our insurance options are optional, and are not required to rent a car from us."
+            ],
+            [
+                "agent2",
+                "Thank you for explaining that. I think I'll opt for the LDW coverage. How do I go about reserving a car and adding the insurance coverage?"
+            ],
+            [
+                "agent1",
+                "To reserve a car, I'll need a bit of information from you, including your pick-up and drop-off location, the dates you'd like to rent the car, and your contact information. Once I have that information, I can make the reservation for you and add the LDW coverage. \n\nAlternatively, you can reserve a car and add the insurance coverage by visiting our website and following the prompts, or by calling our customer service line at [phone number|555-1234]."
+            ],
+            [
+                "agent2",
+                "That makes sense. I'd like to reserve a [car make|Toyota] [car model|Camry] for the dates I mentioned earlier, with pick-up and drop-off at your [location|downtown] location. Can you help me make that reservation?"
+            ],
+            [
+                "agent1",
+                "Absolutely! I can help you make that reservation right now. To confirm, you'd like to rent a [car make|Toyota] [car model|Camry] from [pick up date|August 1st] to [return date|August 8th], with pick-up and drop-off at our [location|downtown] location, and you'd like to add LDW coverage, correct?"
+            ],
+            [
+                "agent2",
+                "Yes, that's correct!"
+            ],
+            [
+                "agent1",
+                "Great! I have reserved the [car make|Toyota] [car model|Camry] for you from [pick up date|August 1st] to [return date|August 8th] at our [location|downtown] location. The total cost of your rental, including LDW insurance, will be [total cost|$385]. \n\nTo complete your reservation, I'll need your full name, email address, phone number, and a valid credit card number. We'll only charge your card once you pick up the car. \n\nWould you like to provide that information now, or would you prefer to do it later?"
+            ],
+            [
+                "agent2",
+                "I'd prefer to provide that information now. My name is [full name|John Smith], my email address is [email|johnsmith@email.com], and my phone number is [phone number|555-555-5555]. My credit card number is [credit card number|1234-5678-9012-3456]."
+            ],
+            [
+                "agent1",
+                "Thank you for that information, John. I have added it to your reservation. Your reservation is now confirmed!\n\nJust a reminder, please bring your driver's license and a major credit card with you when you come to pick up the car. We'll also need a copy of your auto insurance policy, or you can purchase our LDW coverage for an additional fee.\n\nIs there anything else I can assist you with today?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! It was my pleasure to assist you. If you have any further questions or concerns, please don't hesitate to reach out to us. Have a great day and enjoy your rental car! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "economy",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Classy Rides] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Classy Rides] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to inquire about making a reservation for a vehicle. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to assist you with your reservation. When do you need the vehicle, and for how long?"
+            ],
+            [
+                "agent2",
+                "I need the vehicle from [pickup date|September 1st] to [return date|September 7th]."
+            ],
+            [
+                "agent1",
+                "Great! What type of vehicle are you looking to rent? We offer a variety of options, including economy, compact, mid-size, and full-size cars."
+            ],
+            [
+                "agent2",
+                "I'm looking for an economy car. What's available for those dates?"
+            ],
+            [
+                "agent1",
+                "We do have a few economy car options available for those dates. Would you prefer a specific make and model, or are you open to suggestions?"
+            ],
+            [
+                "agent2",
+                "I'm open to suggestions. What do you have available?"
+            ],
+            [
+                "agent1",
+                "For an economy car, we have the [car make|Nissan] [car model|Versa], the [car make|Toyota] [car model|Yaris], and the [car make|Kia] [car model|Rio] available for those dates. All of these options are fuel-efficient and reliable. Which one would you like to reserve?"
+            ],
+            [
+                "agent2",
+                "I'll go with the [car make|Nissan] [car model|Versa]. Can you tell me what the rate is for that car?"
+            ],
+            [
+                "agent1",
+                "The rate for the Nissan Versa is [rate|$35] per day. For the dates you mentioned, the total rental cost would be [total cost|$245]. Would you like to proceed with the reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, that sounds good. What's the next step?"
+            ],
+            [
+                "agent1",
+                "Great! To reserve the car, I'll need some information from you. Please provide me with your full name, date of birth, driver's license number, and a contact number where you can be reached."
+            ],
+            [
+                "agent2",
+                "Sure. My name is [full name|John Smith], my date of birth is [date of birth|January 1st, 1990], my driver's license number is [driver's license number|123456789], and my contact number is [contact number|555-1234]."
+            ],
+            [
+                "agent1",
+                "Thank you for that information. Your reservation for the Nissan Versa from [pickup date|September 1st] to [return date|September 7th] has been confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Thank you for choosing [agency|Classy Rides] for your rental needs. Have a great day and enjoy your trip! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Speedy Wheels] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Speedy Wheels] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Speedy Wheels. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm calling to inquire about renting a car. Can you tell me about the options available for [pick up date|next weekend] and [return date|the following weekend]?"
+            ],
+            [
+                "agent1",
+                "Absolutely! We have a wide range of luxury cars available for rental during that time. Can you tell me what type of car you are interested in renting, and for how many days? That way, I can give you a more accurate rate."
+            ],
+            [
+                "agent2",
+                "I'm looking for a [car type|SUV], preferably a [car make|Mercedes] or [car make|BMW], for [rental duration|nine days]. Can you tell me the rates for those options?"
+            ],
+            [
+                "agent1",
+                "Certainly! We do have a few options available for you. For a Mercedes SUV, we have the GLE SUV which is available for [$250/day]. For a BMW SUV, we have the X7 which is available for [$300/day]. For the nine-day rental period you are interested in, the total cost would be [$2250] for the Mercedes GLE SUV and [$2700] for the BMW X7. Please keep in mind that these rates are subject to change based on availability, so I recommend making a reservation as soon as possible."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. Can you tell me what is included in the rental price?"
+            ],
+            [
+                "agent1",
+                "Of course! Our rental rates include basic insurance coverage, unlimited mileage, and 24/7 roadside assistance. We also offer additional insurance coverage options and added perks like GPS navigation and child safety seats for an additional charge. Please let me know if you have any additional questions."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. One more question, what is the process for reserving the car?"
+            ],
+            [
+                "agent1",
+                "To reserve a car, we would need you to provide us with your personal information, driver's license, and a valid credit card for payment. You can do this by making a reservation online through our website or by calling our rental office directly. Once your reservation is confirmed, we will send you a confirmation email with all the details of your rental, including the pickup and return dates and times, the rental rate, and any additional charges or fees."
+            ],
+            [
+                "agent2",
+                "Great, thank you for the information. I will go ahead and make the reservation online."
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any other questions or need further assistance, don't hesitate to reach out to us. Thank you for choosing Speedy Wheels for your rental needs. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Classy Rides] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Classy Rides] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to [agency|Classy Rides]. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm interested in renting a car from [agency|Classy Rides]. Can you please provide me with some information about the available cars and their rates?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have a wide range of luxury vehicles available for rent, including [car make 1|BMW], [car make 2|Mercedes-Benz], [car make 3|Audi], and [car make 4|Lexus]. Our rates vary depending on the make and model of the car, as well as the rental period. Can you please provide me with the dates you're looking to rent a car and the type of car you're interested in?"
+            ],
+            [
+                "agent2",
+                "Sure, I'm looking to rent a car from [pick up date|next Friday] to [return date|the following Monday]. I'm interested in renting a [car make|Mercedes-Benz] if possible. Can you please provide me with the rate for that model?"
+            ],
+            [
+                "agent1",
+                "Absolutely. We do have [car model|Mercedes-Benz] models available for rent during that time period. The rate for a [car model|Mercedes-Benz] is [rate|$250] per day. For a rental period of [rental period|four days], the total cost would be [total cost|$1000]. Please note that this rate includes unlimited mileage and insurance coverage. Would you like to proceed with the reservation?"
+            ],
+            [
+                "agent2",
+                "That sounds great. Can you please confirm the pickup and drop-off locations for [car make|Mercedes-Benz]?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have several pickup and drop-off locations available, depending on your preference. For [car make|Mercedes-Benz], our pickup and drop-off location is [location|1234 Luxury Way, Los Angeles, CA 90001]. Is that location convenient for you?"
+            ],
+            [
+                "agent2",
+                "Yes, that location works for me. Can you please let me know what documents and information I need to provide at the time of pickup for the rental?"
+            ],
+            [
+                "agent1",
+                "Of course! To rent a car from [agency|Classy Rides], you will need to provide a valid driver's license, a credit card in your name, and proof of insurance. If you do not have insurance, we can provide you with insurance coverage for an additional fee. Additionally, you must be at least [age|25] years old to rent a car from our agency."
+            ],
+            [
+                "agent2",
+                "Great, thank you for the information. How can I go about making the reservation?"
+            ],
+            [
+                "agent1",
+                "To make a reservation, I can either take your information over the phone, or I can send you an email with a link to our reservation system. Which option works best for you?"
+            ],
+            [
+                "agent2",
+                "I prefer to make the reservation over the phone. Can we proceed with that option?"
+            ],
+            [
+                "agent1",
+                "Certainly. To make the reservation, I will need the following information from you:\n\n- Your full name\n- Your contact information (phone number and email address)\n- Your driver's license number\n- Your credit card information (card number, expiration date, and security code)\n- Your insurance information (if you have your own insurance)\n\nOnce I have this information, I can go ahead and reserve the [car make|Mercedes-Benz] for you."
+            ],
+            [
+                "agent2",
+                "Before I provide you with my personal information, can you please confirm the cancellation policy for the reservation?"
+            ],
+            [
+                "agent1",
+                "Yes, our cancellation policy is as follows: \n\n- If you cancel more than [cancellation time period|48] hours before the pickup time, you will receive a full refund of your reservation deposit.\n- If you cancel less than [cancellation time period|48] hours before the pickup time, your reservation deposit will be forfeited.\n\nPlease note that if you cancel after the pickup time, you will be charged for the full rental amount."
+            ],
+            [
+                "agent2",
+                "Great, thank you for clarifying that. I'm ready to provide you with my personal information to make the reservation."
+            ],
+            [
+                "agent1",
+                "Great! To get started, may I have your full name, phone number, and email address?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [full name|John Smith], my phone number is [phone number|555-1234], and my email address is [email|john.smith@email.com]."
+            ],
+            [
+                "agent1",
+                "Thank you, [full name|John Smith]. May I have your driver's license number, credit card information, and insurance information (if applicable)?"
+            ],
+            [
+                "agent2",
+                "Sure, my driver's license number is [driver's license number|123456789], the credit card information is [credit card information|Visa ending in 1234, Expires 12/24, Security code 123], and I don't have my own insurance, so I'll need the insurance coverage provided by [agency|Classy Rides]."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "economy",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Speedy Wheels] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Speedy Wheels] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Speedy Wheels! How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in booking a car for my upcoming trip. Can you please provide me with some information about your rental options?"
+            ],
+            [
+                "agent1",
+                "Of course! We have a variety of options available depending on your needs. What type of car are you looking to rent and for what dates?"
+            ],
+            [
+                "agent2",
+                "I'm interested in renting a [car type|compact car] for a week, starting on [pick up date|October 10th] and returning it on [return date|October 17th]. Can you tell me about the rates and any special deals you might have?"
+            ],
+            [
+                "agent1",
+                "Certainly! Our current rate for a compact car for those dates is [rate|$35] per day, which comes out to a total of [total cost|$245] for the week. We do have some special deals available, such as a 10% discount for booking online, or a free upgrade to a mid-size car if one is available. Would you like me to apply any of these deals to your reservation?"
+            ],
+            [
+                "agent2",
+                "Thanks for letting me know! I'd like to take advantage of the 10% discount by booking online. Can you help me with that, or do I need to do it myself?"
+            ],
+            [
+                "agent1",
+                "Certainly! I can assist you with that. To book online, you can simply visit our website and select the dates and car type you're interested in. The website will apply the discount automatically. Alternatively, I can help you book over the phone and apply the discount for you. Which option would you prefer?"
+            ],
+            [
+                "agent2",
+                "I'd prefer to book over the phone if that's okay. Can you confirm the total cost with the discount applied and walk me through the booking process?"
+            ],
+            [
+                "agent1",
+                "Certainly! With the 10% discount, your new total cost would be [new total cost|$220.50]. To book over the phone, I'll need a few pieces of information from you: your name, driver's license number, phone number, and a valid credit card for the reservation. Once I have that information, I can go ahead and book the car for you. Would you like to proceed with the booking now?"
+            ],
+            [
+                "agent2",
+                "Yes, let's proceed with the booking. My name is [name|John Smith], my driver's license number is [DL number|123456789], my phone number is [phone number|555-555-5555], and my credit card number is [credit card number|1234-5678-9012-3456]."
+            ],
+            [
+                "agent1",
+                "Thank you for the information, John. I have gone ahead and booked a compact car for you for the dates of [pick up date|October 10th] to [return date|October 17th] at a rate of [rate|$35] per day with a 10% discount applied. Your new total cost is [new total cost|$220.50]. Is there anything else I can assist you with today?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help with the booking, and have a great day!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! Thank you for choosing Speedy Wheels. Have a wonderful day and safe travels! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "economy",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Classy Rides] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Classy Rides] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Thank you for choosing [agency|Classy Rides]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to inquire about [car rental|renting a car] for my upcoming trip. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help. When do you need to rent the car and how long will you need it for?"
+            ],
+            [
+                "agent2",
+                "I need to rent the car from [pick up date|October 20th] to [return date|October 27th]."
+            ],
+            [
+                "agent1",
+                "Great! And where will you be picking up and dropping off the car?"
+            ],
+            [
+                "agent2",
+                "I will be picking up the car at [pickup location|LAX airport] and dropping it off at the same location."
+            ],
+            [
+                "agent1",
+                "Understood. And what type of car would you like to rent? We have a variety of options available."
+            ],
+            [
+                "agent2",
+                "I'm looking for a [car type|compact] car. Do you have any available for the dates I mentioned?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have compact cars available for those dates. We have a [car make|Toyota] [car model|Corolla] and a [car make|Nissan] [car model|Sentra]. Which one would you prefer?"
+            ],
+            [
+                "agent2",
+                "I would like to rent the [car make|Toyota] [car model|Corolla]. Can you please give me the rate and total cost for the rental?"
+            ],
+            [
+                "agent1",
+                "Sure thing! The rate for the [car make|Toyota] [car model|Corolla] is [rate|$35] per day. For the dates you mentioned, the total cost would be [total cost|$280] plus any additional fees or insurance you may choose to add."
+            ],
+            [
+                "agent2",
+                "That sounds good. Can you please add [insurance|basic insurance] to my reservation?"
+            ],
+            [
+                "agent1",
+                "Of course! I've added basic insurance to your reservation. Is there anything else you'd like to add or modify?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! We appreciate your business. Your reservation for the [car make|Toyota] [car model|Corolla] with basic insurance from [pick up date|October 20th] to [return date|October 27th] at [pickup location|LAX airport] is confirmed at a total cost of [total cost|$280]. Please let us know if you have any further questions or concerns. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you! Have a great day too!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Speedy Wheels] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Speedy Wheels] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I have a reservation for a car rental and I wanted to confirm the pick-up and return dates. Can you please check that for me?"
+            ],
+            [
+                "agent1",
+                "Of course! May I have your reservation number, please?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|123456]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have found your reservation. Can you please confirm the pick-up and return dates you have in mind?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to pick up the car on [pick up date|August 1st] and return it on [return date|August 5th]."
+            ],
+            [
+                "agent1",
+                "Great! We have availability for those dates. What type of car would you like to rent? We have a variety of luxury cars available, such as [car make and model|Mercedes-Benz S-Class], [car make and model|BMW 7 Series], and [car make and model|Audi A8]."
+            ],
+            [
+                "agent2",
+                "I'm interested in renting the [car make and model|Mercedes-Benz S-Class]. Can you please tell me the rate for those dates?"
+            ],
+            [
+                "agent1",
+                "Certainly! The daily rate for the [car make and model|Mercedes-Benz S-Class] is [rate|$250] per day. For a rental period of [rental period|5] days, the total cost would be [total cost|$1,250]. Please note that this rate does not include taxes and fees."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. Can you please confirm the total cost including taxes and fees?"
+            ],
+            [
+                "agent1",
+                "Of course! The total cost including taxes and fees for your rental period of [rental period|5] days would be [total cost including taxes and fees|$1,500]."
+            ],
+            [
+                "agent2",
+                "Thank you for confirming that. I would like to proceed with the reservation. What do I need to do next?"
+            ],
+            [
+                "agent1",
+                "Great! To proceed with the reservation, I will need your full name, driver's license number, and a valid credit card for payment."
+            ],
+            [
+                "agent2",
+                "Sure, my full name is [full name|John Smith], my driver's license number is [driver's license number|123456789], and I will be using my [credit card type|Visa] credit card with the number [credit card number|1234 5678 9012 3456] to make the payment."
+            ],
+            [
+                "agent1",
+                "Thank you for providing that information. Your reservation for the [car make and model|Mercedes-Benz S-Class] from [pick up date|August 1st] to [return date|August 5th] has been confirmed. You will receive an email with the details of your reservation shortly. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Classy Rides] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Classy Rides] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Classy Rides. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation for a [car make|Mercedes-Benz] [car model|C-Class] and I wanted to confirm the pick-up and return dates. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! May I have your reservation number, please?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|CR123456]."
+            ],
+            [
+                "agent1",
+                "Thank you! I have found your reservation. Can you please confirm the pick-up and return dates you have in mind?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to pick up the car on [pick up date|August 1st] at 10:00 AM and return it on [return date|August 5th] at 2:00 PM."
+            ],
+            [
+                "agent1",
+                "Great! I can confirm that we have a Mercedes-Benz C-Class available for you to pick up on [pick up date|August 1st] at 10:00 AM and return on [return date|August 5th] at 2:00 PM. The total cost for your rental will be [total cost|$800]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "That sounds good to me! Just to confirm, the rental rate is [rate|$200] per day, correct? Also, can you tell me where the pick-up location is?"
+            ],
+            [
+                "agent1",
+                "Yes, that's correct! The rental rate for the Mercedes-Benz C-Class is [rate|$200] per day. Our pick-up location is at [pick-up location|123 Main Street, Anytown, USA]. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all I needed to know. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you have any further questions or concerns, don't hesitate to contact us. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "economy",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Speedy Wheels] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Speedy Wheels] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm the pick-up details. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help. Can you please provide me with your reservation number so I can pull up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your reservation number. May I have your full name as well, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my full name is [full name|John Smith]."
+            ],
+            [
+                "agent1",
+                "Thank you, [full name|John]. I have located your reservation. Can you please confirm the pick-up location and date?"
+            ],
+            [
+                "agent2",
+                "Yes, I am scheduled to pick up the car at [pick-up location|Speedy Wheels Downtown] on [pick-up date|August 1st]."
+            ],
+            [
+                "agent1",
+                "Great! And when will you be returning the car?"
+            ],
+            [
+                "agent2",
+                "I plan to return the car on [return date|August 5th]."
+            ],
+            [
+                "agent1",
+                "Thank you for confirming that. What type of vehicle did you reserve?"
+            ],
+            [
+                "agent2",
+                "I reserved a [car make and model|Toyota Camry]."
+            ],
+            [
+                "agent1",
+                "Excellent choice! Our Toyota Camrys are very popular. Your rental rate is [rate|$40] per day. Would you like me to calculate the total cost of your rental?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you tell me the total cost of my rental?"
+            ],
+            [
+                "agent1",
+                "Sure thing! Based on the information you've provided, your total rental cost will be [total cost|$200]. This includes the rental rate of [rate|$40] per day for 5 days, plus any applicable taxes and fees."
+            ],
+            [
+                "agent2",
+                "Great, thank you for letting me know. I have one more question. Can I add an additional driver to my reservation?"
+            ],
+            [
+                "agent1",
+                "Yes, you can certainly add an additional driver to your reservation. There is an additional fee of [additional driver fee|$10] per day for each additional driver. Would you like me to add an additional driver to your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, please. I would like to add my spouse as an additional driver."
+            ],
+            [
+                "agent1",
+                "Certainly, I can add your spouse as an additional driver. Can you please provide me with their full name and driver's license number?"
+            ],
+            [
+                "agent2",
+                "Sure, my spouse's full name is [spouse name|Jane Smith] and her driver's license number is [driver's license number|123456789]."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "economy",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Classy Rides] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Classy Rides] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Classy Rides]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm the pick-up and drop-off times. Can you please provide me with that information?"
+            ],
+            [
+                "agent1",
+                "Of course! May I have your reservation number, please?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|123456]."
+            ],
+            [
+                "agent1",
+                "Thank you. I can see that your pick-up date is [pick up date|August 10th] at [pick up time|10:00 AM] and your drop-off date is [return date|August 15th] at [return time|2:00 PM]. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "That's perfect, thank you! I also wanted to know if it's possible to extend my rental period by one day. Is that something I can do?"
+            ],
+            [
+                "agent1",
+                "Yes, it is possible to extend your rental period. However, it is subject to availability and additional charges may apply. May I know until when you would like to extend your rental period?"
+            ],
+            [
+                "agent2",
+                "I would like to extend my rental period until [new return date|August 16th]. How much would the additional charges be?"
+            ],
+            [
+                "agent1",
+                "Let me check that for you. Yes, we do have availability for the extension. The additional charge for an extra day would be [additional charge|$50]. This would bring your total cost to [total cost|$350]. Would you like me to make the necessary changes to your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you confirm the new total cost with the additional day?"
+            ],
+            [
+                "agent1",
+                "Sure, the new total cost with the additional day would be [new total cost|$350]."
+            ],
+            [
+                "agent2",
+                "Great, thank you for confirming that. Can you please make the necessary changes to my reservation and let me know if there's anything else I need to do?"
+            ],
+            [
+                "agent1",
+                "Certainly! I have updated your reservation to reflect the new return date of [new return date|August 16th]. The additional charge of [additional charge|$50] has been added to your reservation, bringing your new total cost to [new total cost|$350]. You don't need to do anything else at this time. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or concerns, please don't hesitate to contact us. Have a great day and enjoy your rental with [agency|Classy Rides]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Speedy Wheels] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Speedy Wheels] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Speedy Wheels. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm some details. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help. Can you please provide me with your reservation number so I can pull up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|123456]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have your reservation pulled up now. What details would you like to confirm?"
+            ],
+            [
+                "agent2",
+                "I just wanted to confirm the pick-up and return dates for my rental. Can you please remind me of those?"
+            ],
+            [
+                "agent1",
+                "Certainly. Your pick-up date is [pick up date|August 1st] and your return date is [return date|August 5th]. Is that correct?"
+            ],
+            [
+                "agent2",
+                "Yes, that's correct. Thank you. Can you also confirm the car make and model that I reserved?"
+            ],
+            [
+                "agent1",
+                "Of course. You reserved a [car make|Mercedes-Benz] [car model|C-Class]. It's a beautiful car!"
+            ],
+            [
+                "agent2",
+                "Great! I'm excited to drive it. Can you also remind me of the total cost of my rental?"
+            ],
+            [
+                "agent1",
+                "Certainly. Your rental rate is [rate|$150] per day, and you will have the car for a total of [number of days|5] days. So your total rental cost will be [total cost|$750]."
+            ],
+            [
+                "agent2",
+                "Thank you for confirming that. I have one more question. Can I extend my rental for an additional day?"
+            ],
+            [
+                "agent1",
+                "Yes, you can certainly extend your rental. May I know until when would you like to extend your rental?"
+            ],
+            [
+                "agent2",
+                "I would like to extend my rental until [new return date|August 6th]. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Yes, that's possible. Let me check the availability for you. Yes, we do have availability for the Mercedes-Benz C-Class on August 6th. Your new total rental cost will be [new total cost|$900]. Would you like me to make that change for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please. That sounds good to me. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I have updated your reservation to reflect the new return date of August 6th. Your new total rental cost is [new total cost|$900]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help and have a great day!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Thank you for choosing Speedy Wheels. Have a great day and enjoy your rental! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Classy Rides] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Classy Rides] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Classy Rides. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm some details. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help. Can you please provide me with your reservation number so I can pull up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|CR12345]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have pulled up your reservation. How may I assist you?"
+            ],
+            [
+                "agent2",
+                "I just wanted to confirm the pick-up and return dates for my rental. Can you please remind me of those details?"
+            ],
+            [
+                "agent1",
+                "Certainly! Your pick-up date is [pick up date|July 1st] and your return date is [return date|July 5th]. Is there anything else you would like me to confirm?"
+            ],
+            [
+                "agent2",
+                "No, that's all I needed to know. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Actually, I was wondering if it's possible to extend my rental for an additional day. Is that something I can do?"
+            ],
+            [
+                "agent1",
+                "Yes, it is possible to extend your rental. May I know until when would you like to extend your rental?"
+            ],
+            [
+                "agent2",
+                "I would like to extend my rental until [new return date|July 6th]. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Yes, that is possible. Let me check the availability of the vehicle you rented. [pause for a moment] Good news! The vehicle you rented is available for an additional day. Your new total cost for the rental will be [new total cost|$350]. Would you like me to make the change to your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, please go ahead and make the change to my reservation. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I have updated your reservation to reflect the new return date of [new return date|July 6th]. Your new total cost for the rental is [new total cost|$350]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "economy",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Speedy Wheels] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Speedy Wheels] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to make a reservation for a car, please."
+            ],
+            [
+                "agent1",
+                "Of course! When do you need the car and for how long?"
+            ],
+            [
+                "agent2",
+                "I need the car from [pick up date|next Monday] to [return date|next Friday]."
+            ],
+            [
+                "agent1",
+                "Great! What type of car are you interested in renting? We have economy, compact, mid-size, full-size, and SUVs available."
+            ],
+            [
+                "agent2",
+                "I would like to rent a mid-size car, please."
+            ],
+            [
+                "agent1",
+                "Sure thing! We have several mid-size cars available. What make and model are you interested in?"
+            ],
+            [
+                "agent2",
+                "I would like to rent a [car make|Toyota] [car model|Camry], please."
+            ],
+            [
+                "agent1",
+                "Excellent choice! We do have a [car make|Toyota] [car model|Camry] available for the dates you requested. Our rate for a mid-size car is [rate|$40] per day. So for a rental period of 5 days, your base rental cost would be [total cost|$200]. Would you like to proceed with the reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to proceed with the reservation."
+            ],
+            [
+                "agent1",
+                "Great! Can I have your name, please?"
+            ],
+            [
+                "agent2",
+                "My name is [user's name|John]."
+            ],
+            [
+                "agent1",
+                "Thank you, [user's name|John]. Can I have your driver's license number and your phone number, please?"
+            ],
+            [
+                "agent2",
+                "Sure, my driver's license number is [driver's license number|123456789] and my phone number is [phone number|555-1234]."
+            ],
+            [
+                "agent1",
+                "Thank you, [user's name|John]. Your reservation for a [car make|Toyota] [car model|Camry] from [pick up date|next Monday] to [return date|next Friday] has been confirmed. Your total rental cost will be [total cost|$200]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [user's name|John]. We look forward to seeing you on [pick up date|next Monday]. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "economy",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Classy Rides] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Classy Rides] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Classy Rides]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with your agency and I wanted to confirm some details. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. Can you please provide me with your reservation number?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|CR123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your reservation number. Can you please confirm your pick-up and return dates?"
+            ],
+            [
+                "agent2",
+                "Yes, my pick-up date is [pick up date|August 1st] and my return date is [return date|August 5th]."
+            ],
+            [
+                "agent1",
+                "Great! And what type of vehicle did you reserve?"
+            ],
+            [
+                "agent2",
+                "I reserved a [car make and model|Toyota Corolla]."
+            ],
+            [
+                "agent1",
+                "Perfect! I see that you reserved a [car make and model|Toyota Corolla] for [pick up date|August 1st] and returning on [return date|August 5th]. Your total rental rate for the vehicle is [rate|$35] per day. Would you like to add any additional options to your rental, such as insurance or a GPS system?"
+            ],
+            [
+                "agent2",
+                "No, I don't need any additional options. Can you please confirm the total cost of my rental?"
+            ],
+            [
+                "agent1",
+                "Sure! Based on the information you provided, your total rental cost for the [car make and model|Toyota Corolla] will be [total cost|$175]."
+            ],
+            [
+                "agent2",
+                "Great, thank you for confirming that. I have one more question. Can I extend my rental for an additional day?"
+            ],
+            [
+                "agent1",
+                "Yes, you can extend your rental for an additional day. However, please note that the rental rate may change based on the additional day you are requesting. Would you like me to check the availability and rate for the additional day?"
+            ],
+            [
+                "agent2",
+                "Yes, please. I would like to extend my rental for one more day."
+            ],
+            [
+                "agent1",
+                "Sure, I can check the availability and rate for you. May I know the date you would like to extend your rental until?"
+            ],
+            [
+                "agent2",
+                "I would like to extend my rental until [new return date|August 6th]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing the date. I have checked the availability and the rate for the additional day is [new rate|$30]. Would you like me to add the additional day to your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, please add the additional day to my reservation."
+            ],
+            [
+                "agent1",
+                "Great! I have added the additional day to your reservation. Your new total rental cost will be [new total cost|$205]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Speedy Wheels] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Speedy Wheels] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Speedy Wheels, how may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I have a reservation with your agency and I would like to confirm the pick-up details. Can you please provide them to me?"
+            ],
+            [
+                "agent1",
+                "Of course! Can you please provide me with your reservation number so I can pull up your booking details?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have pulled up your reservation and can confirm that your pick-up date is [pick up date] at [pick up time] and your return date is [return date] at [return time]. Would you like me to provide you with the address of our location or do you already have that information?"
+            ],
+            [
+                "agent2",
+                "That's great, I already have the address. I just wanted to confirm the pick-up and return times. Thank you! Also, can you please confirm what type of car I have reserved?"
+            ],
+            [
+                "agent1",
+                "Certainly! You have reserved a [car make] [car model]. It's a beautiful car! Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I wanted to know what the total cost of my rental will be. Can you please provide me with that information?"
+            ],
+            [
+                "agent1",
+                "Of course, I'd be happy to help you with that. The total cost of your rental will depend on the rate you booked your car at and the length of your rental period. Can you please confirm the rate you booked at and the number of days you will be renting the car for?"
+            ],
+            [
+                "agent2",
+                "I am not sure about the rate. Can you please let me know what rate I booked the car at? I will confirm the rental period once I have the rate information."
+            ],
+            [
+                "agent1",
+                "Sure, let me check that for you. Can you please provide me with your name and the email address you used to make the reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [Name] and the email address I used to make the reservation is [email address]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have found your reservation and can confirm that you booked the [car make] [car model] at a rate of [rate] per day. How many days will you be renting the car for? I can calculate the total cost for you."
+            ],
+            [
+                "agent2",
+                "I will be renting the car for [number of days] days. Could you please let me know the total cost?"
+            ],
+            [
+                "agent1",
+                "Sure! Based on the rate of [rate] per day, and the number of days you will be renting the car for, your total cost comes to [total cost]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. Have a great day and enjoy your rental car! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Classy Rides] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Classy Rides] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Classy Rides. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a few questions about renting a car from your agency. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help. What would you like to know?"
+            ],
+            [
+                "agent2",
+                "I'm interested in renting a luxury SUV for a week. Can you tell me what types of SUVs you have available and the rates for them?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have several luxury SUVs available for rent, including the [SUV 1|Range Rover Sport], [SUV 2|Mercedes-Benz GLE], and [SUV 3|BMW X7]. The rental rates vary depending on the specific make and model, as well as the length of the rental. Can you give me some more information about your rental preferences?"
+            ],
+            [
+                "agent2",
+                "Sure, I'm looking to rent the [SUV 1|Range Rover Sport] for a week, starting from [pick up date|September 1st] and returning on [return date|September 8th]. What would be the rental rate for that?"
+            ],
+            [
+                "agent1",
+                "Great choice! The rental rate for the [SUV 1|Range Rover Sport] is [rate|$350] per day. For a rental period of one week, the total rental cost would be [total cost|$2,450]. Please keep in mind that this does not include any additional fees or insurance options you may choose to add. Would you like to proceed with this rental booking?"
+            ],
+            [
+                "agent2",
+                "That sounds good. Before I proceed, can you tell me what insurance options are available and their costs?"
+            ],
+            [
+                "agent1",
+                "Certainly! We offer several insurance options to help protect you and the vehicle during the rental period. Our standard insurance coverage is included in the rental rate and covers liability and collision damage. We also offer additional insurance options, such as personal accident insurance and theft protection, for an additional cost. The cost for our personal accident insurance is [PAI|$15] per day, and the cost for our theft protection option is [TP|$20] per day. Would you like to add any of these options to your rental booking?"
+            ],
+            [
+                "agent2",
+                "Thanks for the information. I think I will just stick with the standard insurance coverage for now. How can I proceed with the rental booking?"
+            ],
+            [
+                "agent1",
+                "Great! To proceed with the rental booking, I'll need to gather some information from you. Can you please provide me with your full name, driver's license number, date of birth, and contact information?"
+            ],
+            [
+                "agent2",
+                "Sure, my full name is [full name|John Doe], my driver's license number is [DL number|123456789], my date of birth is [DOB|January 1st, 1980], and my contact information is [email|johndoe@email.com] and [phone number|555-123-4567]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing that information, John. Your rental booking for the [SUV 1|Range Rover Sport] has been confirmed for a one-week period from [pick up date|September 1st] to [return date|September 8th]. The total rental cost will be [total cost|$2,450], which includes the standard insurance coverage. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help in booking my rental car."
+            ],
+            [
+                "agent1",
+                "You're welcome, John! I'm glad I could assist you with your rental booking. If you have any further questions or concerns, please don't hesitate to contact us. Enjoy your rental car! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "economy",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Speedy Wheels] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Speedy Wheels] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I have a reservation with your agency and I would like to confirm some details. Can you please help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you. Can you please provide me with your reservation number so I can pull up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation number|123456789]."
+            ],
+            [
+                "agent1",
+                "Thank you! I have your reservation pulled up. How can I assist you with your booking today?"
+            ],
+            [
+                "agent2",
+                "I just wanted to confirm the pickup and return dates for my reservation. Can you please tell me when my reservation starts and ends?"
+            ],
+            [
+                "agent1",
+                "Certainly! According to our records, your reservation is scheduled to start on [pickup date|August 1st] and end on [return date|August 8th]."
+            ],
+            [
+                "agent2",
+                "That's correct. And can you also tell me which car model I will be renting?"
+            ],
+            [
+                "agent1",
+                "Certainly! You have reserved a [car make and model|Toyota Corolla] for your rental."
+            ],
+            [
+                "agent2",
+                "Great, thank you. Can you also confirm the total cost of my rental, including any taxes and fees?"
+            ],
+            [
+                "agent1",
+                "Yes, I can provide you with the total cost of your rental. The base rate for your rental is [rate|$35] per day, and with the additional taxes and fees, the total cost for your rental comes to [total cost|$315]."
+            ],
+            [
+                "agent2",
+                "Thank you for confirming that. I also wanted to add an additional driver to my rental. How much would that cost?"
+            ],
+            [
+                "agent1",
+                "Certainly, adding an additional driver is possible. There would be an additional fee of [additional driver fee|$10] per day for each additional driver. Would you like me to add an additional driver to your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, please. I would like to add my spouse as an additional driver. Can you please add that to my reservation?"
+            ],
+            [
+                "agent1",
+                "Sure, I have added your spouse as an additional driver for your rental car. Please note that they will need to present their driver's license when picking up the car. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all I needed. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any other questions or concerns before your rental, please don't hesitate to contact us. Have a great day and enjoy your rental with [agency|Speedy Wheels]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "car_rental_type": "economy",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Classy Rides] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Classy Rides] and you are chatting online with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to book a car for my upcoming trip. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! When would you like to pick up the car and where will you be going?"
+            ],
+            [
+                "agent2",
+                "I would like to pick up the car on [pick up date|June 1st] at [pick up time|10:00 AM] and return it on [return date|June 7th] at [return time|2:00 PM]. I will be driving from [pickup location|Los Angeles] to [return location|San Francisco]."
+            ],
+            [
+                "agent1",
+                "Great! We have several cars available for those dates. What type of vehicle are you interested in renting?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a midsize car with good fuel efficiency. Could you give me some options and rates?"
+            ],
+            [
+                "agent1",
+                "Sure, we have a variety of midsize cars available for those dates. Here are a few options:\n\n- [car make|Toyota] [car model|Camry]: [rate|$40] per day\n- [car make|Honda] [car model|Civic]: [rate|$38] per day\n- [car make|Mazda] [car model|Mazda6]: [rate|$42] per day\n\nPlease note that these rates are subject to change based on availability and demand. Would you like me to reserve one of these cars for you?"
+            ],
+            [
+                "agent2",
+                "Thanks for the options. Can you tell me more about the features and fuel efficiency of the [car make|Toyota] [car model|Camry]? Also, is there any discount available for a week-long rental?"
+            ],
+            [
+                "agent1",
+                "Certainly! The [car make|Toyota] [car model|Camry] is a great choice for a midsize car. It has a spacious and comfortable interior, good fuel efficiency, and a reputation for reliability. This car gets an estimated 29 mpg in the city and 41 mpg on the highway. \n\nAs for a discount, we do offer a weekly rate that is lower than our daily rate. The weekly rate for the [car make|Toyota] [car model|Camry] is [weekly rate|$235]. This rate applies to rentals of 7 days or longer."
+            ],
+            [
+                "agent2",
+                "That sounds good to me. Can you please reserve the [car make|Toyota] [car model|Camry] for me for one week starting on [pick up date|June 1st] at [pick up time|10:00 AM] and returning on [return date|June 7th] at [return time|2:00 PM]?"
+            ],
+            [
+                "agent1",
+                "Absolutely! I have reserved the [car make|Toyota] [car model|Camry] for you from [pick up date|June 1st] at [pick up time|10:00 AM] until [return date|June 7th] at [return time|2:00 PM]. The total cost for the rental will be [total cost|$235], which includes all taxes and fees. \n\nCould you please provide me with your name, driver's license number, and a contact phone number to complete the reservation?"
+            ],
+            [
+                "agent2",
+                "Sure, my name is [customer name|John Smith], my driver's license number is [DL number|123456789], and my contact phone number is [phone number|555-1234]."
+            ],
+            [
+                "agent1",
+                "Thank you, [customer name|John Smith]. I have all the necessary information to complete your reservation. Is there anything else you need assistance with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help in booking the car rental."
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. If you have any further questions or concerns, don't hesitate to reach out to us. Have a great trip! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Speedy Wheels] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Speedy Wheels] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello there! Welcome to Speedy Wheels. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I have an existing reservation with your agency and I wanted to inquire about the pick-up details."
+            ],
+            [
+                "agent1",
+                "Sure thing! May I have your reservation number, please?"
+            ],
+            [
+                "agent2",
+                "Yes, it's [reservation number|SW123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing that information. May I know your name, please?"
+            ],
+            [
+                "agent2",
+                "My name is John."
+            ],
+            [
+                "agent1",
+                "Thank you, John. I can see that you have a reservation for a [car make|Mercedes-Benz] [car model|S-Class] starting [pick up date|tomorrow] and returning on [return date|August 15th]. The pick-up location is at our branch in downtown [location|Los Angeles]. Is there anything else you need help with?"
+            ],
+            [
+                "agent2",
+                "That's great, thank you! Can you please confirm the total cost of my reservation?"
+            ],
+            [
+                "agent1",
+                "Certainly, John. Your total rental cost is [total cost|$1500], which includes the base rental fee, taxes, and additional fees for optional add-ons you requested. The breakdown of the charges is also included in your reservation confirmation email."
+            ],
+            [
+                "agent2",
+                "Thank you for confirming that. I have one more question - can I extend my rental duration? If so, how much would it cost me?"
+            ],
+            [
+                "agent1",
+                "Yes, you can extend your rental duration. However, we would need to check the availability of the vehicle first. May I know how many extra days you want to rent the car for?"
+            ],
+            [
+                "agent2",
+                "I'm thinking of extending for another week."
+            ],
+            [
+                "agent1",
+                "Alright, I can check that for you. Based on our availability, we can extend your rental for another week at a rate of [rate|$200] per day. This rate includes taxes and fees. So, the total cost for the additional week would be [extended total cost|$1,400]. Please note that this is subject to change if you decide to add additional services or options."
+            ],
+            [
+                "agent2",
+                "Okay, I see. Can we proceed with the extension?"
+            ],
+            [
+                "agent1",
+                "Yes, we can definitely proceed with the extension. May I know when you would like the extension to begin and end?"
+            ],
+            [
+                "agent2",
+                "I would like the extension to start on [extension start date|August 15th] and end on [extension end date|August 22nd]."
+            ],
+            [
+                "agent1",
+                "Understood, John. I have updated your reservation to reflect the extension. Your new total rental cost is now [new total cost|$2900]. We will also send you a confirmation email with the updated details. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! Thank you for choosing Speedy Wheels. If you have any more questions, feel free to reach out to us anytime. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "luxury",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a luxury car rental agency called [agency|Classy Rides] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the luxury car rental agency called [agency|Classy Rides] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to [agency|Classy Rides]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there, I have an existing reservation and I would like to make some changes to it. Can you please help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course, I'd be happy to help you with that. Can you please provide me with your reservation details so I can pull up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my name is [name|John Smith] and my reservation number is [reservation number|CR123456]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|John Smith]. I have found your reservation. How can I assist you with the changes you would like to make?"
+            ],
+            [
+                "agent2",
+                "I would like to extend my rental period for an additional day. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Certainly, [name|John Smith]. Can you please confirm the dates of your current reservation and the new return date you have in mind? That way I can check availability and provide you with the updated rate."
+            ],
+            [
+                "agent2",
+                "Sure, my current rental period is from [pick up date|July 1st] to [return date|July 5th]. I would like to extend it by one day and return the car on [new return date|July 6th]."
+            ],
+            [
+                "agent1",
+                "Thank you for confirming that, [name|John Smith]. The rate for your rental extension would depend on the car model you currently have reserved. Can you please confirm which car make and model you have rented?"
+            ],
+            [
+                "agent2",
+                "Yes, of course. I have rented a [car make|Mercedes-Benz] [car model|C-Class]."
+            ],
+            [
+                "agent1",
+                "Great choice! I can confirm that the rate for an additional day with your Mercedes-Benz C-Class would be [rate|$250]. This rate includes all taxes and fees. \n\nWould you like to proceed with the rental extension?"
+            ],
+            [
+                "agent2",
+                "That sounds reasonable. Yes, I would like to proceed with the rental extension. Can you please confirm the total cost of the rental extension including all taxes and fees?"
+            ],
+            [
+                "agent1",
+                "Certainly, [name|John Smith]. The total cost of your rental extension, including all taxes and fees, will be [total cost|$250]. \n\nI can go ahead and update your reservation with the new return date of [new return date|July 6th]. Please note that additional charges may apply if you return the vehicle later than this date. Would you like me to proceed with the change?"
+            ],
+            [
+                "agent2",
+                "Yes, please go ahead and update my reservation with the new return date of [new return date|July 6th]. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|John Smith]. I have updated your reservation with the new return date of [new return date|July 6th]. \n\nIs there anything else I can assist you with today?"
+            ],
+            [
+                "agent2",
+                "No, that's all I needed help with. Thank you for your assistance."
+            ],
+            [
+                "agent1",
+                "You're most welcome, [name|John Smith]. It was a pleasure assisting you today. If you have any further questions or concerns, please don't hesitate to reach out to us. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "economy",
+        "car_rental_name": "Speedy Wheels",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Speedy Wheels] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Speedy Wheels] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Speedy Wheels]. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to inquire about making a reservation for a car rental. Do you have any available cars for [pick up date|next week] and [return date|the following week]?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have several options available for you during that timeframe. May I have your preferred pick-up and return times and location so I can check availability?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to pick up the car on [pick up date|July 1st] at [pick up time|10:00 AM] at the [pick up location|downtown branch]. I will return the car on [return date|July 8th] at [return time|11:00 AM] to the same location."
+            ],
+            [
+                "agent1",
+                "Great! We have several cars available for you to choose from. Our economy cars start at [rate|$30] per day. We also have midsize and full-size cars available if you need more space. Which type of car would you prefer?"
+            ],
+            [
+                "agent2",
+                "I would like to rent an economy car, please. Can you tell me more about the cars you have available?"
+            ],
+            [
+                "agent1",
+                "Sure! We have a few different options for our economy cars. Our most popular models are the [car make|Toyota] [car model|Yaris], the [car make|Nissan] [car model|Versa], and the [car make|Kia] [car model|Rio]. All of our economy cars are reliable and fuel-efficient. Would you like me to check availability for a specific make and model?"
+            ],
+            [
+                "agent2",
+                "No, that's okay. I think the Toyota Yaris would be a good fit for me. How much would the total cost be for the rental period?"
+            ],
+            [
+                "agent1",
+                "The total cost for your rental period would be [total cost|$240], including all fees and taxes. Please note that we require a [deposit|$50] to be paid at the time of booking to secure your reservation."
+            ],
+            [
+                "agent2",
+                "That sounds good to me. Can I pay the deposit now and the rest of the amount when I pick up the car? Also, what documents do I need to provide to rent the car?"
+            ],
+            [
+                "agent1",
+                "Certainly! You can pay the deposit now to secure your reservation and pay the remaining balance when you pick up the car. To rent a car, you will need to provide a valid driver's license, a credit card in your name, and proof of insurance. Do you have any other questions or concerns?"
+            ],
+            [
+                "agent2",
+                "No, that's all I need to know. Thank you for your help in making my reservation."
+            ],
+            [
+                "agent1",
+                "You're welcome! Thank you for choosing [agency|Speedy Wheels]. We look forward to seeing you on [pick up date|July 1st] at [pick up time|10:00 AM]. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "car_rental_type": "economy",
+        "car_rental_name": "Classy Rides",
+        "agent1": "You are a representative at a economy car rental agency called [agency|Classy Rides] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the economy car rental agency called [agency|Classy Rides] and you are talking with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello there! Welcome to [agency|Classy Rides]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I have a reservation [reservation number|123456789] and I have a few questions about it."
+            ],
+            [
+                "agent1",
+                "Sure, I'd be happy to help. What questions do you have about your reservation?"
+            ],
+            [
+                "agent2",
+                "I wanted to confirm the [pick up date|August 1st] and the [return date|August 7th]. Also, can you tell me which car I will be renting?"
+            ],
+            [
+                "agent1",
+                "Of course! I can confirm that your pick up date is [pick up date|August 1st] and your return date is [return date|August 7th]. As for the car you will be renting, it is a [car make|Toyota] [car model|Camry]. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "Yes, can you tell me the total cost of the rental and the rate per day?"
+            ],
+            [
+                "agent1",
+                "Certainly! The rate per day for the Toyota Camry rental is [rate|$50], and since you will be renting it for [duration|7] days, the total cost of your rental would be [total cost|$350]."
+            ],
+            [
+                "agent2",
+                "Great, thank you for confirming that information. I think that's all I needed to know."
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions, feel free to ask. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    }
+]

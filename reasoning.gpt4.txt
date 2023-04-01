@@ -1,0 +1,90 @@
+The following is a command that prompts a system called datasetGPT. datasetGPT uses two instances of a large conversational language model to produce dialogues recorded as a part of a task-oriented dialogue dataset. We have used commands similar to the one listed below to generate conversations between hotailors and clients, tutors and students, waiters and consumers, etc. Specifically, the command permutes all the possibilities for each distinct --option and replaces them in the prompts for agent1 and agent2 to prompt the two LLMs. We want to use the same program to produce datasets other than task-oriented dialogues.
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a receptionist at a {hotel_type} hotel called [hotel|{hotel_name}] and you are {interaction_type} with a clinet. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [check in|tomorrow], [check out|August 15th], [name|John], [phone|212-456-7890], [rate|...], [total cost|...], etc." \
+    --agent2 "You are a client of the {hotel_type} hotel called [hotel|{hotel_name}] and you are {interaction_type} with a receptionist. Either try to make a reservation or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [check in|tomorrow], [check out|August 15th], [name|John], [phone|212-456-7890], [rate|...], [total cost|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option hotel_type "family" \
+    --option hotel_type "budget" \
+    --option hotel_type "airport" \
+    --option hotel_type "boutique" \
+    --option hotel_type "historic" \
+    --option hotel_name "Four Seasons" \
+    --option hotel_name "The Cursed Castle" \
+    --num-samples 2 \
+    --path "tod/hotels.json" \
+    --single-file
+```
+
+Modify the given command to produce a dataset where one of the LLMs (agent1) asks the other questions which require abstract reasoning, critical thinking, or pattern recognition. agent2 should respond to those questions with the best accuracy possible or admit if it doesn't know the answer with high confidence. agent1 should follow up on agent2 if his answers are wrong and ask correcting questions or guide it with hints if it doesn't know the answer.
+
+--- 
+
+Here's a modified command to produce a dataset with abstract reasoning, critical thinking, and pattern recognition questions:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are an individual who asks really hard questions that require abstract reasoning, critical thinking, or pattern recognition. After receiving a response from Agent2, either follow up with a correcting question or provide hints if the answer is wrong or if Agent2 doesn't know the answer. Keep the conversation engaging and challenging." \
+    --agent2 "You are an individual who tries to answer questions related to abstract reasoning, critical thinking, or pattern recognition to the best of your ability. If you don't know the answer with high confidence, admit it. Engage in the conversation and respond to follow-up questions or hints provided by Agent1." \
+    --initial-utterance "Let's start with a critical thinking question." \
+    --interruption "end_phrase" \
+    --end-phrase "That's all for now" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --num-samples 3 \
+    --path "abstract_reasoning/critical_thinking.json" \
+    --single-file
+```
+
+This command will generate a dataset where Agent1 asks questions involving abstract reasoning, critical thinking, or pattern recognition, and Agent2 tries to respond to those questions. Agent1 will follow up on Agent2's answers and provide hints or correcting questions if necessary.
+
+---
+
+What are some abilities related to abstract reasoning
+
+---
+
+spatial reasoning, logical reasoning, inductive reasoning, deductive reasoning, causal reasoning,analogical reasoning, problem-solving, critical thinking, creative thinking, quantitative reasoning, qualitative reasoning, intuitive reasoning, counterfactual reasoning, relational reasoning, moral reasoning, computational reasoning, probabilistic reasoning, convergent thinking, divergent thinking, hypothetical reasoning, emotional reasoning, social reasoning, strategic reasoning, temporal reasoning, and visual reasoning
+
+---
+
+Edit by the author:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are an individual who asks a really hard question that requires {required_ability}. After receiving a response from your partner, either follow up with a correcting question or provide hints if the answer is wrong or if they don't know the answer. Keep the conversation engaging and challenging. Don't ask unrelated questions and end the conversation once there are no more details to clarify about the initial problem." \
+    --agent2 "You are an individual who tries to answer a question that requires {required_ability} to the best of your ability. If you don't know the answer with high confidence, admit it. Respond to follow-up questions or hints provided by your partner. Do not ask questions which are not related to the problem." \
+    --initial-utterance "I'm ready to take your question." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.4 \
+    --temperature 0.7 \
+    --temperature 0.95 \
+    --option required_ability "creative thinking" \
+    --option required_ability "pattern recognition and abstract reasoning" \
+    --option required_ability "spatial reasoning" \
+    --option required_ability "logical reasoning" \
+    --option required_ability "inductive reasoning" \
+    --option required_ability "deductive reasoning" \
+    --option required_ability "causal reasoning" \
+    --option required_ability "counterfactual reasoning" \
+    --option required_ability "strategic reasoning" \
+    --option required_ability "algorithmic thinking" \
+    --num-samples 20 \
+    --path "reasoning/reasoning.json" \
+    --single-file
+```

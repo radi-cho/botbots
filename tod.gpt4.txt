@@ -1,0 +1,443 @@
+The following is a command to a program called datasetGPT. It runs two instances of a large language model to talk with one another and produce a dataset with the history of that conversation. We aim to generate a task-oriented dataset across a wide range of domains and contexts.
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a receptionist at a {hotel_type} hotel called [hotel|{hotel_name}] and you are {interaction_type} with a clinet. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [check in|tomorrow], [check out|August 15th], [name|John], [phone|212-456-7890], [rate|...], [total cost|...], etc." \
+    --agent2 "You are a client of the {hotel_type} hotel called [hotel|{hotel_name}] and you are {interaction_type} with a receptionist. Either try to make a reservation or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [check in|tomorrow], [check out|August 15th], [name|John], [phone|212-456-7890], [rate|...], [total cost|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option hotel_type "family" \
+    --option hotel_type "budget" \
+    --option hotel_type "airport" \
+    --option hotel_type "boutique" \
+    --option hotel_type "historic" \
+    --option hotel_name "Four Seasons" \
+    --option hotel_name "The Cursed Castle" \
+    --num-samples 10 \
+    --path "tod/hotels.json" \
+    --single-file
+```
+
+Generate copies of this command which prompt the datasetGPT program to generate datasets for other fields of life relevant to a TOD dataset. You can use the --num-samples setting to create 2 samples for each conversation config.
+
+---
+
+1. Car Rental Conversations:
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {car_rental_type} car rental agency called [agency|{car_rental_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc." \
+    --agent2 "You are a client of the {car_rental_type} car rental agency called [agency|{car_rental_name}] and you are {interaction_type} with a representative. Either try to book a car or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [pick up date|tomorrow], [return date|August 15th], [car make|Toyota], [car model|Camry], [rate|...], [total cost|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option car_rental_type "luxury" \
+    --option car_rental_type "economy" \
+    --option car_rental_name "Speedy Wheels" \
+    --option car_rental_name "Classy Rides" \
+    --num-samples 2 \
+    --path "tod/car_rentals.json" \
+    --single-file
+```
+
+2. Restaurant Conversations:
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {restaurant_type} restaurant called [restaurant|{restaurant_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc." \
+    --agent2 "You are a client of the {restaurant_type} restaurant called [restaurant|{restaurant_name}] and you are {interaction_type} with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "talking" \
+    --option restaurant_type "Italian" \
+    --option restaurant_type "French" \
+    --option restaurant_type "Asian" \
+    --option restaurant_name "La Bella Italia" \
+    --option restaurant_name "Le Petit Bistro" \
+    --num-samples 10 \
+    --path "tod/restaurants.json" \
+    --single-file
+```
+
+3. Flight Booking Conversations:
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {airline_type} airline called [airline|{airline_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc." \
+    --agent2 "You are a client of the {airline_type} airline called [airline|{airline_name}] and you are {interaction_type} with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option airline_type "domestic" \
+    --option airline_type "international" \
+    --option airline_name "Fast Airways" \
+    --option airline_name "Global Airlines" \
+    --num-samples 2 \
+    --path "tod/flight_bookings.json" \
+    --single-file
+```
+
+4. Event Ticket Booking Conversations:
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {event_type} event ticket booking service called [service|{ticket_service_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [event date|August 10th], [event name|Concert], [artist|The Rolling Stones], [venue|Madison Square Garden], [seat section|...], [ticket price|...], etc." \
+    --agent2 "You are a client of the {event_type} event ticket booking service called [service|{ticket_service_name}] and you are {interaction_type} with a representative. Either try to book tickets for an event or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [event date|August 10th], [event name|Concert], [artist|The Rolling Stones], [venue|Madison Square Garden], [seat section|...], [ticket price|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option event_type "concert" \
+    --option event_type "sports" \
+    --option event_type "theater" \
+    --option ticket_service_name "TicketZone" \
+    --option ticket_service_name "EventMaster" \
+    --num-samples 10 \
+    --path "tod/event_tickets.json" \
+    --single-file
+```
+
+5. Medical Appointment Conversations:
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a receptionist at a {medical_specialty} clinic called [clinic|{clinic_name}] and you are {interaction_type} with a patient. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [appointment date|tomorrow], [doctor name|Dr. Smith], [patient name|Jane], [insurance|Blue Cross], [issue|...], [prescription|...], etc." \
+    --agent2 "You are a patient of the {medical_specialty} clinic called [clinic|{clinic_name}] and you are {interaction_type} with a receptionist. Either try to make a medical appointment or ask questions related to an existing appointment. You must replace any situation-specific details with label and value pairs - for example, [appointment date|tomorrow], [doctor name|Dr. Smith], [patient name|Jane], [insurance|Blue Cross], [issue|...], [prescription|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option medical_specialty "dentist" \
+    --option medical_specialty "dermatologist" \
+    --option medical_specialty "cardiologist" \
+    --option clinic_name "Smile Clinic" \
+    --option clinic_name "Being Strong Center" \
+    --num-samples 10 \
+    --path "tod/medical_appointments.json" \
+    --single-file
+```
+
+6. Tech Support Conversations:
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {product_type} tech support service called [service|{tech_support_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [device name|Laptop], [issue|won't start], [error code|123], [operating system|Windows 10], [warranty status|...], [troubleshooting steps|...], etc." \
+    --agent2 "You are a client of the {product_type} tech support service called [service|{tech_support_name}] and you are {interaction_type} with a representative. Either seek help for a product issue or ask questions related to troubleshooting, warranty or any other support-related matter. You must replace any situation-specific details with label and value pairs - for example, [device name|Laptop], [issue|won't start], [error code|123], [operating system|Windows 10], [warranty status|...], [troubleshooting steps|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option product_type "computer" \
+    --option product_type "smartphone" \
+    --option tech_support_name "TechHelp" \
+    --option tech_support_name "GadgetFix" \
+    --num-samples 2 \
+    --path "tod/tech_support.json" \
+    --single-file
+```
+
+7. Home Maintenance Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {service_type} home maintenance service called [service|{maintenance_service_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [service date|tomorrow], [issue|leaky faucet], [address|123 Main St], [cost estimate|...], [appointment time|...], etc." \
+    --agent2 "You are a client of the {service_type} home maintenance service called [service|{maintenance_service_name}] and you are {interaction_type} with a representative. Either book a service or ask questions related to an existing appointment. You must replace any situation-specific details with label and value pairs - for example, [service date|tomorrow], [issue|leaky faucet], [address|123 Main St], [cost estimate|...], [appointment time|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "talking" \
+    --option service_type "plumbing" \
+    --option service_type "electrical" \
+    --option maintenance_service_name "Quick Fixers" \
+    --option maintenance_service_name "Home Repair Pros" \
+    --num-samples 2 \
+    --path "tod/home_maintenance.json" \
+    --single-file
+```
+
+8. Education and Tutoring Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {subject_type} tutoring service called [tutoring|{tutoring_service_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [session date|tomorrow], [subject|math], [grade level|8th grade], [tutor name|Ms. Johnson], [cost|...], [session duration|60 minutes], etc." \
+    --agent2 "You are a client of the {subject_type} tutoring service called [tutoring|{tutoring_service_name}] and you are {interaction_type} with a representative. Either book a tutoring session or ask questions related to an existing session. You must replace any situation-specific details with label and value pairs - for example, [session date|tomorrow], [subject|math], [grade level|8th grade], [tutor name|Ms. Johnson], [cost|...], [session duration|60 minutes], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option subject_type "math" \
+    --option subject_type "science" \
+    --option tutoring_service_name "Math Masters" \
+    --option tutoring_service_name "Science Scholars" \
+    --path "tod/education_tutoring.json" \
+    --single-file
+```
+
+9. Pet Care Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {pet_service_type} pet care service called [pet_care|{pet_service_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [service date|tomorrow], [pet type|dog], [pet name|Buddy], [service|grooming], [duration|90 minutes], [cost|...], etc." \
+    --agent2 "You are a client of the {pet_service_type} pet care service called [pet_care|{pet_service_name}] and you are {interaction_type} with a representative. Either book a pet care service or ask questions related to an existing appointment. You must replace any situation-specific details with label and value pairs - for example, [service date|tomorrow], [pet type|dog], [pet name|Buddy], [service|grooming], [duration|90 minutes], [cost|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option pet_service_type "grooming" \
+    --option pet_service_type "boarding" \
+    --option pet_service_type "veterinary care" \
+    --option pet_service_name "Your Pet's Place" \
+    --option pet_service_name "Furry Friends" \
+    --num-samples 2 \
+    --path "tod/pet_care.json" \
+    --single-file
+```
+
+10. Travel Agency Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {travel_service_type} travel agency called [agency|{travel_agency_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|$3000], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc." \
+    --agent2 "You are a client of the {travel_service_type} travel agency called [agency|{travel_agency_name}] and you are {interaction_type} with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|$3000], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option travel_service_type "domestic" \
+    --option travel_service_type "international" \
+    --option travel_agency_name "Dream Vacations" \
+    --num-samples 2 \
+    --path "tod/travel_agency.json" \
+    --single-file
+```
+
+11. Fitness and Personal Training Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {fitness_service_type} fitness center called [fitness center|{fitness_center_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [membership type|monthly], [personal training|yes], [trainer name|Mike], [class schedule|Monday 6pm], [diet plan|...], [cost|...], etc." \
+    --agent2 "You are a client of the {fitness_service_type} fitness center called [fitness center|{fitness_center_name}] and you are {interaction_type} with a representative. Either sign up for a membership or ask questions related to an existing membership. You must replace any situation-specific details with label and value pairs - for example, [membership type|monthly], [personal training|yes], [trainer name|Mike], [class schedule|Monday 6pm], [diet plan|...], [cost|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option fitness_service_type "gym" \
+    --option fitness_service_type "yoga studio" \
+    --option fitness_center_name "Fit Life" \
+    --num-samples 2 \
+    --path "tod/fitness_personal_training.json" \
+    --single-file
+```
+
+12. Real Estate Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a representative at a {property_type} real estate agency called [agency|{real_estate_agency_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|$1000-$1500], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc." \
+    --agent2 "You are a client of the {property_type} real estate agency called [agency|{real_estate_agency_name}] and you are {interaction_type} with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|$1000-$1500], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option property_type "residential" \
+    --option property_type "commercial" \
+    --option real_estate_agency_name "Propertunity Group" \
+    --num-samples 2 \
+    --path "tod/real_estate.json" \
+    --single-file
+```
+
+---
+
+Come up with more ideas. Try coming up with interaction_types other than "chatting online" and talking. Try to phrase the prompt with words other than "representative".
+
+---
+
+1. Legal Consultation Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a {law_type} lawyer at a law firm called [law_firm|{law_firm_name}] and you are {interaction_type} with a potential client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [case type|divorce], [consultation date|tomorrow], [lawyer name|Ms. Thompson], [fees|...], [documents needed|...], [case duration|...], etc." \
+    --agent2 "You are a potential client of the {law_type} law firm called [law_firm|{law_firm_name}] and you are {interaction_type} with a lawyer. Either seek legal advice or ask questions related to a legal matter. You must replace any situation-specific details with label and value pairs - for example, [case type|divorce], [consultation date|tomorrow], [lawyer name|Ms. Thompson], [fees|...], [documents needed|...], [case duration|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "talking" \
+    --option interaction_type "emailing" \
+    --option law_type "family" \
+    --option law_type "criminal" \
+    --option law_firm_name "Law Experts" \
+    --path "tod/legal_consultation.json" \
+    --num-samples 2 \
+    --single-file
+```
+
+2. Insurance Consultation Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are an {insurance_type} insurance agent at an insurance company called [company|{insurance_company_name}] and you are {interaction_type} with a potential customer. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [policy type|comprehensive], [coverage amount|$500,000], [premiums|...], [claim process|...], [discounts|...], [deductibles|...], etc." \
+    --agent2 "You are a potential customer of the {insurance_type} insurance company called [company|{insurance_company_name}] and you are {interaction_type} with an insurance agent. Either seek information about insurance policies or ask questions related to coverage, claims or any other insurance-related matter. You must replace any situation-specific details with label and value pairs - for example, [policy type|comprehensive], [coverage amount|$500,000], [premiums|...], [claim process|...], [discounts|...], [deductibles|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "messaging" \
+    --option interaction_type "talking on the phone" \
+    --option insurance_type "auto" \
+    --option insurance_type "health" \
+    --option insurance_company_name "Insurance Done Right" \
+    --num-samples 2 \
+    --path "tod/insurance_consultation.json" \
+    --single-file
+```
+
+3. Job Interview Conversations:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a {job_position} hiring manager at a company called [company|{company_name}] and you are {interaction_type} with a job applicant. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [interview date|tomorrow], [job title|Software Engineer], [salary range|$60,000-$80,000], [benefits|...], [job responsibilities|...], [required skills|...], etc." \
+    --agent2 "You are a job applicant for the {job_position} position at the company called [company|{company_name}] and you are {interaction_type} with a hiring manager. Either seek information about the job or ask questions related to the job interview, application process, or any other job-related matter. You must replace any situation-specific details with label and value pairs - for example, [interview date|tomorrow], [job title|Software Engineer], [salary range|$60,000-$80,000], [benefits|...], [job responsibilities|...], [required skills|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "video_interview" \
+    --option interaction_type "in-person_interview" \
+    --option job_position "technical" \
+    --option job_position "marketing" \
+    --option company_name "The Innovators Inc." \
+    --num-samples 2 \
+    --path "tod/job_interview.json" \
+    --single-file
+```
+
+---
+
+Come up with more ideas
+
+---
+
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a salesperson at a {car_type} car dealership called [dealership|{dealership_name}] and you are {interaction_type} with a potential buyer. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [make|Toyota], [model|Camry], [year|2022], [price|$25,000], [financing options|...], [test drive|...], [warranty|...], etc." \
+    --agent2 "You are a potential buyer of the {car_type} car dealership called [dealership|{dealership_name}] and you are {interaction_type} with a salesperson. Seek information about cars, pricing, or any other dealership-related matter. You must replace any situation-specific details with label and value pairs - for example, [make|Toyota], [model|Camry], [year|2022], [price|$25,000], [financing options|...], [test drive|...], [warranty|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "talking" \
+    --option interaction_type "at a showroom visit" \
+    --option car_type "new" \
+    --option car_type "used" \
+    --option dealership_name "BestCars Dealership" \
+    --num-samples 2 \
+    --path "tod/car_dealership.json" \
+    --single-file
+
+---
+
+The GPT-4 restaurant conversations permuted Italian/French names with Italian/French food.
+Since the restaurant category is important for a TOD dataset we have also generated the following:
+
+```
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a waiter at a {restaurant_type} restaurant called [restaurant|{restaurant_name}] and you are {interaction_type} with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc." \
+    --agent2 "You are a client of the {restaurant_type} restaurant called [restaurant|{restaurant_name}] and you are {interaction_type} with a waiter. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "talking" \
+    --option restaurant_type "Italian" \
+    --option restaurant_type "French" \
+    --option restaurant_type "Asian" \
+    --option restaurant_type "Mexican" \
+    --option restaurant_type "Indian" \
+    --option restaurant_type "Mediterranean" \
+    --option restaurant_type "Brazilian" \
+    --option restaurant_type "Moroccan" \
+    --option restaurant_type "South African" \
+    --option restaurant_type "Australian" \
+    --option restaurant_name "Tasty Table" \
+    --path "tod/restaurants.json" \
+    --num-samples 10 \
+    --single-file
+```

@@ -1,0 +1,218 @@
+The following command runs the described program to generate a task-oriented dialogue (TOD) dataset on the topic of hotels:
+```sh
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a receptionist at a {hotel_type} hotel called [hotel|{hotel_name}] and you are {interaction_type} with a clinet. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [check in|tomorrow], [check out|August 15th], [name|John], [phone|212-456-7890], [rate|...], [total cost|...], etc." \
+    --agent2 "You are a client of the {hotel_type} hotel called [hotel|{hotel_name}] and you are {interaction_type} with a receptionist. Either try to make a reservation or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [check in|tomorrow], [check out|August 15th], [name|John], [phone|212-456-7890], [rate|...], [total cost|...], etc." \
+    --initial-utterance "Hello." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option interaction_type "chatting online" \
+    --option interaction_type "talking" \
+    --option hotel_type "family" \
+    --option hotel_type "budget" \
+    --option hotel_type "airport" \
+    --option hotel_type "boutique" \
+    --option hotel_type "historic" \
+    --option hotel_name "Four Seasons" \
+    --option hotel_name "The Cursed Castle" \
+    --num-samples 10 \
+    --path "tod/hotels.json" \
+    --single-file
+```
+
+It produces 400 conversations by first permuting all the different configurations of --option and --temperature; then it generates --num-samples number of conversations for each configuration. Rewrite the given command to produce 100 brainstorming conversations about scientific problems. Do not instruct the LLMs to use situation-specific labels.
+
+---
+
+```sh
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a scientist brainstorming about scientific problems with another scientist. Discuss various scientific challenges, propose hypotheses, and explore potential research directions. Collaborate and build upon each other's ideas." \
+    --agent2 "You are a scientist brainstorming about scientific problems with another scientist. Discuss various scientific challenges, propose hypotheses, and explore potential research directions. Collaborate and build upon each other's ideas." \
+    --initial-utterance "Let's discuss some scientific problems and try to come up with potential research directions." \
+    --interruption "end_phrase" \
+    --end-phrase "This has been a fruitful discussion. Let's wrap up our brainstorming session for now." \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --num-samples 100 \
+    --path "brainstorming/scientific_problems.json" \
+    --single-file
+```
+
+This command will generate 100 brainstorming conversations about scientific problems between two large language models without using situation-specific labels.
+
+---
+
+The command will generate 200 conversations since 100 conversations will be generated for each temperature. Please correct that. Also, prompt the LLMs on a specific scientific field/problem they need to discuss and use --option to supply multiple possibilities.
+
+---
+
+```sh
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a scientist brainstorming with another scientist about {scientific_field}. Discuss various challenges, propose hypotheses, and explore potential research directions within this field. Collaborate and build upon each other's ideas." \
+    --agent2 "You are a scientist brainstorming with another scientist about {scientific_field}. Discuss various challenges, propose hypotheses, and explore potential research directions within this field. Collaborate and build upon each other's ideas." \
+    --initial-utterance "Let's discuss some problems and research directions in the field of {scientific_field}." \
+    --interruption "end_phrase" \
+    --end-phrase "This has been a fruitful discussion. Let's wrap up our brainstorming session for now." \
+    --end-agent "agent1" \
+    --temperature 0.7 \
+    --option scientific_field "climate change" \
+    --option scientific_field "artificial intelligence" \
+    --option scientific_field "genetic engineering" \
+    --option scientific_field "quantum computing" \
+    --option scientific_field "neuroscience" \
+    --num-samples 20 \
+    --path "brainstorming/scientific_problems.json" \
+    --single-file
+```
+
+This command will now generate 100 brainstorming conversations about specific scientific fields or problems between two large language models, with 20 conversations per each field specified in the --option command. The temperature is set to 0.7.
+
+---
+
+Please bring back the temperature of 0.1
+
+---
+
+```sh
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a scientist brainstorming with another scientist about {scientific_field}. Discuss various challenges, propose hypotheses, and explore potential research directions within this field. Collaborate and build upon each other's ideas." \
+    --agent2 "You are a scientist brainstorming with another scientist about {scientific_field}. Discuss various challenges, propose hypotheses, and explore potential research directions within this field. Collaborate and build upon each other's ideas." \
+    --initial-utterance "Let's discuss some problems and research directions in the field of {scientific_field}." \
+    --interruption "end_phrase" \
+    --end-phrase "This has been a fruitful discussion. Let's wrap up our brainstorming session for now." \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option scientific_field "climate change" \
+    --option scientific_field "artificial intelligence" \
+    --option scientific_field "genetic engineering" \
+    --option scientific_field "quantum computing" \
+    --option scientific_field "neuroscience" \
+    --num-samples 10 \
+    --path "brainstorming/scientific_problems.json" \
+    --single-file
+```
+
+This command will generate 100 brainstorming conversations about specific scientific fields or problems between two large language models, with 10 conversations per each field specified in the --option command, and includes both temperature settings of 0.1 and 0.7.
+
+---
+
+Pretty good. The last thing to change is to bring the --num-samples down to 2 by adding more scientific_field options.
+
+---
+
+```sh
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a scientist brainstorming with another scientist about {scientific_field}. Discuss various challenges, propose hypotheses, and explore potential research directions within this field. Collaborate and build upon each other's ideas." \
+    --agent2 "You are a scientist brainstorming with another scientist about {scientific_field}. Discuss various challenges, propose hypotheses, and explore potential research directions within this field. Collaborate and build upon each other's ideas." \
+    --initial-utterance "Let's discuss some problems and research directions in the field of {scientific_field}." \
+    --interruption "end_phrase" \
+    --end-phrase "This has been a fruitful discussion. Let's wrap up our brainstorming session for now." \
+    --end-agent "agent1" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option scientific_field "climate change" \
+    --option scientific_field "artificial intelligence" \
+    --option scientific_field "genetic engineering" \
+    --option scientific_field "quantum computing" \
+    --option scientific_field "neuroscience" \
+    --option scientific_field "nanotechnology" \
+    --option scientific_field "material science" \
+    --option scientific_field "renewable energy" \
+    --option scientific_field "astrobiology" \
+    --option scientific_field "particle physics" \
+    --num-samples 2 \
+    --path "brainstorming/scientific_problems.json" \
+    --single-file
+```
+
+This command will generate 100 brainstorming conversations about specific scientific fields or problems between two large language models, with 2 conversations per each of the 10 fields specified in the --option command, and includes both temperature settings of 0.1 and 0.7.
+
+---
+
+2 conversations per 10 fields with 2 temperatures make for 40 conversations, though. Please add more scientific_field options for a total of 25! List only the --option lines without the rest of the command:
+
+---
+
+Here are the additional --option lines to cover 25 scientific fields:
+
+```
+--option scientific_field "climate change"
+--option scientific_field "artificial intelligence"
+--option scientific_field "genetic engineering"
+--option scientific_field "quantum computing"
+--option scientific_field "neuroscience"
+--option scientific_field "nanotechnology"
+--option scientific_field "material science"
+--option scientific_field "renewable energy"
+--option scientific_field "astrobiology"
+--option scientific_field "particle physics"
+--option scientific_field "biomedical engineering"
+--option scientific_field "robotics"
+--option scientific_field "network science"
+--option scientific_field "oerospace engineering"
+--option scientific_field "oceanography"
+--option scientific_field "ecology"
+--option scientific_field "geology"
+--option scientific_field "epidemiology"
+--option scientific_field "cell biology"
+--option scientific_field "biochemistry"
+--option scientific_field "immunology"
+--option scientific_field "theoretical physics"
+--option scientific_field "chemistry"
+--option scientific_field "cognitive science"
+--option scientific_field "psychology"
+```
+
+---
+
+Edited by the author:
+```sh
+datasetGPT conversations \
+    --length 10 \
+    --agent1 "You are a scientist brainstorming with another scientist about the current state of {scientific_field} and the potential research directions in the field. Engage in a conversation. Follow up on the points of your colleague and discuss them rather than just listing more ideas. Talk concisely with short messages, and do not repeat yourself." \
+    --agent2 "You are a scientist brainstorming with another scientist about the current state of {scientific_field} and the potential research directions in the field. Engage in a conversation. Follow up on the points of your colleague and discuss them rather than just listing more ideas. Talk concisely with short messages, and do not repeat yourself." \
+    --initial-utterance "Let's discuss some problems and research directions in our scientific field." \
+    --interruption "end_phrase" \
+    --end-phrase "Goodbye" \
+    --end-agent "both" \
+    --temperature 0.1 \
+    --temperature 0.7 \
+    --option scientific_field "climate change" \
+    --option scientific_field "artificial intelligence" \
+    --option scientific_field "genetic engineering" \
+    --option scientific_field "quantum computing" \
+    --option scientific_field "neuroscience" \
+    --option scientific_field "nanotechnology" \
+    --option scientific_field "material science" \
+    --option scientific_field "renewable energy" \
+    --option scientific_field "astrobiology" \
+    --option scientific_field "particle physics" \
+    --option scientific_field "biomedical engineering" \
+    --option scientific_field "robotics" \
+    --option scientific_field "network science" \
+    --option scientific_field "oerospace engineering" \
+    --option scientific_field "oceanography" \
+    --option scientific_field "ecology" \
+    --option scientific_field "geology" \
+    --option scientific_field "epidemiology" \
+    --option scientific_field "cell biology" \
+    --option scientific_field "biochemistry" \
+    --option scientific_field "immunology" \
+    --option scientific_field "theoretical physics" \
+    --option scientific_field "chemistry" \
+    --option scientific_field "cognitive science" \
+    --option scientific_field "psychology" \
+    --num-samples 2 \
+    --path "brainstorming/scientific_problems.json" \
+    --single-file
+```

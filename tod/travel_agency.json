@@ -1,0 +1,1230 @@
+[
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "travel_service_type": "domestic",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a domestic travel agency called [agency|Dream Vacations] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic travel agency called [agency|Dream Vacations] and you are chatting online with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in planning a trip to [destination|Bali]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Bali is a beautiful destination. When are you planning to travel and for how long?"
+            ],
+            [
+                "agent2",
+                "I'm planning to travel in [travel dates|October] for about [duration|10] days."
+            ],
+            [
+                "agent1",
+                "Great! We have some amazing packages for Bali in October. What is your budget for this trip?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a mid-range budget. Can you suggest some packages for me?"
+            ],
+            [
+                "agent1",
+                "Sure, we have a few packages that might interest you. One of our popular packages is the [package|Bali Bliss]. It includes round-trip airfare, 4-star hotel accommodation, daily breakfast, and a full-day tour of Bali's cultural and natural highlights. The package starts at $1,200 per person. \n\nWe also have the [package|Bali Adventure] package, which includes round-trip airfare, 4-star hotel accommodation, daily breakfast, and a choice of two adventure activities such as white water rafting, ATV ride, or a jungle trek. This package starts at $1,500 per person. \n\nWhich one of these packages would you like to know more about?"
+            ],
+            [
+                "agent2",
+                "The [package|Bali Adventure] package sounds interesting. Can you provide more details about the adventure activities included in the package?"
+            ],
+            [
+                "agent1",
+                "Sure! The Bali Adventure package includes a choice of two adventure activities. You can choose from white water rafting, ATV ride, or a jungle trek. \n\nThe white water rafting activity takes place on the Ayung River and is suitable for beginners. You will be accompanied by a professional guide and all necessary equipment will be provided. \n\nThe ATV ride takes you through Bali's countryside and rice fields. You will be accompanied by a guide and all necessary equipment will be provided. \n\nThe jungle trek takes you through Bali's lush rainforest and is suitable for all fitness levels. You will be accompanied by a guide who will point out the flora and fauna along the way. \n\nLet me know if you have any other questions!"
+            ],
+            [
+                "agent2",
+                "That sounds amazing! Can you also provide more information about the hotel accommodation included in the package?"
+            ],
+            [
+                "agent1",
+                "Certainly! The Bali Adventure package includes 4-star hotel accommodation. We have a few options for you to choose from based on your preferences. \n\nOne of our popular hotels is the [accommodation|Grand Bali]. It is located in the heart of Kuta and features a beautiful outdoor pool, a spa, and a fitness center. The rooms are spacious and come with all the necessary amenities. \n\nAnother option is the [accommodation|The Haven Suites]. It is located in Seminyak and features a rooftop pool, a restaurant, and a fitness center. The rooms are modern and spacious, and come with a private balcony. \n\nBoth of these hotels have great reviews and are highly recommended by our customers. Let me know if you have any other questions!"
+            ],
+            [
+                "agent2",
+                "Thank you for the information. Can you also provide me with the total cost of the Bali Adventure package for one person?"
+            ],
+            [
+                "agent1",
+                "Sure! The Bali Adventure package starts at $1,500 per person based on double occupancy. So for a 10-day trip, the total cost for one person would be $1,500 x 2 = $3,000. \n\nThis includes round-trip airfare, 4-star hotel accommodation, daily breakfast, and a choice of two adventure activities. Let me know if you have any other questions!"
+            ],
+            [
+                "agent2",
+                "Thank you for the information. Can you also tell me about the payment options available for this package?"
+            ],
+            [
+                "agent1",
+                "Certainly! We accept payment via credit card or bank transfer. If you choose to pay by credit card, we accept Visa, Mastercard, and American Express. \n\nTo confirm your booking, we require a deposit of 30% of the total package cost. The remaining balance can be paid in installments or in full, depending on your preference. \n\nOnce we receive your deposit, we will send you a confirmation email with all the details of your booking. Let me know if you have any other questions!"
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I think I'm ready to book the Bali Adventure package. How can I proceed with the booking?"
+            ],
+            [
+                "agent1",
+                "Great! I'm glad to hear that. To proceed with the booking, I will need some information from you. \n\nPlease provide me with your full name, date of birth, passport number, and contact information. I will also need your preferred travel dates and hotel choice. \n\nOnce I have this information, I will send you a booking form to fill out and a link to make the deposit payment. Once we receive your deposit, we will confirm your booking and send you a confirmation email with all the details of your trip. \n\nLet me know if you have any other questions!"
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I will provide you with the required details shortly. \n\nBefore I proceed, can you please confirm the cancellation policy for this package?"
+            ],
+            [
+                "agent1",
+                "Sure! The cancellation policy for the Bali Adventure package is as follows:\n\n- If you cancel more than 60 days before the departure date, you will receive a full refund minus a $100 cancellation fee.\n- If you cancel between 30 and 60 days before the departure date, you will receive a 50% refund.\n- If you cancel less than 30 days before the departure date, there will be no refund.\n\nPlease note that these cancellation policies are subject to change based on the specific terms and conditions of your booking. \n\nLet me know if you have any other questions!"
+            ],
+            [
+                "agent2",
+                "Thank you for the information. That's all I needed to know. I will provide you with my details shortly and proceed with the booking. Thank you for your help!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "travel_service_type": "international",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a international travel agency called [agency|Dream Vacations] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international travel agency called [agency|Dream Vacations] and you are chatting online with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in planning a trip to [destination|Bali]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Bali is a beautiful destination. When are you planning to travel and for how long?"
+            ],
+            [
+                "agent2",
+                "I'm planning to travel in [travel dates|October] for about [duration|10] days."
+            ],
+            [
+                "agent1",
+                "Great! We have some amazing packages for Bali in October. What is your budget for this trip?"
+            ],
+            [
+                "agent2",
+                "My budget is around [budget|3000] USD."
+            ],
+            [
+                "agent1",
+                "Perfect! With a budget of [budget|3000] USD, we can definitely find you a great package for Bali. What type of accommodation are you looking for?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a [accommodation|luxury villa] with a private pool."
+            ],
+            [
+                "agent1",
+                "Sounds amazing! Bali has some of the most beautiful villas with private pools. What activities are you interested in during your stay in Bali?"
+            ],
+            [
+                "agent2",
+                "I'm interested in [activities|surfing], [activities|yoga], and [activities|exploring the local culture]."
+            ],
+            [
+                "agent1",
+                "Great choices! We have a package that includes a 10-day stay at a luxury villa with a private pool, daily surfing lessons, daily yoga classes, and a cultural tour of Bali. The package also includes airport transfers and daily breakfast. The total cost for this package is [package|4500] USD. Would you like me to book this package for you?"
+            ],
+            [
+                "agent2",
+                "That sounds like an amazing package! However, it's a bit over my budget. Do you have any other packages that are more budget-friendly?"
+            ],
+            [
+                "agent1",
+                "Of course! We have a package that includes a 10-day stay at a 4-star hotel in Bali, daily surfing lessons, daily yoga classes, and a cultural tour of Bali. The package also includes airport transfers and daily breakfast. The total cost for this package is [package|2500] USD. Would you like me to book this package for you?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Can you please provide me with more details about the hotel?"
+            ],
+            [
+                "agent1",
+                "Certainly! The hotel we have in mind is the [hotel|Bali Garden Beach Resort]. It is located in the heart of Kuta, just a few steps away from the beach. The hotel features a beautiful outdoor pool, a spa, and several dining options. The rooms are spacious and comfortable, with modern amenities such as air conditioning, a flat-screen TV, and a private balcony."
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you please book this package for me?"
+            ],
+            [
+                "agent1",
+                "Absolutely! I will need some information from you to complete the booking. Please provide me with your full name, date of birth, and passport number."
+            ],
+            [
+                "agent2",
+                "My full name is [full_name|John Smith], my date of birth is [date_of_birth|January 1st, 1990], and my passport number is [passport_number|123456789]."
+            ],
+            [
+                "agent1",
+                "Thank you for the information. I have booked the package for you. You will receive a confirmation email shortly with all the details of your trip. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "travel_service_type": "domestic",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a domestic travel agency called [agency|Dream Vacations] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic travel agency called [agency|Dream Vacations] and you are talking with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in planning a trip with Dream Vacations. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you plan your dream vacation. What destination are you interested in?"
+            ],
+            [
+                "agent2",
+                "I'm thinking about going to [destination|Bali]. Can you tell me more about the packages you offer for Bali?"
+            ],
+            [
+                "agent1",
+                "Absolutely! We have several packages available for Bali. Can you tell me a little bit more about what you're looking for in your trip? For example, what are your travel dates, budget, and preferred activities?"
+            ],
+            [
+                "agent2",
+                "Sure! I'm planning to travel in [travel dates|October], and my budget is around [budget|$3000]. I'm interested in exploring the culture and natural beauty of Bali, so I'd like to visit some temples and do some hiking. I'd also like to spend some time relaxing on the beach."
+            ],
+            [
+                "agent1",
+                "Great! Based on your preferences, I would recommend our [package|Bali Adventure]. This package includes a guided tour of some of Bali's most beautiful temples, a hike through the rice paddies and jungle, and a day trip to the stunning Nusa Penida Island. You'll also have plenty of time to relax on the beach and enjoy the beautiful scenery. The package includes accommodations at a 4-star hotel and all transportation within Bali. The total cost for this package is [cost|$2500] per person, which fits within your budget. Does that sound like something you'd be interested in?"
+            ],
+            [
+                "agent2",
+                "That sounds amazing! Can you tell me more about the hotel included in the package?"
+            ],
+            [
+                "agent1",
+                "Certainly! The hotel included in the package is the [accommodation|Bali Beach Resort], which is a 4-star hotel located right on the beach. The hotel features a beautiful pool, spa, and several restaurants serving delicious local cuisine. The rooms are spacious and comfortable, with all the amenities you need for a relaxing stay."
+            ],
+            [
+                "agent2",
+                "That sounds perfect! How do I book this package?"
+            ],
+            [
+                "agent1",
+                "Great! I can help you book this package right now. To get started, I'll need some information from you, such as your full name, date of birth, and passport information. Once I have that information, I can make the reservation for you and send you a confirmation email with all the details. Would you like to proceed with the booking?"
+            ],
+            [
+                "agent2",
+                "I'm sorry, I'm just a language model AI and I cannot provide real booking service. However, I can provide you with a sample booking form that you can use to book your trip with Dream Vacations. Here's what the form might look like:\n\nFull Name: [input field]\nDate of Birth: [input field]\nPassport Number: [input field]\nTravel Dates: [input field]\nPackage: Bali Adventure\nAccommodation: Bali Beach Resort\nTotal Cost: $2500\n\nOnce you fill out the form, you can submit it to Dream Vacations and they will take care of the rest."
+            ],
+            [
+                "agent1",
+                "Thank you for providing that information! I hope that I was able to assist you in planning your dream vacation to Bali. If you have any further questions or concerns, please don't hesitate to reach out to us. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "travel_service_type": "international",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a international travel agency called [agency|Dream Vacations] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international travel agency called [agency|Dream Vacations] and you are talking with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in planning a trip to [destination|Bali]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Bali is a beautiful destination. When are you planning to travel and for how long?"
+            ],
+            [
+                "agent2",
+                "I'm planning to travel in [travel dates|November] for about [duration|10] days."
+            ],
+            [
+                "agent1",
+                "Great! We have some amazing packages for Bali in November. What is your budget for this trip?"
+            ],
+            [
+                "agent2",
+                "My budget is around [budget|3000] USD."
+            ],
+            [
+                "agent1",
+                "Perfect! With that budget, we can definitely find a great package for you. What type of accommodation are you looking for?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a [accommodation|luxury villa] with a private pool."
+            ],
+            [
+                "agent1",
+                "That sounds amazing! We have some great options for luxury villas in Bali. Would you like to include any activities in your package?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to include [activities|surfing lessons] and a [activities|cooking class]."
+            ],
+            [
+                "agent1",
+                "Great choices! Based on your preferences, I recommend our Bali Luxury Villa package. It includes a 10-night stay in a beautiful luxury villa with a private pool, surfing lessons, and a cooking class. The package also includes airport transfers and daily breakfast. The total cost for this package is [total_cost|2800] USD per person. \n\nWould you like to proceed with this package?"
+            ],
+            [
+                "agent2",
+                "That sounds like a great package! Can you please provide me with more details about the villa and the surfing lessons?"
+            ],
+            [
+                "agent1",
+                "Absolutely! The villa is located in the heart of Bali and features a private pool, a fully equipped kitchen, a spacious living room, and a beautiful garden. The surfing lessons will be conducted by a professional instructor and will take place at one of Bali's best surfing spots. The lessons are suitable for all levels, from beginners to advanced surfers. The cooking class will be held at a local cooking school and will teach you how to prepare traditional Balinese dishes.\n\nDoes that answer your questions?"
+            ],
+            [
+                "agent2",
+                "Yes, that sounds perfect! I would like to proceed with the Bali Luxury Villa package. How can I book it?"
+            ],
+            [
+                "agent1",
+                "Great! To book the package, I will need some information from you. Can you please provide me with your full name, date of birth, and passport number?"
+            ],
+            [
+                "agent2",
+                "Sure, my full name is [full_name|John Smith], my date of birth is [date_of_birth|January 1st, 1985], and my passport number is [passport_number|ABC123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing that information. I will now proceed with booking your package. \n\nTo confirm your booking, we require a deposit of [deposit_amount|1400] USD per person. The remaining balance will be due [balance_due_date|30 days] prior to your departure date. \n\nYou can make the deposit by credit card or bank transfer. Which payment method would you prefer?"
+            ],
+            [
+                "agent2",
+                "I would like to make the deposit by credit card. Can you please provide me with the payment link?"
+            ],
+            [
+                "agent1",
+                "Sure! I will send you a secure payment link to your email address. Please provide me with your email address."
+            ],
+            [
+                "agent2",
+                "My email address is [email|john.smith@email.com]."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "travel_service_type": "domestic",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a domestic travel agency called [agency|Dream Vacations] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic travel agency called [agency|Dream Vacations] and you are chatting online with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Dream Vacations]. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in planning a trip to [destination|Thailand]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Thailand is a beautiful destination with so much to offer. When are you planning on traveling and for how long?"
+            ],
+            [
+                "agent2",
+                "I'm thinking of traveling in [travel dates|November for 10 days]. What kind of packages do you have available for that time frame?"
+            ],
+            [
+                "agent1",
+                "Great! We have several packages available for [destination|Thailand] in November. What is your budget for this trip?"
+            ],
+            [
+                "agent2",
+                "My budget is around [budget|$2000] for the entire trip, including flights, accommodation, and activities. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Yes, that's definitely doable! We have a package that includes roundtrip flights, a 3-star hotel, and some activities for [package|$1500] per person. Alternatively, we also have a package that includes a 4-star hotel and more activities for [package|$1800] per person. Which one sounds more appealing to you?"
+            ],
+            [
+                "agent2",
+                "The second option with the 4-star hotel and more activities sounds great! Can you tell me more about the activities included in the package?"
+            ],
+            [
+                "agent1",
+                "Sure! The package includes a full-day guided tour of Bangkok, a visit to the Grand Palace and the Temple of the Emerald Buddha, a half-day tour of the Damnoen Saduak Floating Market, and a full-day excursion to the Ayutthaya Historical Park. Additionally, you will have some free time to explore on your own or add other activities as you wish. How does that sound?"
+            ],
+            [
+                "agent2",
+                "That sounds amazing! Can you tell me more about the 4-star hotel included in the package?"
+            ],
+            [
+                "agent1",
+                "Certainly! The hotel included in the package is the [accommodation|Marriott Bangkok], which is located in the heart of Bangkok. The hotel features a fitness center, outdoor pool, and several dining options, including a rooftop bar with stunning views of the city. The hotel is known for its excellent service and luxurious amenities."
+            ],
+            [
+                "agent2",
+                "That sounds perfect! How do I book this package?"
+            ],
+            [
+                "agent1",
+                "Great! To book this package, I will need some information from you. Could you please provide me with your full name, date of birth, and passport information for each traveler? Additionally, I will need your preferred method of payment and contact information. Once I have this information, I can make the necessary arrangements and send you a confirmation email with all the details."
+            ],
+            [
+                "agent2",
+                "Sure, let me provide you with the required information."
+            ],
+            [
+                "agent1",
+                "Great! Please take your time and let me know when you're ready."
+            ],
+            [
+                "agent2",
+                "My full name is [full_name|John Smith], date of birth is [date_of_birth|January 1st, 1985], and passport information is [passport_info|123456789]. I will be traveling with one other person, whose information I can provide as well. For payment, I would like to use my [payment_method|credit card]. My email address is [email|john.smith@email.com] and my phone number is [phone_number|555-1234]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing the information. I will now make the necessary arrangements and send you a confirmation email with all the details. If you have any questions or concerns in the meantime, please feel free to reach out to me. Thank you for choosing [agency|Dream Vacations], and have a wonderful trip to [destination|Thailand]!"
+            ],
+            [
+                "agent2",
+                "Thank you so much for your help! I'm looking forward to receiving the confirmation email and can't wait to go to [destination|Thailand]. Have a great day!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. I will send you the confirmation email shortly. If you need any further assistance in the future, don't hesitate to reach out. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "travel_service_type": "international",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a international travel agency called [agency|Dream Vacations] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international travel agency called [agency|Dream Vacations] and you are chatting online with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in planning a trip to [destination|Bali]. Can you help me out with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Bali is a beautiful destination. When are you planning to go, and for how long? Do you have a specific budget in mind? And what kinds of activities are you interested in? Knowing these details will help me recommend the best package for you."
+            ],
+            [
+                "agent2",
+                "I'm thinking of going in [travel dates|January 2022] for about [duration|10] days. I don't have a specific budget in mind, but I'd like to keep it reasonably priced. I'm interested in exploring the local culture, trying some traditional food, and perhaps doing some hiking or outdoor activities."
+            ],
+            [
+                "agent1",
+                "Great! January is a great time to visit Bali. Based on your preferences, I would recommend our Bali Cultural Adventure package. This package includes visits to important cultural sites like the Tirta Empul Temple and the Ubud Monkey Forest, as well as a cooking class to learn how to make traditional Balinese food. It also includes a guided hike up Mount Batur for a stunning view of the sunrise. The package includes 4-star hotel accommodations, airport transfers, and some meals. The total cost for this package is [cost|$1500] per person. Would you like to proceed with booking this package?"
+            ],
+            [
+                "agent2",
+                "That sounds amazing! Can you tell me a bit more about the hotel accommodations? And are there any other additional costs that I should be aware of?"
+            ],
+            [
+                "agent1",
+                "Certainly! The package includes 4-star hotel accommodations at the Tjampuhan Hotel and Spa in Ubud. This hotel is known for its beautiful tropical gardens and peaceful atmosphere. You'll have a deluxe room with a private balcony or terrace, air conditioning, and free Wi-Fi. The hotel also has a restaurant, a spa, and an outdoor pool. \n\nIn terms of additional costs, you may want to budget for meals that are not included in the package, as well as any souvenirs or extra activities that you choose to do. You'll also need to pay for any visas or vaccinations that are required for your trip. Let me know if you have any more questions."
+            ],
+            [
+                "agent2",
+                "That sounds perfect! I have one more question. Can I make a partial payment now and the rest later?"
+            ],
+            [
+                "agent1",
+                "Yes, we require a [deposit_percent|30%] deposit to secure your booking, and the rest of the payment can be made [payment_option|up to 30 days] before your departure date. We accept various forms of payment, including credit cards and wire transfers. Let me know if you would like to proceed with booking this package and I can send you the payment details."
+            ],
+            [
+                "agent2",
+                "Great, I would like to proceed with booking this package. Please send me the payment details so I can make the deposit."
+            ],
+            [
+                "agent1",
+                "Excellent! I will need some information from you to proceed with the booking. Please send me your full name, email address, and phone number. Then, I will send you an invoice with the payment details for the deposit. Once we receive your deposit, we will confirm your booking and send you a detailed itinerary."
+            ],
+            [
+                "agent2",
+                "Sure, my name is [full_name|John Smith], my email address is [email|john.smith@email.com], and my phone number is [phone_number|+1-555-123-4567]. I'm excited to receive the invoice and confirm my booking!"
+            ],
+            [
+                "agent1",
+                "Thank you, John! I have sent you an invoice for the 30% deposit to your email address. Please let me know once you have made the payment so I can confirm your booking. Once confirmed, I will send you a detailed itinerary with all the information you need for your trip. If you have any questions in the meantime, feel free to ask."
+            ],
+            [
+                "agent2",
+                "Thanks! I just received the invoice and I will make the payment now. How long does it usually take to confirm the booking after the payment is made?"
+            ],
+            [
+                "agent1",
+                "Great! Once we receive your payment, we will confirm your booking within 24 hours. I will send you an email to confirm your booking and provide you with a detailed itinerary for your trip. If you have any other questions or concerns, please don't hesitate to ask."
+            ],
+            [
+                "agent2",
+                "Sounds good! Thank you for your help. I'm really looking forward to this trip!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! I'm glad to have been of assistance. I'm sure you'll enjoy your trip to Bali. If you need any further assistance, feel free to reach out to us. Have a great day and enjoy your travels! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "travel_service_type": "domestic",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a domestic travel agency called [agency|Dream Vacations] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic travel agency called [agency|Dream Vacations] and you are talking with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in planning a trip for myself and my partner. We're thinking about a beach vacation somewhere in the Caribbean. Can you help us with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you plan your dream beach vacation. Do you have a specific destination in mind or any preferences for your trip, such as travel dates, budget, or accommodation type?"
+            ],
+            [
+                "agent2",
+                "We don't have a specific destination in mind, but we're looking for somewhere with beautiful beaches, clear water, and warm weather. We're looking to travel in late February or early March and our budget is around $4000 for both of us. We'd like to stay at a nice resort or hotel, preferably with a pool and beach access."
+            ],
+            [
+                "agent1",
+                "Great! With your budget, I can definitely help you find a perfect Caribbean beach vacation. Based on your preferences, I would recommend [destination|Punta Cana] in the Dominican Republic. It has stunning beaches, crystal-clear waters, and warm weather year-round. \n\nI can help you find a [accommodation|4-star all-inclusive resort] that fits your budget, with amenities such as a pool, beach access, and various activities. Would you be interested in an all-inclusive package that includes flights, accommodation, meals, and activities?"
+            ],
+            [
+                "agent2",
+                "Yes, an all-inclusive package sounds great! We'd love to hear more about the options for flights, accommodations, and activities."
+            ],
+            [
+                "agent1",
+                "Great! I can suggest a 4-night stay at the [accommodation|Grand Bahia Principe Punta Cana] for $2100, including flights from your nearest airport, accommodation, meals, drinks, and activities such as snorkeling, kayaking, and beach volleyball. \n\nIf you'd like to stay longer, we can definitely arrange that for you as well. We can also help you arrange any additional activities or excursions you might be interested in, such as zip-lining, horseback riding, or a catamaran cruise. \n\nWould you like me to send over some more detailed information about the package and the activities available in Punta Cana?"
+            ],
+            [
+                "agent2",
+                "Yes, please! We're definitely interested in learning more about the package and the activities available. Can you also include information on how to book this package?"
+            ],
+            [
+                "agent1",
+                "Sure, I can send over more detailed information about the package and activities available in Punta Cana, along with instructions on how to book it. Please provide me with your email address so I can send this information over to you."
+            ],
+            [
+                "agent2",
+                "My email address is [email|johndoe@gmail.com]. Thank you so much for your help! We're really excited about this trip."
+            ],
+            [
+                "agent1",
+                "You're welcome! I just sent an email to [email|johndoe@gmail.com] with more detailed information about the package and activities available in Punta Cana, along with instructions on how to book it. Please let me know if you have any further questions or if you're ready to book the package. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "travel_service_type": "international",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a international travel agency called [agency|Dream Vacations] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international travel agency called [agency|Dream Vacations] and you are talking with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in booking a trip for my family of four. We're thinking of going to [destination|Italy] sometime in [travel dates|August]. Can you provide me with some package options and prices?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have several package options for Italy in August that I can share with you. Would you like me to provide you with an overview of our packages, or do you have something specific in mind? Also, may I know your budget so I can suggest the best options for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please provide me with an overview of the packages you have available for Italy in August. As for our budget, we are open to options but would like to keep it around [budget|$8,000]."
+            ],
+            [
+                "agent1",
+                "Great! With your budget in mind, I have a few package options that I think you'll love. \n\nOur first package option is our \"Italian Adventure\" package. This 10-day trip includes stops in [destination|Rome], [destination|Florence], and [destination|Venice]. This package includes roundtrip airfare, 4-star hotel accommodations, daily breakfast, and guided tours of each city. The total cost for this package is [price|$7,500] for a family of four.\n\nOur second package is the \"Taste of Italy\" package. This 7-day trip includes stops in [destination|Rome], [destination|Tuscany], and [destination|Venice]. This package includes roundtrip airfare, 4-star hotel accommodations, daily breakfast, and a cooking class in Tuscany. The total cost for this package is [price|$6,000] for a family of four.\n\nLastly, we have the \"Italian Coastal Escape\" package. This 8-day trip includes stops in [destination|Amalfi], [destination|Sorrento], and [destination|Capri]. This package includes roundtrip airfare, 4-star hotel accommodations, daily breakfast, and a boat tour of the Amalf"
+            ],
+            [
+                "agent2",
+                "i Coast. The total cost for this package is [price|$8,500] for a family of four.\n\nDo any of these packages sound interesting to you?"
+            ],
+            [
+                "agent1",
+                "Thank you for the options. The \"Italian Adventure\" package sounds great. Can you provide me with more details on the guided tours? What places will we visit and what activities will be included?"
+            ],
+            [
+                "agent2",
+                "Absolutely! The guided tours included in the \"Italian Adventure\" package are a great way to explore each city and learn more about their history and culture. \n\nIn Rome, you'll visit the Colosseum, the Roman Forum, the Pantheon, and the Vatican Museums, where you'll see the Sistine Chapel and St. Peter's Basilica. In Florence, you'll visit the Duomo, the Uffizi Gallery, the Ponte Vecchio, and the Accademia Gallery, where you'll see Michelangelo's David. In Venice, you'll take a walking tour of the city and visit St. Mark's Basilica, the Doge's Palace, and the Rialto Bridge. \n\nAll of our guided tours are led by professional, English-speaking tour guides who are knowledgeable about the history and culture of each city. The tours typically last around 2-3 hours and include all entrance fees to the attractions. Let me know if you have any more questions or if you're ready to book this package."
+            ],
+            [
+                "agent1",
+                "That sounds perfect! I'm ready to book this package. What are the next steps?"
+            ],
+            [
+                "agent2",
+                "Great! To book this package, I will need some information from you. Can you please provide me with the full names and birthdates of all travelers, as well as your preferred method of payment? \n\nAlso, please note that a deposit of [deposit_amount|$2,000] is required to secure your booking. The remaining balance will be due [balance_due_date|30 days] prior to your departure date. Once I have all of your information, I can process your booking and send you a confirmation email with all of the details."
+            ],
+            [
+                "agent1",
+                "Sure thing! Here is the information you need:\n\nTraveler 1: John Smith, 05/10/1980\nTraveler 2: Jane Smith, 03/15/1982\nTraveler 3: Jack Smith, 09/20/2010\nTraveler 4: Jill Smith, 07/01/2012\n\nAs for payment, we would like to pay with our [payment_method|Visa] credit card.\n\nPlease let me know if there is anything else you need from me."
+            ],
+            [
+                "agent2",
+                "Perfect! I have all of the information that I need. I will proceed with the booking and charge the deposit of [deposit_amount|$2,000] to your Visa credit card. You will receive a confirmation email with all of the details once the booking is confirmed.\n\nPlease note that the remaining balance of [remaining_balance|$5,500] will be due [balance_due_date|30 days] prior to your departure date. You can make payments towards the remaining balance at any time before the due date by contacting us or logging into your account on our website.\n\nThank you for choosing Dream Vacations! Let me know if you have any more questions or if there is anything else I can assist you with."
+            ],
+            [
+                "agent1",
+                "Thank you for your help! We're excited for this trip. No more questions for now. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "travel_service_type": "domestic",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a domestic travel agency called [agency|Dream Vacations] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic travel agency called [agency|Dream Vacations] and you are chatting online with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Dream Vacations]. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in planning a trip to [destination|Bali]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Bali is a beautiful destination. When are you planning to travel and for how long?"
+            ],
+            [
+                "agent2",
+                "I'm planning to travel in [travel dates|October] for about [duration|10] days."
+            ],
+            [
+                "agent1",
+                "Great! What is your budget for this trip?"
+            ],
+            [
+                "agent2",
+                "My budget is around [budget|3000] USD."
+            ],
+            [
+                "agent1",
+                "That's a good budget for a 10-day trip to Bali. We have a few packages that might interest you. Would you like me to go over them with you?"
+            ],
+            [
+                "agent2",
+                "Yes, please! I'd love to hear more about the packages."
+            ],
+            [
+                "agent1",
+                "We have a few packages that might suit your needs. Our most popular package is the Bali Adventure package, which includes accommodations, airport transfers, and a variety of activities such as white water rafting, a visit to the monkey forest, and a sunset dinner cruise. This package starts at [package_price|1500] USD per person. \n\nWe also have a Bali Relaxation package, which includes accommodations, airport transfers, and spa treatments. This package starts at [package_price|1200] USD per person. \n\nFinally, we have a Bali Culture package, which includes accommodations, airport transfers, and visits to cultural sites such as temples and traditional markets. This package starts at [package_price|1000] USD per person. \n\nWhich package sounds the most appealing to you?"
+            ],
+            [
+                "agent2",
+                "The Bali Adventure package sounds amazing! Can you give me more details about the activities included in the package?"
+            ],
+            [
+                "agent1",
+                "Sure! The Bali Adventure package includes a full day of white water rafting on the Ayung River, a visit to the Ubud Monkey Forest, and a sunset dinner cruise. \n\nThe white water rafting experience is a thrilling adventure that takes you through the beautiful Ayung River. You'll be accompanied by a professional guide and all the necessary equipment will be provided.\n\nThe Ubud Monkey Forest is a natural reserve that is home to over 700 monkeys. You'll be able to walk through the forest and observe the monkeys in their natural habitat.\n\nFinally, the sunset dinner cruise is a romantic experience that takes you on a leisurely cruise along the coast of Bali. You'll be able to enjoy a delicious dinner while watching the sunset over the ocean.\n\nDoes that sound good to you?"
+            ],
+            [
+                "agent2",
+                "Yes, it sounds amazing! How do I book this package?"
+            ],
+            [
+                "agent1",
+                "Great! To book this package, I'll need a few details from you. Can you please provide me with your full name, email address, and phone number? \n\nOnce I have that information, I'll send you an email with the package details and a link to make the payment. Once the payment is received, we'll send you a confirmation email with all the details of your trip."
+            ],
+            [
+                "agent2",
+                "Sure, my name is [full_name|John Smith], my email address is [email|john.smith@gmail.com], and my phone number is [phone_number|+1 555-123-4567]."
+            ],
+            [
+                "agent1",
+                "Thank you, John! I have sent you an email with the package details and a link to make the payment. Please let me know if you have any questions or if you need any further assistance."
+            ],
+            [
+                "agent2",
+                "Thank you so much! I'll check my email and let you know if I have any questions."
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great day and feel free to reach out if you need any further assistance. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "travel_service_type": "international",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a international travel agency called [agency|Dream Vacations] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international travel agency called [agency|Dream Vacations] and you are chatting online with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in planning a trip to [destination|Bali]. Can you tell me more about the packages you offer?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several packages available for Bali. Can you please provide me with some more information so I can help you find the best package for your needs? What are your preferred travel dates, budget, and what type of accommodation are you looking for?"
+            ],
+            [
+                "agent2",
+                "Sure! I'm looking to travel in [travel dates|October] for about [duration|10] days. My budget is around [budget|3000] USD and I'm looking for a [accommodation|luxury villa] with a private pool."
+            ],
+            [
+                "agent1",
+                "Great! We have several packages that fit your preferences. One package that I recommend is our \"Luxury Bali Escape\" package. This package includes a 10-day stay at a 5-star luxury villa with a private pool, daily breakfast, and a private airport transfer. The package also includes a full-day tour of Bali's cultural and historical sites, as well as a half-day tour of the island's beautiful beaches. The total cost for this package is [total_cost|2800] USD per person. \n\nWe also have other packages available that may fit your preferences. Would you like me to provide more information on those?"
+            ],
+            [
+                "agent2",
+                "That sounds amazing! Can you tell me more about the full-day tour of Bali's cultural and historical sites? What are some of the places that are included in the tour?"
+            ],
+            [
+                "agent1",
+                "Absolutely! The full-day tour of Bali's cultural and historical sites includes a visit to the famous Tirta Empul Temple, which is known for its holy spring water. You will also visit the beautiful Tegalalang Rice Terrace, which is a UNESCO World Heritage Site. Additionally, the tour includes a visit to the Goa Gajah Temple, also known as the Elephant Cave, which is a significant archaeological site. Finally, the tour includes a visit to the Ubud Art Market, where you can shop for traditional Balinese handicrafts and souvenirs. \n\nThis tour is led by a knowledgeable guide who will provide you with information about the history and culture of Bali. It's a great way to experience the island's rich cultural heritage."
+            ],
+            [
+                "agent2",
+                "That sounds like a great way to experience Bali's culture and history. Can you tell me more about the half-day tour of the island's beautiful beaches? What are some of the beaches that are included in the tour?"
+            ],
+            [
+                "agent1",
+                "Certainly! The half-day tour of Bali's beautiful beaches includes a visit to some of the island's most stunning beaches. You will start with a visit to the famous Kuta Beach, which is known for its golden sand and great surf. You will also visit the beautiful Seminyak Beach, which is a popular spot for sunbathing and swimming. Additionally, the tour includes a visit to the picturesque Jimbaran Beach, which is known for its seafood restaurants and stunning sunsets. \n\nThis tour is also led by a knowledgeable guide who will provide you with information about the beaches and the surrounding areas. It's a great way to experience Bali's natural beauty and relax on some of the island's most beautiful beaches."
+            ],
+            [
+                "agent2",
+                "That sounds amazing! I think I'm interested in booking the \"Luxury Bali Escape\" package. How do I proceed with the booking?"
+            ],
+            [
+                "agent1",
+                "Great! I'm glad to hear that you're interested in the \"Luxury Bali Escape\" package. To proceed with the booking, I will need some additional information from you. Can you please provide me with your full name, email address, and phone number? I will also need the names and passport information of any other travelers who will be joining you on the trip. Once I have this information, I can send you a booking confirmation and payment details."
+            ],
+            [
+                "agent2",
+                "Sure, my full name is [full_name|John Smith], my email address is [email|johnsmith@email.com], and my phone number is [phone_number|+1 (555) 123-4567]. The name and passport information of the other traveler is [traveler_info|Sarah Johnson, passport number: 123456789]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing that information. I have sent you an email with the booking confirmation and payment details. Please review the information and let me know if you have any questions or if you would like to make any changes. Once you are ready to proceed with the booking, you can follow the payment instructions in the email. \n\nThank you for choosing Dream Vacations. We look forward to helping you plan your dream trip to Bali!"
+            ],
+            [
+                "agent2",
+                "Thank you so much for your help! I will review the information and get back to you if I have any questions. I'm really excited about this trip and I appreciate your assistance in planning it."
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. Please don't hesitate to reach out if you have any questions or if there's anything else we can help you with. We're always here to help you plan your dream vacation. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "travel_service_type": "domestic",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a domestic travel agency called [agency|Dream Vacations] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic travel agency called [agency|Dream Vacations] and you are talking with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in planning a trip to [destination|Bali]. Can you tell me more about the packages you offer for this location?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several packages available for Bali. Can you give me some more information about your travel preferences? For example, when are you planning to travel, how long would you like to stay, and what is your budget? This will help me recommend the best package for you."
+            ],
+            [
+                "agent2",
+                "Sure! I'm planning to travel in [travel dates|November], and I'd like to stay for about [duration|10] days. My budget is around [budget|3000] USD."
+            ],
+            [
+                "agent1",
+                "Great! We have a few packages that might work for you. Our most popular package for Bali is our \"Island Paradise\" package. This package includes round-trip airfare, 10 nights in a 4-star hotel, daily breakfast, and a full-day tour of the island. The package starts at [price|2500] USD per person, based on double occupancy. \n\nWe also have a \"Luxury Escape\" package that includes round-trip airfare, 10 nights in a 5-star hotel, daily breakfast, and a private tour of the island. This package starts at [price|4000] USD per person, based on double occupancy.\n\nWhich package sounds more appealing to you?"
+            ],
+            [
+                "agent2",
+                "The \"Island Paradise\" package sounds great! Can you tell me more about the full-day tour of the island? What activities are included?"
+            ],
+            [
+                "agent1",
+                "Absolutely! The full-day tour of the island includes a visit to some of Bali's most popular attractions. You'll start the day with a visit to the Tegalalang Rice Terrace, where you can take in the stunning views of the rice paddies. Next, you'll visit the Sacred Monkey Forest Sanctuary, where you can see hundreds of monkeys in their natural habitat. After that, you'll visit the Tirta Empul Temple, a beautiful Hindu temple with natural springs that are believed to have healing powers. Finally, you'll end the day with a visit to the Tanah Lot Temple, a stunning temple perched on a rock formation in the ocean. \n\nPlease note that lunch is not included in the tour, but your guide will be happy to recommend some great local restaurants."
+            ],
+            [
+                "agent2",
+                "That sounds amazing! I think I'd like to book the \"Island Paradise\" package. What's the next step?"
+            ],
+            [
+                "agent1",
+                "Great! I can definitely help you book the \"Island Paradise\" package. To get started, I'll need some information from you. Can you please provide me with your full name, date of birth, and passport number? \n\nAlso, do you have any specific dates in mind for your trip, or are you flexible? And would you like to add any additional activities or excursions to your itinerary?"
+            ],
+            [
+                "agent2",
+                "I'm sorry, I was just asking for information as an example. I'm an AI language model and I don't have the capability to book trips or access personal information. Is there anything else I can help you with?"
+            ],
+            [
+                "agent1",
+                "Oh, I see! Thank you for letting me know. I don't have any other questions at the moment, but thank you for your assistance. Have a great day!"
+            ],
+            [
+                "agent2",
+                "You're welcome! Don't hesitate to reach out if you have any other questions in the future. Have a great day!"
+            ],
+            [
+                "agent1",
+                "Thank you, you too! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "travel_service_type": "international",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a international travel agency called [agency|Dream Vacations] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international travel agency called [agency|Dream Vacations] and you are talking with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in planning a trip to [destination|Bali]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Bali is a beautiful destination. When are you planning to travel and for how long?"
+            ],
+            [
+                "agent2",
+                "I'm planning to travel in [travel dates|October] for about [duration|10] days."
+            ],
+            [
+                "agent1",
+                "Great! We have some amazing packages for Bali during that time. What is your budget for this trip?"
+            ],
+            [
+                "agent2",
+                "I'm looking to spend around [budget|5000] USD for this trip."
+            ],
+            [
+                "agent1",
+                "Perfect! With that budget, we can definitely find you a great package. What type of accommodation are you looking for?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a [accommodation|luxury villa] with a private pool and a beautiful view."
+            ],
+            [
+                "agent1",
+                "That sounds amazing! We have some great options for luxury villas in Bali. Would you like me to send you some options?"
+            ],
+            [
+                "agent2",
+                "Yes, please! Also, I'm interested in some activities like [activities|surfing], [activities|yoga], and [activities|spa treatments]. Can you suggest some places where I can do these activities?"
+            ],
+            [
+                "agent1",
+                "Absolutely! Bali is known for its great surfing spots, yoga retreats, and luxurious spas. I can recommend some places for you to check out. In Bali, some of the best surfing spots are in Uluwatu and Canggu. For yoga, you can check out The Yoga Barn in Ubud or Samadi Bali in Canggu. And for spa treatments, I recommend the Ayana Resort and Spa in Jimbaran or the Four Seasons Resort in Sayan. Would you like me to include any of these activities in your package?"
+            ],
+            [
+                "agent2",
+                "Yes, please! I would like to include surfing lessons and a yoga retreat in my package. Can you also include a spa treatment at the Ayana Resort and Spa?"
+            ],
+            [
+                "agent1",
+                "Absolutely! I will make sure to include surfing lessons, a yoga retreat, and a spa treatment at the Ayana Resort and Spa in your package. Is there anything else you would like to include in your package?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I will send you some options for luxury villas in Bali, along with the activities you requested. Once you have made your selection, we can proceed with booking your package. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "travel_service_type": "domestic",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a domestic travel agency called [agency|Dream Vacations] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic travel agency called [agency|Dream Vacations] and you are chatting online with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [agency|Dream Vacations]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm interested in planning a trip to [destination|Thailand]. Can you please provide me with some options?"
+            ],
+            [
+                "agent1",
+                "Of course! We offer several customizable packages to Thailand. Can you please provide me with more details about your trip such as travel dates, budget, and preferred activities? This will help me narrow down the options and provide you with the best package."
+            ],
+            [
+                "agent2",
+                "Sure, my travel dates are [travel dates|November 15th to 25th], my budget is around [budget|$5000], and I'm interested in exploring the culture, trying local food, and visiting some temples."
+            ],
+            [
+                "agent1",
+                "Great! Based on your preferences, I would recommend our [package|Thailand Cultural Experience]. This package includes visits to several cultural sites such as the Grand Palace, Wat Phra Kaew, and Wat Pho. You will also get to try authentic Thai cuisine through food tours and cooking classes. This package is within your budget and includes accommodation at a 4-star hotel, transportation, and guided tours. \n\nWould you like me to send you more information about this package?"
+            ],
+            [
+                "agent2",
+                "That sounds amazing! Yes, please send me more information about the package. Also, can you tell me more about the hotel included in the package?"
+            ],
+            [
+                "agent1",
+                "Sure! I will send you an email with additional information on the package. \n\nRegarding the hotel, the package includes a 7-night stay at the [accommodation|Chatrium Hotel Riverside Bangkok]. This is a 4.5-star hotel located on the Chao Phraya River, offering stunning views of the city. The hotel features several amenities such as an infinity pool, a fitness center, and multiple dining options including a rooftop bar. It's also conveniently located near several cultural sites that are included in the package."
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Thank you for your help. One last question, can I make adjustments to the package such as adding or removing activities?"
+            ],
+            [
+                "agent1",
+                "Yes, absolutely! We understand that everyone's travel preferences are different, so we are happy to customize the package to suit your needs. You can add or remove activities, change the duration of your stay, or choose a different hotel. Just let us know what changes you would like to make and we will adjust the package accordingly.\n\nIs there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or would like to book the package, feel free to contact us again. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "travel_service_type": "international",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a international travel agency called [agency|Dream Vacations] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international travel agency called [agency|Dream Vacations] and you are chatting online with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Dream Vacations! How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "[destination|Paris], [travel dates|September 15th to 22nd], [budget|2500 USD], [accommodation|3-star hotel]. I'm interested in a package that includes flights, hotel, and some activities. What do you recommend?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have several packages to Paris that would fit your budget and travel dates. One option is our \"City of Love\" package, which includes round-trip flights, 7 nights at a 3-star hotel in the heart of Paris, and a romantic Seine River cruise. This package starts at $1,800 per person. \n\nAnother option is our \"Paris Explorer\" package, which includes round-trip flights, 7 nights at a 3-star hotel, a hop-on-hop-off bus tour, and a visit to the Eiffel Tower. This package starts at $1,500 per person.\n\nBoth of these packages can be customized to fit your specific needs and interests. Would you like me to book one of these packages for you?"
+            ],
+            [
+                "agent2",
+                "The \"City of Love\" package sounds perfect for me! Can I add any additional activities to the package?"
+            ],
+            [
+                "agent1",
+                "Absolutely! We have a variety of additional activities that can be added to your package. Some popular options in Paris include a visit to the Louvre Museum, a tour of the Palace of Versailles, a wine tasting experience, and a Moulin Rouge show. \n\nPlease let me know which activities you are interested in and I can provide you with a quote for the total cost of your package."
+            ],
+            [
+                "agent2",
+                "I would like to add a visit to the Louvre Museum and a tour of the Palace of Versailles. How much would that cost?"
+            ],
+            [
+                "agent1",
+                "Great choices! The cost for adding a Louvre Museum skip-the-line ticket and a half-day tour of Palace of Versailles to your \"City of Love\" package would be $150 per person.\n\nWith this addition, the total cost of your package for 1 person would be $1,950. \n\nWould you like me to book this package for you?"
+            ],
+            [
+                "agent2",
+                "Yes, that sounds great! Please book this package for me."
+            ],
+            [
+                "agent1",
+                "Wonderful! I'll need some additional information to book your package. Please provide me with the full name, date of birth, and passport number for each traveler. Also, please let me know which airport you will be departing from."
+            ],
+            [
+                "agent2",
+                "Sure! The details are as follows:\n\nTraveler 1:\n- Full name: John Smith\n- Date of Birth: January 1st, 1990\n- Passport number: A1234567\n- Departure airport: JFK International Airport\n\nTraveler 2:\n- Full name: Jane Doe\n- Date of Birth: February 14th, 1992\n- Passport number: B1234567\n- Departure airport: JFK International Airport\n\nPlease let me know if you need any additional information."
+            ],
+            [
+                "agent1",
+                "Thank you for providing the required information. I have booked your package, and you should receive an email confirmation shortly. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you very much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. If you have any further questions or concerns, please don't hesitate to reach out. Have a great day and enjoy your trip to Paris! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "travel_service_type": "domestic",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a domestic travel agency called [agency|Dream Vacations] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic travel agency called [agency|Dream Vacations] and you are talking with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm interested in planning a trip. Can you give me some ideas for a beach vacation within the United States?"
+            ],
+            [
+                "agent1",
+                "Of course, I'd be happy to help! What's your preferred destination and travel dates?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a beach destination in California and I plan to travel from August 15th to the 22nd."
+            ],
+            [
+                "agent1",
+                "Great! California has some amazing beaches. Have you considered [destination|Santa Monica] or [destination|Malibu]? Both are beautiful and offer great beachfront accommodations. \n\nFor your travel dates, we have a [package|7-day vacation package] to Santa Monica or Malibu that includes round-trip airfare and accommodations at a [accommodation|4-star beachfront hotel]. The package also includes a [activities|surfing lesson] and [activities|kayaking tour]. \n\nWould you like more information on this package or would you like me to suggest other options?"
+            ],
+            [
+                "agent2",
+                "That sounds like a great package! Can you give me more information on the hotel?"
+            ],
+            [
+                "agent1",
+                "Of course! The hotel included in the package is the [accommodation|Beachside Resort]. It is a 4-star hotel located right on the beach with stunning views of the Pacific Ocean. The hotel features a pool, hot tub, restaurant, and bar. It has received great reviews from guests and is known for its excellent service and prime location.\n\nIs there anything else you would like to know about the hotel or the package?"
+            ],
+            [
+                "agent2",
+                "No, that sounds perfect! How much does this package cost?"
+            ],
+            [
+                "agent1",
+                "The price of the package is dependent on a few factors such as your departure airport and specific travel dates. Would you like me to check for exact pricing for your travel dates?"
+            ],
+            [
+                "agent2",
+                "Yes, please! That would be helpful."
+            ],
+            [
+                "agent1",
+                "Sure thing! Can you please provide me with your departure airport?"
+            ],
+            [
+                "agent2",
+                "My departure airport is [departure_airport|LAX], Los Angeles International Airport."
+            ],
+            [
+                "agent1",
+                "Thank you! Based on your travel dates and departure airport, the package would cost [budget|$1,500] per person. This includes round-trip airfare, accommodations at the Beachside Resort, surfing lesson, and kayaking tour.\n\nPlease keep in mind that prices are subject to change based on availability and demand, so it's always best to book sooner rather than later to secure your spot and lock in the price.\n\nIs there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can I book this package now or do I need to provide any further details?"
+            ],
+            [
+                "agent1",
+                "I'm glad you like the package! To book the package, I'll need a few more details from you, such as your full name as it appears on your ID, preferred method of payment, and any additional requests or accommodations you may need. \n\nI can take care of the booking process for you over the phone or via email, whichever you prefer. \n\nWhat's your preferred method of communication and how can I best reach you?"
+            ],
+            [
+                "agent2",
+                "I prefer email. You can reach me at [email|johndoe@gmail.com]. \n\nCould you please send me an email with the details and payment options?"
+            ],
+            [
+                "agent1",
+                "Absolutely! I'll send you an email with all the details of the package, payment options, and any additional information you may need. \n\nIf you have any further questions or concerns, please don't hesitate to reach out to me via email or phone. \n\nThank you for choosing [agency|Dream Vacations] and have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you so much for your help! Have a great day too!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Don't hesitate to contact us if you need anything in the future. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "travel_service_type": "international",
+        "travel_agency_name": "Dream Vacations",
+        "agent1": "You are a representative at a international travel agency called [agency|Dream Vacations] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international travel agency called [agency|Dream Vacations] and you are talking with a representative. Either plan a trip or ask questions related to an existing booking. You must replace any situation-specific details with label and value pairs - for example, [destination|Hawaii], [travel dates|July 1st to 10th], [budget|], [accommodation|4-star hotel], [activities|snorkeling], [package|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Dream Vacations. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in planning a trip. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course, I'd be happy to help! Can you tell me a bit more about what you're looking for? Where would you like to go and when?"
+            ],
+            [
+                "agent2",
+                "I'm thinking of going to Europe sometime in August. Maybe for 10-12 days. What do you recommend?"
+            ],
+            [
+                "agent1",
+                "Europe is a fantastic choice for a summer vacation! There are so many amazing destinations to choose from. Some popular options for a 10-12 day trip could include exploring the historic cities of London, Paris, and Rome, or discovering the beauty of Scandinavia with stops in Copenhagen, Oslo, and Stockholm. Another option could be to visit the charming cities of Amsterdam, Brussels, and Berlin. It really depends on your interests and preferences. Would you like me to put together some package options for you to consider?"
+            ],
+            [
+                "agent2",
+                "Yes, that would be great! Could you please provide me with the package options including airfares, accommodations, and activities?"
+            ],
+            [
+                "agent1",
+                "Absolutely! I can prepare some package options for you based on your preferences. Can you please tell me your budget and what type of accommodations you prefer? Do you want to include any specific activities or tours?"
+            ],
+            [
+                "agent2",
+                "Sure thing! My budget is around $4000 and I'd like to stay in 3-star hotels or above. As for activities, I'm interested in exploring the local culture, trying out different cuisines, and visiting popular tourist attractions."
+            ],
+            [
+                "agent1",
+                "Sounds good! Based on your preferences, I would recommend the following package options:\n\n1. London, Paris, and Rome:\n- Roundtrip airfare from [departure_city|New York] to [destination_city|London], [destination_city|Paris], and [destination_city|Rome]\n- Accommodations in 3-star hotels or above for 11 nights\n- Airport transfers\n- Hop-on hop-off tours in each city\n- Admission tickets to popular tourist attractions in each city\n- Total cost: $3800 per person\n\n2. Amsterdam, Brussels, and Berlin:\n- Roundtrip airfare from [departure_city|New York] to [destination_city|Amsterdam], [destination_city|Brussels], and [destination_city|Berlin]\n- Accommodations in 3-star hotels or above for 11 nights\n- Airport transfers\n- City walking tours in each city\n- Admission tickets to popular tourist attractions in each city\n- Total cost: $3900 per person\n\nThese package options include everything you need for a great trip and are within your budget. Let me know if you have any questions or would like to make any changes to the itinerary."
+            ],
+            [
+                "agent2",
+                "Thank you, those packages sound amazing! I think I'll go with the first option to London, Paris, and Rome. How do I proceed with booking this package?"
+            ],
+            [
+                "agent1",
+                "Great choice! To book the package, I will need some additional information from you. Can you please provide me with the following details: \n- Full name of each traveler \n- Dates of birth for each traveler \n- Passport numbers and expiration dates for each traveler \n- Contact information including phone number and email address \n- Preferred payment method \n\nOnce I have this information, I will create a booking for you and send you an email with the confirmation details and payment instructions. Let me know if you have any other questions!"
+            ],
+            [
+                "agent2",
+                "Sure, here's the information you need:\n\nTraveler 1:\nFull Name: [full_name|John Smith]\nDate of Birth: [date_of_birth|January 1, 1985]\nPassport Number: [passport_number|123456789]\nPassport Expiration Date: [expiration_date|December 31, 2025]\n\nTraveler 2:\nFull Name: [full_name|Jane Smith]\nDate of Birth: [date_of_birth|April 1, 1987]\nPassport Number: [passport_number|987654321]\nPassport Expiration Date: [expiration_date|March 31, 2025]\n\nContact Information:\nPhone Number: [phone_number|555-123-4567]\nEmail Address: [email|john.smith@gmail.com]\n\nPreferred Payment Method: Credit Card\n\nLet me know if you need any additional information."
+            ],
+            [
+                "agent1",
+                "Thank you for providing the information. I have created a booking for you for the London, Paris, and Rome package. You will receive an email confirmation shortly with the payment instructions. Please note that a deposit of $500 per person is required to secure the booking, and the remaining balance will be due 30 days before departure. \n\nIf you have any questions or concerns, please don't hesitate to reach out to me. Thank you for choosing Dream Vacations, and I hope you have a wonderful trip!"
+            ],
+            [
+                "agent2",
+                "Thank you so much! I'm really excited for this trip. I'll keep an eye out for the email confirmation and make sure to pay the deposit as soon as possible. Thanks again for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I'm glad I could assist you with planning your trip. If you need anything else, don't hesitate to contact me. Have a great day and safe travels! Goodbye!"
+            ]
+        ]
+    }
+]

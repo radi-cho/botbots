@@ -1,0 +1,1158 @@
+[
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "property_type": "residential",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a residential real estate agency called [agency|Propertunity Group] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the residential real estate agency called [agency|Propertunity Group] and you are chatting online with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Propertunity Group. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in finding a [listing type|buy] property in the [location|beachfront] area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several properties available in the beachfront area. What is your [price range|budget] and [bedroom|bedroom] and [bathroom|bathroom] requirements?"
+            ],
+            [
+                "agent2",
+                "My budget is around [price range|1 million to 1.5 million] and I'm looking for a property with at least [bedroom|3 bedrooms] and [bathroom|2 bathrooms]."
+            ],
+            [
+                "agent1",
+                "Great! We have a few properties that match your criteria. Would you like me to send you some [property|listing] options via email or would you prefer to schedule a [viewing schedule|property viewing]?"
+            ],
+            [
+                "agent2",
+                "I would love to see some [property|listing] options via email first."
+            ],
+            [
+                "agent1",
+                "Sure thing! Can I have your email address so I can send you the listings?"
+            ],
+            [
+                "agent2",
+                "Yes, my email address is [user@email.com]. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I just sent you an email with the [property|listing] options that match your criteria. Please let me know if you have any questions or if you would like to schedule a [viewing schedule|property viewing]."
+            ],
+            [
+                "agent2",
+                "Thank you! I will take a look at the listings and let you know if I have any questions. If I decide to schedule a [viewing schedule|property viewing], how can I do that?"
+            ],
+            [
+                "agent1",
+                "You can schedule a [viewing schedule|property viewing] by replying to the email I sent you or by giving us a call at [agency phone number]. Our agents are available to assist you and answer any questions you may have."
+            ],
+            [
+                "agent2",
+                "Great, thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or if there's anything else I can assist you with, please don't hesitate to reach out. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "property_type": "commercial",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a commercial real estate agency called [agency|Propertunity Group] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the commercial real estate agency called [agency|Propertunity Group] and you are chatting online with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Propertunity Group. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in finding a commercial property for sale in the [location|downtown] area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have a variety of commercial properties for sale in the downtown area. Can you give me some more information about what you're looking for? What type of property are you interested in?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a [property type|retail] space with a minimum of [square footage|1000] square feet. Do you have any listings that match that description?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have some retail spaces available in downtown that meet your requirements. Would you like me to send you a list of available properties?"
+            ],
+            [
+                "agent2",
+                "Yes, please. That would be great!"
+            ],
+            [
+                "agent1",
+                "Sure thing! Can I have your email address so I can send you the list of available properties?"
+            ],
+            [
+                "agent2",
+                "Sure, my email address is [email|john.doe@email.com]."
+            ],
+            [
+                "agent1",
+                "Great, I just sent you an email with a list of available retail spaces in downtown that meet your requirements. Please take a look and let me know if you have any questions or if you would like to schedule a viewing."
+            ],
+            [
+                "agent2",
+                "Thank you! I'll take a look at the list and get back to you if I have any questions or if I'm interested in scheduling a viewing."
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any questions or if you would like to schedule a viewing, feel free to contact me anytime. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "property_type": "residential",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a residential real estate agency called [agency|Propertunity Group] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the residential real estate agency called [agency|Propertunity Group] and you are talking with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in finding a [listing type|buy] property in the [location|Westside] area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! What is your [price range|budget] and how many [bedrooms|bedrooms] and [bathrooms|bathrooms] are you looking for?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a property in the [price range|$500,000-$700,000] range with at least [bedrooms|3] bedrooms and [bathrooms|2] bathrooms. Do you have any listings that match that criteria?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have some listings that match your criteria. Would you like me to send you some information on those properties?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you also let me know if there are any upcoming [viewing schedule|open houses] for those properties?"
+            ],
+            [
+                "agent1",
+                "Certainly! I will send you the information on the properties that match your criteria and also let you know about any upcoming open houses. Can I have your email address to send you the information?"
+            ],
+            [
+                "agent2",
+                "Sure, my email address is [email|johndoe@gmail.com]. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I just sent you an email with the information on the properties that match your criteria and the upcoming open house schedules. Let me know if you have any further questions or if you would like to schedule a viewing."
+            ],
+            [
+                "agent2",
+                "Thank you so much! I will take a look at the information and let you know if I have any questions or if I would like to schedule a viewing."
+            ],
+            [
+                "agent1",
+                "You're welcome! Don't hesitate to reach out if you need any further assistance. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "property_type": "commercial",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a commercial real estate agency called [agency|Propertunity Group] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the commercial real estate agency called [agency|Propertunity Group] and you are talking with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in finding a commercial property for sale in the downtown area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! What type of commercial property are you looking for?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a retail space that can be used as a boutique store. Do you have any listings that match that description?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have some listings that might be of interest to you. Can you provide me with some more details about what you're looking for? For example, what is your price range, and how much square footage do you need?"
+            ],
+            [
+                "agent2",
+                "Sure, my price range is between $500,000 and $1 million, and I'm looking for a space that is around 1,000 to 1,500 square feet."
+            ],
+            [
+                "agent1",
+                "Great! We have a few listings that might be a good fit for you. One option is a [listing type|sale] located at [location|downtown] that is 1,200 square feet and priced at $750,000. It's currently set up as a clothing store, so it could be a great fit for your boutique. Would you like more information about this property?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like more information about that property. Can you tell me more about the location and the condition of the property?"
+            ],
+            [
+                "agent1",
+                "Certainly! The property is located in a prime location in the heart of downtown, with high foot traffic and great visibility. The building is in excellent condition, with modern finishes and plenty of natural light. It also has a large storefront window that would be perfect for displaying your merchandise. Would you like to schedule a viewing of the property?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to schedule a viewing of the property. When is it available for viewing?"
+            ],
+            [
+                "agent1",
+                "I can schedule a viewing for you at your earliest convenience. When would you like to see the property?"
+            ],
+            [
+                "agent2",
+                "I'm available to see the property this Friday at 2 PM. Can we schedule the viewing for that time?"
+            ],
+            [
+                "agent1",
+                "I'm sorry, but that time is already booked. However, I can schedule a viewing for you on Friday at 3 PM. Would that work for you?"
+            ],
+            [
+                "agent2",
+                "Yes, that works for me. Please schedule the viewing for Friday at 3 PM. Thank you!"
+            ],
+            [
+                "agent1",
+                "Great! I have scheduled the viewing for Friday at 3 PM. I will send you an email with all the details, including the address and the name of the agent who will be showing you the property. If you have any other questions in the meantime, please don't hesitate to ask."
+            ],
+            [
+                "agent2",
+                "Thank you so much for your help! I appreciate it."
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. If you have any other questions or if there's anything else I can help you with, just let me know. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "property_type": "residential",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a residential real estate agency called [agency|Propertunity Group] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the residential real estate agency called [agency|Propertunity Group] and you are chatting online with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hi there! Welcome to Propertunity Group. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in finding a [listing type|buy] property in the [location|Los Angeles] area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! What is your [price range|budget] and [bedroom|room] and [bathroom|bath] requirements?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a [price range|$500,000-$700,000] property with at least [bedroom|3] bedrooms and [bathroom|2] bathrooms."
+            ],
+            [
+                "agent1",
+                "Great! We have several properties that meet your criteria. Would you prefer a specific neighborhood in Los Angeles?"
+            ],
+            [
+                "agent2",
+                "Yes, I'm interested in the [neighborhood|Westwood] area."
+            ],
+            [
+                "agent1",
+                "Certainly! We currently have a lovely 3-bedroom, 2-bathroom [property type|house] in the heart of Westwood. The asking price is [$650,000]. Would you like me to schedule a viewing for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please! When is the earliest viewing schedule available?"
+            ],
+            [
+                "agent1",
+                "I can schedule the viewing for tomorrow at 10am. Does that work for you?"
+            ],
+            [
+                "agent2",
+                "Unfortunately, I won't be available tomorrow morning. Do you have any other available viewing schedules?"
+            ],
+            [
+                "agent1",
+                "Sure, how about at 2pm on the same day?"
+            ],
+            [
+                "agent2",
+                "That works for me! Can you send me more details about the property, like its address and some photos?"
+            ],
+            [
+                "agent1",
+                "Absolutely! Can you please provide me with your email address so I can send the details to you?"
+            ],
+            [
+                "agent2",
+                "My email address is [email|johndoe@gmail.com]. Thank you!"
+            ],
+            [
+                "agent1",
+                "Great, I just sent you an email with the address of the property and some photos. Let me know if you have any further questions or if you want to schedule another viewing."
+            ],
+            [
+                "agent2",
+                "Thank you! I just received the email. I'll review the details and let you know if I have any questions or if I want to schedule another viewing. Thanks again for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Let me know if you need any further assistance. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "property_type": "commercial",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a commercial real estate agency called [agency|Propertunity Group] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the commercial real estate agency called [agency|Propertunity Group] and you are chatting online with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Thank you for contacting [agency|Propertunity Group]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in finding a [listing type|rental] property in the [location|downtown] area. Do you have any available?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several rental properties available in the [location|downtown] area. Can you tell me your [price range] and what [bedrooms] and [bathrooms] you are looking for? That way, I can narrow down the search and send you some suitable options."
+            ],
+            [
+                "agent2",
+                "I'm looking for a property with [bedrooms|2] and [bathrooms|1] within the [price range|$1500-$2000]."
+            ],
+            [
+                "agent1",
+                "Great, I have a few options that match your preferences. Here are some listings that are currently available:\n\n1. 123 Main St. - 2 bed, 1 bath - $1,550/month\n2. 456 Oak Ave. - 2 bed, 1 bath - $1,750/month\n3. 789 Elm St. - 2 bed, 1 bath - $1,900/month\n\nWould you like to schedule a viewing for any of these properties?"
+            ],
+            [
+                "agent2",
+                "Yes, I'm interested in seeing the property at [property address|123 Main St.]. When is the soonest I can view the property?"
+            ],
+            [
+                "agent1",
+                "I'm glad to hear that you are interested in the property at [property address|123 Main St.]. We have an open house scheduled for this Saturday between 11am and 2pm. Would that work for you or would you prefer a different day and time?"
+            ],
+            [
+                "agent2",
+                "That works for me! I will be there on Saturday at 11am to view the property at [property address|123 Main St.]. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I have your viewing scheduled for Saturday at 11am at the property located at [property address|123 Main St.]. Please feel free to contact me if you have any questions or if anything changes. Have a great day, and we'll see you on Saturday!"
+            ],
+            [
+                "agent2",
+                "Thank you so much for your help! Have a great day!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you need any further assistance in the future, please don't hesitate to contact us. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "property_type": "residential",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a residential real estate agency called [agency|Propertunity Group] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the residential real estate agency called [agency|Propertunity Group] and you are talking with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I am looking for a [listing type|house] to [buy|purchase] in [location|Seattle]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! What is your [price range|budget] for the house you would like to purchase?"
+            ],
+            [
+                "agent2",
+                "My budget is around [price range|$500,000-$700,000]."
+            ],
+            [
+                "agent1",
+                "Great, we have a variety of options in that price range. How many [bedrooms|bedrooms] and [bathrooms|bathrooms] are you looking for?"
+            ],
+            [
+                "agent2",
+                "I am looking for a house with at least [bedrooms|3] bedrooms and [bathrooms|2] bathrooms."
+            ],
+            [
+                "agent1",
+                "We have several [listing type|houses] that match your criteria. Would you like to schedule a viewing for any of them?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to schedule a viewing for [property|123 Main Street] and [property|456 Elm Street]. When can we schedule the viewings?"
+            ],
+            [
+                "agent1",
+                "Certainly, I can schedule those viewings for you. When would you like to see the properties?"
+            ],
+            [
+                "agent2",
+                "I am available to see the properties [viewing schedule|this Saturday at 10am]."
+            ],
+            [
+                "agent1",
+                "I'll schedule the viewings for [viewing schedule|this Saturday at 10am]. Would you like me to send you the addresses and the details of the properties as well?"
+            ],
+            [
+                "agent2",
+                "Yes, please. That would be great."
+            ],
+            [
+                "agent1",
+                "Sure thing! I will send you an email with all the details of the properties and their addresses. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you very much!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any other questions or concerns, feel free to reach out to me. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "property_type": "commercial",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a commercial real estate agency called [agency|Propertunity Group] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the commercial real estate agency called [agency|Propertunity Group] and you are talking with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Propertunity Group. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm interested in finding a commercial property for sale. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! What type of commercial property are you interested in?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a retail space in the downtown area. Do you have any listings that match that description?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have several listings that might match your requirements. Can you provide me with some more details so I can better assist you? What is your budget for this purchase?"
+            ],
+            [
+                "agent2",
+                "My budget is around $1 million."
+            ],
+            [
+                "agent1",
+                "That's a good budget. We have some properties that might interest you. How many square feet are you looking for?"
+            ],
+            [
+                "agent2",
+                "I would like something around 2,000 to 2,500 square feet."
+            ],
+            [
+                "agent1",
+                "Great. And are you specifically looking for a property that is move-in ready or are you willing to do some renovations before opening your retail store?"
+            ],
+            [
+                "agent2",
+                "I would prefer a property that is move-in ready, but I'm open to doing some minor renovations if needed."
+            ],
+            [
+                "agent1",
+                "Understood. We have a few properties that might be suitable for you. One option is a [property type|mixed-use] building located at [location|downtown], with [listing type|sale] price of [$950,000]. It has approximately [square footage|2,400] square feet and is currently being used as a retail store. It has been recently renovated and is move-in ready. Would you like to schedule a viewing of this property?"
+            ],
+            [
+                "agent2",
+                "That sounds like a good option. Yes, I would like to schedule a viewing. What is the best way to set that up?"
+            ],
+            [
+                "agent1",
+                "Great! To schedule a viewing, I'll need some more information from you. What days and times work best for you?"
+            ],
+            [
+                "agent2",
+                "I am available to view the property on weekdays after 2:00 PM or on weekends."
+            ],
+            [
+                "agent1",
+                "Okay, I will check the availability of the property and get back to you with a few options for viewing. Can you please provide me with your contact information so we can set up a date and time that works for you?"
+            ],
+            [
+                "agent2",
+                "Sure, my name is John Smith and you can reach me at [phone number|555-1234] or [email|john.smith@email.com]."
+            ],
+            [
+                "agent1",
+                "Thank you, John. I will get back to you shortly with some available dates and times that work with your schedule."
+            ],
+            [
+                "agent2",
+                "Great, thank you so much!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to help you. If you have any other questions or requirements, please don't hesitate to let me know."
+            ],
+            [
+                "agent2",
+                "I will do that. Thank you for your help!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "property_type": "residential",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a residential real estate agency called [agency|Propertunity Group] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the residential real estate agency called [agency|Propertunity Group] and you are chatting online with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Propertunity Group. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in finding a [listing type|buy] property in the [location|suburbs] with a [price range|$500,000-$600,000]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several properties that match your criteria. How many [bedrooms|bedrooms] and [bathrooms|bathrooms] are you looking for?"
+            ],
+            [
+                "agent2",
+                "I'm looking for at least [bedrooms|3] bedrooms and [bathrooms|2] bathrooms."
+            ],
+            [
+                "agent1",
+                "Great! We have a few options that match your criteria. One property that might interest you is a beautiful 3-bedroom, 2-bathroom house located in the [location|suburbs] for [price|$550,000]. It has a spacious backyard and a modern kitchen. Would you like to schedule a viewing?"
+            ],
+            [
+                "agent2",
+                "That sounds interesting! Can you tell me more about the property? What's the square footage and the age of the house?"
+            ],
+            [
+                "agent1",
+                "Certainly! The house has a total square footage of [square footage|2,500] and it was built [age|5] years ago. It has a two-car garage and a large living room with a fireplace. The kitchen is fully equipped with modern appliances and has a breakfast bar. The backyard is perfect for outdoor activities and has a patio area for entertaining guests."
+            ],
+            [
+                "agent2",
+                "That sounds great! I would love to schedule a viewing. What are the available dates and times for the viewing?"
+            ],
+            [
+                "agent1",
+                "We have availability for a viewing this [viewing schedule|Saturday] at [time|2:00 PM] or [viewing schedule|Sunday] at [time|11:00 AM]. Which one works best for you?"
+            ],
+            [
+                "agent2",
+                "Sunday at 11:00 AM works for me. Can you please send me the address and any other details I should know before the viewing?"
+            ],
+            [
+                "agent1",
+                "Sure thing! The address is [address|123 Main St, Suburbia]. Please arrive a few minutes early so we can start the viewing on time. Also, please bring a valid ID and wear a mask during the viewing. If you have any other questions, feel free to ask."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I'll make sure to arrive on time and bring my ID and mask. I'm excited to see the property!"
+            ],
+            [
+                "agent1",
+                "You're welcome! We're excited to show you the property. If you have any other questions or concerns, don't hesitate to reach out. Have a great day and we'll see you on Sunday at 11:00 AM. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "property_type": "commercial",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a commercial real estate agency called [agency|Propertunity Group] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the commercial real estate agency called [agency|Propertunity Group] and you are chatting online with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Propertunity Group. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in finding a [listing type|buy] property in the [location|suburbs] of the city. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have a variety of properties available for purchase in the suburbs. Can you provide me with some more information about what you're looking for? What is your [price range|500,000-700,000]? How many [bedrooms|3] and [bathrooms|2] are you looking for?"
+            ],
+            [
+                "agent2",
+                "That sounds great! I'm also interested in a property with a [garage|yes] and a [backyard|yes]. Do you have any listings that match these criteria?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have some properties that match your criteria. I can send you a list of properties that fit your requirements. Can I have your email address to send you the list?"
+            ],
+            [
+                "agent2",
+                "Sure, my email address is [email|johndoe@gmail.com]. Thank you!"
+            ],
+            [
+                "agent1",
+                "Great! I just sent you an email with a list of properties that match your criteria. Please take a look and let me know if you're interested in scheduling a viewing."
+            ],
+            [
+                "agent2",
+                "Thank you! I will take a look at the list and get back to you if I'm interested in scheduling a viewing. Can you also provide me with some information about the neighborhood where these properties are located?"
+            ],
+            [
+                "agent1",
+                "Of course! The neighborhoods where these properties are located are known for their family-friendly atmosphere, great schools, and easy access to parks and recreational areas. They are also conveniently located near shopping centers and restaurants. Would you like me to send you more information about the neighborhoods?"
+            ],
+            [
+                "agent2",
+                "Yes, please! That would be very helpful. Also, do you have any upcoming open houses or viewing schedules for these properties?"
+            ],
+            [
+                "agent1",
+                "I just sent you an email with more information about the neighborhoods. As for the viewing schedule, we can schedule a viewing at your convenience. Please let me know which properties you're interested in and what times work best for you, and I'll coordinate with the sellers to arrange a viewing."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I will take a look at the neighborhoods and get back to you if I have any further questions. As for the viewing schedule, I'm interested in viewing [property address|123 Main St] and [property address|456 Elm St]. I'm available to view the properties on [viewing schedule|Saturday afternoon] or [viewing schedule|Sunday morning]."
+            ],
+            [
+                "agent1",
+                "Great! I will coordinate with the sellers to arrange a viewing for [property address|123 Main St] and [property address|456 Elm St] on [viewing schedule|Saturday afternoon]. I will send you an email with the confirmed viewing schedule and the contact information of the sellers. Please let me know if you have any further questions."
+            ],
+            [
+                "agent2",
+                "Thank you so much! I appreciate your help. I will keep an eye out for your email with the confirmed viewing schedule and the contact information of the sellers."
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. If you have any further questions or if there's anything else I can help you with, please don't hesitate to reach out. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "property_type": "residential",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a residential real estate agency called [agency|Propertunity Group] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the residential real estate agency called [agency|Propertunity Group] and you are talking with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in finding a [listing type|buy] property in the [location|Westside] area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! What is your [price range|budget] for the property? And how many [bedrooms|bedrooms] and [bathrooms|bathrooms] are you looking for?"
+            ],
+            [
+                "agent2",
+                "My budget is around [price range|$800,000-$1,000,000]. I'm looking for a property with at least [bedrooms|3] bedrooms and [bathrooms|2] bathrooms."
+            ],
+            [
+                "agent1",
+                "Great! We have several properties that match your criteria. Would you like me to send you some [viewing schedule|available viewing times] for these properties?"
+            ],
+            [
+                "agent2",
+                "Yes, please! That would be very helpful."
+            ],
+            [
+                "agent1",
+                "Sure thing! I will send you an email with the available viewing times for the properties that match your criteria. In the meantime, do you have any other questions or is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or if you would like to schedule a viewing, please don't hesitate to contact me. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "property_type": "commercial",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a commercial real estate agency called [agency|Propertunity Group] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the commercial real estate agency called [agency|Propertunity Group] and you are talking with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Propertunity Group. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in finding a commercial property for sale in the downtown area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! What type of commercial property are you looking for?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a retail space that can be used as a boutique clothing store."
+            ],
+            [
+                "agent1",
+                "Great! We have a few options available that might fit your needs. What is your price range?"
+            ],
+            [
+                "agent2",
+                "I'm looking for something in the range of $500,000 to $700,000."
+            ],
+            [
+                "agent1",
+                "Okay, we have a few options that fall within that price range. How much square footage are you looking for?"
+            ],
+            [
+                "agent2",
+                "I'm looking for a space that is around 1,000 to 1,500 square feet."
+            ],
+            [
+                "agent1",
+                "We have a few options that might work for you. One of our listings is a [listing type|sale] located at [location|downtown] that is 1,200 square feet and priced at $650,000. It's a great location with high foot traffic and plenty of nearby parking. Would you like more information about this property?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to know more about that property. Can you tell me about the condition of the space and if any renovations are needed?"
+            ],
+            [
+                "agent1",
+                "Certainly! The space is in excellent condition and has been recently renovated. It features hardwood floors, large display windows, and high ceilings. It's move-in ready and would be perfect for a boutique clothing store. Would you like to schedule a viewing of the property?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to schedule a viewing. What are the available viewing times?"
+            ],
+            [
+                "agent1",
+                "I can schedule a viewing for you at your convenience. When would you like to see the property?"
+            ],
+            [
+                "agent2",
+                "How about next Wednesday at 2:00 pm?"
+            ],
+            [
+                "agent1",
+                "I'm sorry, but that time is already booked. However, I can schedule a viewing for you on Thursday at 2:00 pm if that works for you?"
+            ],
+            [
+                "agent2",
+                "Yes, Thursday at 2:00 pm works for me. Can you please confirm the address and provide me with the name of the agent who will be showing me the property?"
+            ],
+            [
+                "agent1",
+                "Certainly! The address is [property address] and the agent who will be showing you the property is named [agent name]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or if you need any assistance in the future, please don't hesitate to contact us. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "property_type": "residential",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a residential real estate agency called [agency|Propertunity Group] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the residential real estate agency called [agency|Propertunity Group] and you are chatting online with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in potentially buying a property in the area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Our agency specializes in residential real estate and we would be happy to assist you with your property search. Are you looking for a specific type of property or in a certain location?"
+            ],
+            [
+                "agent2",
+                "Yes, I'm interested in a single-family home with at least 3 bedrooms and 2 bathrooms in a quiet neighborhood with good schools. Can you help me find something like that?"
+            ],
+            [
+                "agent1",
+                "Absolutely! We have many listings that fit that description. What is your price range for the property?"
+            ],
+            [
+                "agent2",
+                "My price range is around $500,000 to $700,000."
+            ],
+            [
+                "agent1",
+                "Great, we have several options within that price range. What is your preferred location?"
+            ],
+            [
+                "agent2",
+                "I'm open to different areas, but I would prefer something within a 30-minute drive to downtown. Do you have any suggestions?"
+            ],
+            [
+                "agent1",
+                "Yes, we have several listings that fit your criteria. Here are a few options:\n\n1. [address|1234 Maple Street], a 4-bedroom, 2-bathroom home in [neighborhood|Oakwood] with a great school district. The listing price is $650,000.\n\n2. [address|5678 Elm Street], a 3-bedroom, 2-bathroom home in [neighborhood|Willow Creek] with a private backyard and plenty of space for entertaining. The listing price is $550,000.\n\n3. [address|9012 Birch Lane], a 3-bedroom, 2-bathroom home in [neighborhood|Pinehurst] with a spacious living area and a beautiful backyard. The listing price is $625,000.\n\nWould you like me to schedule a viewing for any of these properties?"
+            ],
+            [
+                "agent2",
+                "These options sound great! Before scheduling a viewing, could you please provide me with some more details about the properties? For example, what is the square footage of each property?"
+            ],
+            [
+                "agent1",
+                "Sure! Here are the square footage details for each property:\n\n1. [address|1234 Maple Street] has a total square footage of 2,200 sqft.\n\n2. [address|5678 Elm Street] has a total square footage of 1,800 sqft.\n\n3. [address|9012 Birch Lane] has a total square footage of 2,400 sqft.\n\nDo you have any other questions or would you like me to schedule a viewing for any of these properties?"
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I would like to schedule a viewing for all three properties, if possible. Could you please let me know what the viewing schedule looks like for these properties?"
+            ],
+            [
+                "agent1",
+                "Certainly! I can arrange viewings for all three properties. What day and time would be most convenient for you?"
+            ],
+            [
+                "agent2",
+                "How about next Saturday afternoon? Can you schedule viewings for all three properties in the afternoon, starting at 2 pm?"
+            ],
+            [
+                "agent1",
+                "Yes, I can arrange for viewings of all three properties on Saturday afternoon starting at 2 pm. I will coordinate with the sellers' agents and send you a confirmation email with the addresses and times for each property. \n\nBefore I do that, could you please provide me with your full name and email address?"
+            ],
+            [
+                "agent2",
+                "My name is [full name|John Smith] and my email address is [email|john.smith@email.com]. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! I will send you a confirmation email shortly with all the details for the viewings. If you have any other questions in the meantime, please don't hesitate to ask."
+            ],
+            [
+                "agent2",
+                "Great, I appreciate your help! I will keep an eye out for your email and let you know if I have any other questions. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you need anything else, feel free to reach out to me anytime. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "property_type": "commercial",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a commercial real estate agency called [agency|Propertunity Group] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the commercial real estate agency called [agency|Propertunity Group] and you are chatting online with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Propertunity Group. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm interested in finding a [listing type|commercial property] in the [location|downtown] area. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have a wide selection of commercial properties in downtown. Can you provide me with more details about what you're looking for? This will help me narrow down the options and find the best properties to show you."
+            ],
+            [
+                "agent2",
+                "Sure! I'm looking for a [property type|retail space] with a [price range|$2,000-$3,000] per month and at least [square footage|1,500] square feet. Do you have any properties that fit this criteria?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have several properties that match your criteria! Here are a few options:\n\n1. [Property 1] - Retail space located in the heart of downtown with 1,600 square feet of space. It is priced at $2,500 per month and includes a large storefront window and plenty of foot traffic in the area.\n\n2. [Property 2] - Spacious retail space with 2,000 square feet of space, priced at $2,800 per month. It is located on a busy street and has excellent signage visibility.\n\n3. [Property 3] - Cozy retail space with 1,500 square feet of space, priced at $2,000 per month. It is located in a charming historic building and has a lot of character.\n\nWould you like to schedule a viewing for any of these properties?"
+            ],
+            [
+                "agent2",
+                "These all sound like great options! I'd like to schedule a viewing for [Property 1] and [Property 2]. Is there any availability within the next week?"
+            ],
+            [
+                "agent1",
+                "Yes, we can schedule viewings for both [Property 1] and [Property 2] within the next week. What day and time works best for you? We can coordinate with the property owners to find a time that works well for everyone."
+            ],
+            [
+                "agent2",
+                "How about [preferred date|next Monday] at [preferred time|2pm]? Would that work for both properties?"
+            ],
+            [
+                "agent1",
+                "I'm sorry to inform you that [Property 1] is already booked for a viewing at that time. However, we can schedule a viewing for [Property 2] on [preferred date|next Monday] at [preferred time|2pm]. Would you like to reschedule [Property 1] for another day or time, or would you like me to recommend another property to view instead?"
+            ],
+            [
+                "agent2",
+                "Let's reschedule [Property 1] for another day and time. How about [alternate date|next Wednesday] at [alternate time|11am]?"
+            ],
+            [
+                "agent1",
+                "Great! We have [Property 1] available for viewing on [alternate date|next Wednesday] at [alternate time|11am]. I will confirm with the property owner and send you the details shortly. Is there anything else I can help you with in the meantime?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your assistance in finding these properties and scheduling the viewings. I look forward to seeing both [Property 1] and [Property 2] next week!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. I have scheduled your viewings for [Property 1] on [alternate date|next Wednesday] at [alternate time|11am] and [Property 2] on [preferred date|next Monday] at [preferred time|2pm]. I will send you a confirmation email with all the details shortly. If you have any other questions or concerns, don't hesitate to reach out. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "property_type": "residential",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a residential real estate agency called [agency|Propertunity Group] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the residential real estate agency called [agency|Propertunity Group] and you are talking with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Thank you for contacting Propertunity Group. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm interested in finding a property to rent. Could you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you find a rental property. Can you tell me a bit more about what you're looking for?"
+            ],
+            [
+                "agent2",
+                "Sure. I'm looking for a [listing type|rental] property in the [location|downtown] area. My budget is around [price range|$1500-$2000] per month. I need at least [bedrooms|2] bedrooms and [bathrooms|1] bathroom. Do you have any listings that match my criteria?"
+            ],
+            [
+                "agent1",
+                "Yes, we have several listings that match your criteria. Let me pull up our database and see what we have available right now. How soon are you looking to move in?"
+            ],
+            [
+                "agent2",
+                "I'm looking to move in within the next [move-in timeframe|2 months]."
+            ],
+            [
+                "agent1",
+                "Great! Here are a few options that match your criteria:\n\n1. [Address|123 Main St], 2 bed/1 bath, $1800/month\n2. [Address|456 Elm St], 2 bed/1 bath, $1600/month\n3. [Address|789 Oak St], 2 bed/1 bath, $1700/month\n\nAll of these properties are located in downtown and are available for move-in within the next two months. Would you like to schedule a viewing for any of them?"
+            ],
+            [
+                "agent2",
+                "Those all sound like great options! Can you tell me a bit more about each property? Specifically, what are the square footage and any amenities available?"
+            ],
+            [
+                "agent1",
+                "Certainly! Here are the details for each property:\n\n1. [Address|123 Main St] - 2 bed/1 bath, 900 sq. ft., includes a parking spot and on-site laundry.\n2. [Address|456 Elm St] - 2 bed/1 bath, 800 sq. ft., has a balcony and includes a parking spot.\n3. [Address|789 Oak St] - 2 bed/1 bath, 1000 sq. ft., includes a parking spot and on-site laundry.\n\nAll of these properties have been recently renovated and are in excellent condition. They are all located in great areas of downtown and are within walking distance of shops, restaurants, and public transportation."
+            ],
+            [
+                "agent2",
+                "Thank you for the details! They all seem like great options. I'm interested in viewing the first property, [Address|123 Main St]. Can you let me know when it is available for viewing?"
+            ],
+            [
+                "agent1",
+                "Absolutely! I can schedule a viewing for you at your convenience. When are you available to see the property?"
+            ],
+            [
+                "agent2",
+                "I'm free to see the property this coming [viewing schedule|Saturday] afternoon."
+            ],
+            [
+                "agent1",
+                "Great! I'll schedule a viewing for [date and time|Saturday at 2:00 PM] at [Address|123 Main St]. I'll send you a confirmation email with all the details. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any other questions or need further assistance, feel free to contact me. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "property_type": "commercial",
+        "real_estate_agency_name": "Propertunity Group",
+        "agent1": "You are a representative at a commercial real estate agency called [agency|Propertunity Group] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the commercial real estate agency called [agency|Propertunity Group] and you are talking with a representative. Either search for a property or ask questions related to an existing listing. You must replace any situation-specific details with label and value pairs - for example, [listing type|rent], [location|downtown], [price range|-], [bedrooms|2], [bathrooms|1], [viewing schedule|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hi there! How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm interested in finding a commercial property to lease for my new business. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. Can you give me some more information about what you're looking for? What type of business are you starting and what are your requirements for the property?"
+            ],
+            [
+                "agent2",
+                "Sure, I'm planning to open a small restaurant and I need a space that has a kitchen, dining area, and preferably some outdoor seating. I'm looking for a location in the downtown area with high foot traffic and good visibility. I would need the property to be at least 1200 square feet and I'm open to either renting or purchasing. Do you have any listings that might fit these criteria?"
+            ],
+            [
+                "agent1",
+                "Yes, we have a few listings that might match your needs. One property that comes to mind is a [listing type|lease] located in [location|downtown]. It's a 1300 square foot space with a fully equipped kitchen, dining area, and an outdoor patio with seating for up to 20 people. The location sees high foot traffic and has great visibility from the street. The lease terms are negotiable so we can work with you to find a plan that fits your budget. Would you be interested in scheduling a viewing of this property or would you like to hear about some other options as well?"
+            ],
+            [
+                "agent2",
+                "That sounds like a great option! I would definitely be interested in scheduling a viewing of that property. When is it available for viewing and what documents do I need to prepare?"
+            ],
+            [
+                "agent1",
+                "Great! I'm glad to hear that. The property is available for viewing starting [viewing schedule|next Monday]. To prepare for the viewing, you'll need to bring a valid ID and a proof of income, such as a bank statement or a pay stub. This will help us determine if you meet the financial requirements to lease the property. Would you like me to schedule the viewing for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please schedule the viewing for me on [viewing schedule|next Monday]. Also, can you send me a copy of the lease agreement and any other pertinent documents so I can review them before the viewing?"
+            ],
+            [
+                "agent1",
+                "Absolutely, I'll send you the lease agreement and any other relevant documents via email shortly. In the meantime, I have scheduled the viewing for you on [viewing schedule|next Monday] at [time|10am]. We will meet at the property, so please make sure to bring your ID and proof of income. If you have any other questions or concerns, feel free to reach out to me at any time."
+            ],
+            [
+                "agent2",
+                "Thank you so much! I really appreciate your assistance. I'll be sure to bring those documents with me and let you know if I have any other questions."
+            ],
+            [
+                "agent1",
+                "You're very welcome! I'm glad I could help. If you have any questions or concerns before the viewing, don't hesitate to contact me. I'm here to assist you in any way I can. Have a great day and I'll see you on [viewing schedule|next Monday] at [time|10am]. Goodbye!"
+            ]
+        ]
+    }
+]

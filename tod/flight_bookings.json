@@ -1,0 +1,2150 @@
+[
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "domestic",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a domestic airline called [airline|Fast Airways] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Fast Airways] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|New York] on [departure_date|July 20th] and return on [return date|July 25th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Let me check our available flights for you. Would you prefer a specific time of day for your flights?"
+            ],
+            [
+                "agent2",
+                "No, I don't have any specific time preference. Just looking for the most affordable option."
+            ],
+            [
+                "agent1",
+                "Understood. We have several options available for your travel dates. The most affordable option is our [flight number|FA123] departing from [origin|Los Angeles] at 8:00 AM and arriving at [destination|New York] at 4:00 PM on [departure_date|July 20th]. The return flight is our [flight number|FA456] departing from [destination|New York] at 6:00 AM and arriving at [origin|Los Angeles] at 11:00 AM on [return date|July 25th]. The total cost for this itinerary is [total cost|$450]. Would you like to proceed with this booking?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you please confirm the baggage allowance for this flight?"
+            ],
+            [
+                "agent1",
+                "Certainly! For this flight, you are allowed to bring one carry-on bag and one personal item such as a purse or laptop bag. The carry-on bag should not exceed 22 x 14 x 9 inches (56 x 36 x 23 cm) and the personal item should fit under the seat in front of you. Additionally, you can check up to two bags with a maximum weight of 50 pounds (23 kg) each. Please note that additional fees may apply for checked baggage."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. Can you please confirm my seat selection for this flight?"
+            ],
+            [
+                "agent1",
+                "I'm sorry, but seat selection is not included in the fare for this flight. However, you can select your seat during the booking process for an additional fee. Alternatively, you can wait until check-in opens 24 hours before your flight and select a seat for free, subject to availability."
+            ],
+            [
+                "agent2",
+                "I see. Thank you for letting me know. I would like to proceed with the booking. What are the payment options available?"
+            ],
+            [
+                "agent1",
+                "We accept all major credit cards, including Visa, Mastercard, American Express, and Discover. You can also pay using PayPal. Please note that payment is required at the time of booking to confirm your reservation."
+            ],
+            [
+                "agent2",
+                "Great! I will pay with my Visa credit card. Can you please confirm the booking details one more time before I proceed with the payment?"
+            ],
+            [
+                "agent1",
+                "Sure! Here are the details of your booking:\n\n- Flight from [origin|Los Angeles] to [destination|New York] on [departure_date|July 20th] at 8:00 AM with flight number [flight number|FA123].\n- Return flight from [destination|New York] to [origin|Los Angeles] on [return date|July 25th] at 6:00 AM with flight number [flight number|FA456].\n- Total cost of [total cost|$450].\n- Baggage allowance of one carry-on bag and one personal item, and up to two checked bags with additional fees.\n- Seat selection is not included in the fare.\n\nPlease let me know if everything looks correct."
+            ],
+            [
+                "agent2",
+                "Yes, that's correct. I'm ready to proceed with the payment."
+            ],
+            [
+                "agent1",
+                "Great! I will need your full name as it appears on your credit card, your credit card number, expiration date, and security code (CVV) to process the payment. Please note that we take your privacy and security very seriously and all transactions are encrypted and secure."
+            ],
+            [
+                "agent2",
+                "My full name is [full name|John Smith], my credit card number is [credit card number|1234 5678 9012 3456], the expiration date is [expiration date|12/23], and the security code is [security code|123]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your payment details. I have processed your payment and your booking is now confirmed. You will receive an email with your itinerary and e-ticket shortly. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. Have a great day and enjoy your flight with Fast Airways. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "domestic",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a domestic airline called [airline|Global Airlines] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Global Airlines] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a few questions about an existing reservation I have with [airline|Global Airlines]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'll do my best to assist you. Can you please provide me with your reservation code or flight number so I can pull up your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation code is [reservation_code|ABC123]."
+            ],
+            [
+                "agent1",
+                "Thank you! How may I assist you with your reservation?"
+            ],
+            [
+                "agent2",
+                "I was wondering if it's possible to change the date of my flight. I currently have a flight booked from [origin|New York] to [destination|Paris] on [departure_date|August 1st], but I need to change it to [new_departure_date|August 10th]. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Certainly! I can help you with that. However, please note that changing your flight date may result in a change fee and a fare difference. Would you like me to check the availability and cost for the new date?"
+            ],
+            [
+                "agent2",
+                "Yes, please. That would be great."
+            ],
+            [
+                "agent1",
+                "I have checked the availability and there are flights available on [new_departure_date|August 10th]. The change fee for your ticket is [change_fee|$150] and there is a fare difference of [fare_difference|$75]. Would you like to proceed with the change?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to proceed with the change."
+            ],
+            [
+                "agent1",
+                "Great! I have made the changes to your reservation. Your new flight details are as follows: [origin|New York] to [destination|Paris] on [new_departure_date|August 10th]. Your new reservation code is [new_reservation_code|XYZ789]. The total cost for the change is [total_cost|$225]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or concerns, feel free to contact us again. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "international",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a international airline called [airline|Fast Airways] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Fast Airways] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|London] on [departure_date|July 10th] and return on [return date|July 20th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Let me check our available flights for you. Would you prefer a specific time of day for your flights?"
+            ],
+            [
+                "agent2",
+                "No, I don't have any specific time preference. Just looking for the most convenient option."
+            ],
+            [
+                "agent1",
+                "Great! We have several options available for your travel dates. Here are the flights I recommend:\n\n- Outbound flight: [flight number|FA123] departing from Los Angeles at 10:00 AM and arriving in London at 4:00 PM local time.\n- Inbound flight: [flight number|FA456] departing from London at 6:00 PM and arriving in Los Angeles at 10:00 PM local time.\n\nBoth flights are non-stop and in [seat class|economy] class. The total cost for this itinerary is [total cost|$1200]. Would you like to proceed with this booking?"
+            ],
+            [
+                "agent2",
+                "That sounds good to me! Can you please confirm the baggage allowance for this flight?"
+            ],
+            [
+                "agent1",
+                "Certainly! For this flight, you are allowed to bring one carry-on bag and one personal item with you on board. The carry-on bag must not exceed 22 x 14 x 9 inches (56 x 36 x 23 cm) and the personal item must not exceed 18 x 14 x 8 inches (45 x 35 x 20 cm). Additionally, you are allowed to check in one bag weighing up to 50 pounds (23 kg) for free. Any additional bags or overweight/oversized bags may incur additional fees."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. Can you please confirm my seat assignments for both flights?"
+            ],
+            [
+                "agent1",
+                "Certainly! Your seat assignments for the outbound flight [flight number|FA123] are 23A and 23B, and your seat assignments for the inbound flight [flight number|FA456] are 27C and 27D. If you would like to change your seat assignments, please let me know and I can assist you with that."
+            ],
+            [
+                "agent2",
+                "No, those seats are fine. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Is there anything else I can assist you with today?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you today. Have a great day and safe travels! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "international",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a international airline called [airline|Global Airlines] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Global Airlines] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I have a reservation for a flight from [origin|New York] to [destination|Paris] on [departure_date|July 20th]. I wanted to know if it's possible to change my seat to a window seat."
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. May I have your [reservation_number|ABC123] please?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation number is [reservation_number|ABC123]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have located your reservation. Yes, we can definitely change your seat to a window seat. There is a [seat_change_fee|$25] fee for this change. Would you like me to proceed with the change and charge the fee to the credit card on file?"
+            ],
+            [
+                "agent2",
+                "Yes, please go ahead and change my seat to a window seat. You can charge the fee to the credit card on file. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I have successfully changed your seat to a window seat and charged the [seat_change_fee|$25] fee to the credit card on file. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day and safe travels! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "domestic",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a domestic airline called [airline|Fast Airways] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Fast Airways] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|New York] on [departure_date|July 20th] and return on [return date|July 25th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Let me check our available flights for you. We have several options for you. One of our direct flights from Los Angeles to New York departs at 9:00 AM and arrives at 5:00 PM. The return flight departs at 7:00 AM and arrives at 11:00 AM. Would you like me to book this flight for you?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you please tell me the cost of the flight?"
+            ],
+            [
+                "agent1",
+                "Sure! The total cost for this round-trip flight in [seat class|economy] class is [total cost|$350]."
+            ],
+            [
+                "agent2",
+                "That sounds reasonable. Can you please book the flight for me?"
+            ],
+            [
+                "agent1",
+                "Absolutely! Can you please provide me with your personal information and payment details?"
+            ],
+            [
+                "agent2",
+                "Sure. My name is [passenger_name|John Smith] and my payment details are [payment_details|credit card number: XXXX-XXXX-XXXX-XXXX, expiration date: XX/XX, CVV: XXX]."
+            ],
+            [
+                "agent1",
+                "Thank you, John. I have booked your flight from Los Angeles to New York on July 20th and returning on July 25th. Your flight confirmation number is [flight number|FA123]. You will receive an email with your itinerary and e-ticket shortly. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! Have a great flight and a wonderful trip to New York. If you have any further questions or concerns, please don't hesitate to contact us. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "domestic",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a domestic airline called [airline|Global Airlines] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Global Airlines] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|New York] on [departure_date|October 10th] and return on [return date|October 15th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several flights available on those dates. Would you prefer a morning or evening flight? And what seat class would you like to book?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning flight, and I would like to book an economy class seat."
+            ],
+            [
+                "agent1",
+                "Great! We have a flight departing from [origin|Los Angeles] at 8:00 AM and arriving at [destination|New York] at 4:00 PM on [departure_date|October 10th]. For the return flight, we have a flight departing from [destination|New York] at 10:00 AM and arriving at [origin|Los Angeles] at 2:00 PM on [return date|October 15th]. The total cost for this itinerary is [total cost|$350]. Would you like to proceed with this booking?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Yes, I would like to proceed with this booking."
+            ],
+            [
+                "agent1",
+                "Great! Can I have the passenger's name as it appears on their government-issued ID, please?"
+            ],
+            [
+                "agent2",
+                "Yes, the passenger's name is [passenger_name|John Smith]."
+            ],
+            [
+                "agent1",
+                "Thank you. And can I have your email address and phone number for the booking confirmation and any updates regarding the flight?"
+            ],
+            [
+                "agent2",
+                "Sure, my email address is [email_address|johnsmith@gmail.com] and my phone number is [phone_number|+1-555-123-4567]."
+            ],
+            [
+                "agent1",
+                "Thank you. Your booking is confirmed. Your flight details and e-ticket have been sent to your email address. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great flight with [airline|Global Airlines]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "international",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a international airline called [airline|Fast Airways] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Fast Airways] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|London] on [departure_date|July 10th] and return on [return date|July 20th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Let me check our available flights for you. We have several options for your travel dates. Would you prefer a morning or evening flight? And what seat class would you like to book?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning flight, and I would like to book an economy class seat."
+            ],
+            [
+                "agent1",
+                "Great! We have a morning flight available on July 10th at [departure_time|9:00am] with flight number [flight number|FA123]. The return flight on July 20th is also in the morning at [return_time|11:00am] with flight number [flight number|FA456]. The total cost for this round trip ticket in economy class is [total cost|$800]. Would you like to proceed with the booking?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Yes, I would like to proceed with the booking."
+            ],
+            [
+                "agent1",
+                "Great! Can you please provide me with the passenger's name, date of birth, and passport number?"
+            ],
+            [
+                "agent2",
+                "Sure, the passenger's name is [passenger_name|John Smith], date of birth is [passenger_dob|January 1st, 1990], and passport number is [passport_number|ABC123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for the information. Your booking is now confirmed. Your booking reference number is [booking_reference|FA789]. Please note that you will receive an email with your e-ticket and itinerary shortly. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great trip and thank you for choosing Fast Airways. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "international",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a international airline called [airline|Global Airlines] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Global Airlines] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|London] on [departure_date|June 15th] and return on [return date|June 30th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several flights available on those dates. Would you prefer a morning or evening departure? And what seat class would you like to book?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning departure and an economy seat class."
+            ],
+            [
+                "agent1",
+                "Great! We have a flight available on June 15th departing from [origin|Los Angeles] at 9:00 AM and arriving in [destination|London] at 3:00 PM on June 16th. For the return flight, we have a flight departing from [destination|London] at 11:00 AM on June 30th and arriving in [origin|Los Angeles] at 2:00 PM on the same day. The total cost for this itinerary is [total cost|$800]. Would you like to proceed with this booking?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Yes, I would like to proceed with this booking."
+            ],
+            [
+                "agent1",
+                "Great! Can you please provide me with the passenger's full name, date of birth, and passport number?"
+            ],
+            [
+                "agent2",
+                "Sure, the passenger's name is [passenger_name|John Smith], date of birth is [passenger_dob|January 1st, 1990], and passport number is [passport_number|ABC123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing that information. Your booking is now confirmed. Your flight confirmation number is [flight number|GA123456]. Please note that you will need to check in at least 2 hours prior to your flight's departure time. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great trip and thank you for choosing [airline|Global Airlines]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "domestic",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a domestic airline called [airline|Fast Airways] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Fast Airways] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I am interested in booking a flight from [origin|Los Angeles] to [destination|New York] on [departure_date|October 10th] and returning on [return date|October 15th]. Can you please help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to assist with your booking. Can you please let me know if you have a preferred time of day for your flights? And would you prefer economy or business class?"
+            ],
+            [
+                "agent2",
+                "I'm flexible with the time of day, but I prefer to fly in the morning. Also, I would like to know the fare for both economy and business class, please."
+            ],
+            [
+                "agent1",
+                "Great! For your preferred travel dates, we have flights available in the morning. The fare for economy class is [fare|200 USD] and for business class is [fare|500 USD]. Please note that these fares are subject to change based on availability. Would you like me to book the economy class ticket for you?"
+            ],
+            [
+                "agent2",
+                "Thanks for the information. Can you please tell me what are the differences between the economy and business class?"
+            ],
+            [
+                "agent1",
+                "Certainly! Business class offers additional benefits such as priority check-in, access to our airport lounges, extra legroom, wider seats, and an enhanced dining experience. Additionally, you'll receive a greater baggage allowance and priority boarding."
+            ],
+            [
+                "agent2",
+                "That sounds great! I would like to book the business class ticket, please. Can you confirm the total cost, including all taxes and fees?"
+            ],
+            [
+                "agent1",
+                "Absolutely! The total cost for your round-trip business class ticket is [total_cost|1500 USD], including all taxes and fees. Would you like to go ahead and book this ticket now?"
+            ],
+            [
+                "agent2",
+                "Yes, please! Can you please provide me with the flight details and the payment options?"
+            ],
+            [
+                "agent1",
+                "Sure thing! Your flight details are as follows:\n\n- Departure flight [flight number|FA1234]\n  - Departing from [origin|Los Angeles] at [departure_time|8:00 AM] on [departure_date|October 10th]\n  - Arriving at [destination|New York] at [arrival_time|4:00 PM] on [departure_date|October 10th]\n- Return flight [flight number|FA5678]\n  - Departing from [destination|New York] at [departure_time|6:00 AM] on [return date|October 15th]\n  - Arriving at [origin|Los Angeles] at [arrival_time|12:00 PM] on [return date|October 15th]\n\nFor payment, we accept all major credit cards. You can complete your booking online through our website or over the phone with me. Please let me know which option you would prefer."
+            ],
+            [
+                "agent2",
+                "Thank you for the details. I would like to complete the booking over the phone with you. Can you please provide me with the payment link or the number to call?"
+            ],
+            [
+                "agent1",
+                "Unfortunately, we do not have a payment link. However, I can assist you with the booking and payment over the phone. Please provide your phone number and one of our representatives will call you shortly to complete the booking process."
+            ],
+            [
+                "agent2",
+                "Unfortunately, I am not able to provide my phone number at the moment. Can you please provide me with a number to call?"
+            ],
+            [
+                "agent1",
+                "Sure, you can call our customer service number at [phone_number|1-800-FA-AIRWAYS] to complete your booking. Our representatives will be available to assist you with the process."
+            ],
+            [
+                "agent2",
+                "Thank you for the number. I'll call and complete the booking. Thanks again for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you. If you have any further questions, don't hesitate to contact us. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "domestic",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a domestic airline called [airline|Global Airlines] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Global Airlines] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'm interested in booking a flight from [origin|Los Angeles] to [destination|New York] on [departure_date|August 14th] and returning on [return date|August 18th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course, I'd be happy to assist you with that. Let me check our flight options for those dates. Can you please tell me how many passengers will be traveling and if you have a preferred seat class?"
+            ],
+            [
+                "agent2",
+                "Yes, I'll be traveling alone and I'm looking for an economy class ticket."
+            ],
+            [
+                "agent1",
+                "Great! I have found several options for you. Our earliest flight departs at 7:00 AM and the latest flight departs at 9:30 PM. Would you like me to list the options for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you please list the options for me and their respective prices?"
+            ],
+            [
+                "agent1",
+                "Sure! Here are your flight options and their prices:\n\n- [flight number|GA123] departing at 7:00 AM, arriving at 3:00 PM for [total cost|$250]\n- [flight number|GA456] departing at 10:30 AM, arriving at 6:30 PM for [total cost|$200]\n- [flight number|GA789] departing at 2:00 PM, arriving at 10:00 PM for [total cost|$180]\n- [flight number|GA012] departing at 5:30 PM, arriving at 1:30 AM for [total cost|$150]\n\nKeep in mind that these prices are subject to change and availability. Let me know which option you prefer and I can help you book it."
+            ],
+            [
+                "agent2",
+                "Thank you for providing me with the options. I would like to book the [flight number|GA789] departing at 2:00 PM and arriving at 10:00 PM for [total cost|$180]. Can you please confirm the details of the booking and let me know how I can make the payment?"
+            ],
+            [
+                "agent1",
+                "Certainly! I can confirm that your booking is for one passenger from [origin|Los Angeles] to [destination|New York] on [departure_date|August 14th] at 2:00 PM, returning on [return date|August 18th] at 10:00 PM on [flight number|GA789] in economy class. The total cost for your booking is [total cost|$180].\n\nRegarding payment, we accept major credit cards such as Visa, Mastercard, and American Express, as well as PayPal. You can provide your payment details securely online or over the phone. Which payment method would you prefer?"
+            ],
+            [
+                "agent2",
+                "Thank you for confirming the booking details. I would like to pay using my Visa card. Can I provide the payment details now?"
+            ],
+            [
+                "agent1",
+                "Yes, of course! To process your payment, I'll need your full name as it appears on the card, the card number, the expiration date, and the security code (CVV code) on the back of the card. Please provide these details to me one by one so that I can ensure the accuracy of the information."
+            ],
+            [
+                "agent2",
+                "Sure, my name is [full name|John Smith], my card number is [card number|1234 5678 9012 3456], the expiration date is [expiration date|12/23], and the security code is [CVV code|123]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your payment details. I have successfully processed your payment and your booking is now confirmed. You should receive an email with your itinerary and booking details shortly. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. Have a great day and safe travels! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "international",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a international airline called [airline|Fast Airways] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Fast Airways] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hi there! Welcome to Fast Airways. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hello! I would like to book a flight, please. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to assist you with your booking. Can you please provide me with your travel details such as your origin, destination, travel dates, and preferred cabin class?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to book a one-way flight from [origin|Los Angeles] to [destination|New York] on [departure_date|October 4th] in [seat class|business class]."
+            ],
+            [
+                "agent1",
+                "Great choice! Let me check our available flights for you. We have a direct flight from Los Angeles (LAX) to New York (JFK) on October 4th in Business Class. The flight with [airline|Fast Airways] departs at 7:00 am and arrives at 3:00 pm. The total cost for this flight is [total cost|$900]. Would you like to proceed with this booking?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! I would like to proceed with the booking."
+            ],
+            [
+                "agent1",
+                "Wonderful! To book your flight, I will need your personal information. Can you please provide me with your full name, date of birth, and passport number?"
+            ],
+            [
+                "agent2",
+                "Sure, my name is [full name|John Smith], my date of birth is [date of birth|January 1st, 1990], and my passport number is [passport number|ABC123XYZ456]."
+            ],
+            [
+                "agent1",
+                "Thank you for that information. Your flight from Los Angeles to New York on October 4th in Business Class is now confirmed. Your flight confirmation number is [flight number|FA123]. Please note that your baggage allowance includes 2 pieces of checked baggage and 1 carry-on bag. Is there anything else I can help you with today?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you with your booking. If you have any further questions, please do not hesitate to ask. Have a great day and safe travels! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "international",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a international airline called [airline|Global Airlines] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Global Airlines] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a reservation with [airline|Global Airlines] and I was wondering if I could make a change to it."
+            ],
+            [
+                "agent1",
+                "Sure! I'll be happy to help you with that. Could you please provide me with your reservation code or ticket number so I can access your booking?"
+            ],
+            [
+                "agent2",
+                "Of course, my reservation code is [reservation_code]."
+            ],
+            [
+                "agent1",
+                "Thank you. May I know what changes you would like to make to your reservation?"
+            ],
+            [
+                "agent2",
+                "I would like to change my departure date from [departure_date] to [new_departure_date]. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Certainly! Let me check the availability of flights for your new departure date. Could you also let me know your destination and the airline class you booked?"
+            ],
+            [
+                "agent2",
+                "My destination is [destination] and I booked an economy class ticket."
+            ],
+            [
+                "agent1",
+                "Thank you for the information. I have found a flight available for your new departure date in economy class. The flight number is [flight number] and it departs at [departure_time]. The total cost for the change would be [total_cost]. Would you like to proceed with this change?"
+            ],
+            [
+                "agent2",
+                "Yes, that sounds good to me. How can I proceed with the change?"
+            ],
+            [
+                "agent1",
+                "Great! I can process the change for you. However, please note that there will be a change fee of [change_fee_amount] for this modification to your booking. Would you like to proceed with the change and pay the fee?"
+            ],
+            [
+                "agent2",
+                "Yes, I understand. Please proceed with the change and I will pay the fee."
+            ],
+            [
+                "agent1",
+                "Thank you for confirming. I have made the change to your reservation and sent you the new itinerary and booking reference via email. You can proceed to pay the change fee online through the link provided in the email. Please make sure to complete the payment within the next 24 hours to secure your new flight reservation.\n\nIs there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure assisting you today. If you have any further questions or concerns, please don't hesitate to contact us again. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "domestic",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a domestic airline called [airline|Fast Airways] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Fast Airways] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Fast Airways! How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to book a flight from [origin|Los Angeles] to [destination|New York] on [departure_date|July 10th] and return on [return date|July 15th]."
+            ],
+            [
+                "agent1",
+                "Great! We have multiple flights available on those dates. Can you please let me know if you have a preference for a specific time of day to depart or return?"
+            ],
+            [
+                "agent2",
+                "Yes, I would prefer a morning departure from Los Angeles and an evening return from New York."
+            ],
+            [
+                "agent1",
+                "I see. We have a flight at [departure_time|8:00am] that departs from Los Angeles and arrives in New York at [arrival_time|3:00pm]. For the return, we have a flight at [return_time|7:00pm] that departs from New York and arrives in Los Angeles at [arrival_time|10:00pm]. How does that sound?"
+            ],
+            [
+                "agent2",
+                "That sounds good to me. Can you please tell me the cost for this itinerary?"
+            ],
+            [
+                "agent1",
+                "Sure, the total cost for your itinerary is [total_cost|$350] in the economy class. However, if you would like to upgrade to premium economy or business class, I can check the availability and provide you with the updated cost."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. I would like to go with economy class for this trip. Can you please confirm the details of my itinerary and let me know the next steps to finalize the booking?"
+            ],
+            [
+                "agent1",
+                "Absolutely. Your itinerary is as follows:\n\n- Departure flight: [flight number|FA123] on [departure_date|July 10th] departing from Los Angeles at [departure_time|8:00am] and arriving in New York at [arrival_time|3:00pm].\n- Return flight: [flight number|FA456] on [return date|July 15th] departing from New York at [return_time|7:00pm] and arriving in Los Angeles at [arrival_time|10:00pm].\n\nTo finalize your booking, I will need your personal information such as your full name, date of birth, and payment information. Would you like me to assist you with that?"
+            ],
+            [
+                "agent2",
+                "Yes please, I would appreciate your help with that."
+            ],
+            [
+                "agent1",
+                "Great! Can you please provide me with your full name as it appears on your government-issued ID, your date of birth, and your preferred method of payment?"
+            ],
+            [
+                "agent2",
+                "Sure, my name is [full_name|John Smith], my date of birth is [date_of_birth|January 1, 1990], and I would like to pay with my [payment_method|Visa] card."
+            ],
+            [
+                "agent1",
+                "Thank you, John. I have your information here. Before we proceed with the payment, I need to inform you that we charge a small fee for using a credit card. The fee is [fee_amount|$10] for the entire booking. Is that ok with you? Also, can you please provide me with the credit card number, expiration date, and CVV code?"
+            ],
+            [
+                "agent2",
+                "Yes, the fee is alright with me. My credit card number is [credit_card_number|1234 5678 9012 3456], the expiration date is [expiration_date|12/24], and the CVV code is [cvv_code|123]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your payment information. I have successfully processed your payment and your booking is now confirmed. You will receive an email with your itinerary details shortly. Is there anything else I can assist you with today?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! It was my pleasure assisting you today. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day and safe travels! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "domestic",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a domestic airline called [airline|Global Airlines] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Global Airlines] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello, welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to book a flight from [origin|Los Angeles] to [destination|New York] on [departure_date|November 20th] and return on [return date|November 28th]. Can you please help me with the available flights and prices?"
+            ],
+            [
+                "agent1",
+                "Sure thing! We have several flights available on those dates. Would you prefer a morning or evening flight? And which class would you like to travel in?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning flight and an economy class ticket. How much will it cost me?"
+            ],
+            [
+                "agent1",
+                "Great choice! We have a few morning flights available on those dates. The total cost for an economy class ticket from [origin|Los Angeles] to [destination|New York] for the dates you mentioned would be [total cost|$300]. Would you like to proceed with the booking?"
+            ],
+            [
+                "agent2",
+                "That sounds like a good deal. Before I proceed, can you please confirm the name of the airline, flight number, and departure time?"
+            ],
+            [
+                "agent1",
+                "Certainly. The airline is [airline|Global Airlines] and the flight number is [flight number|GA123]. The departure time is at 8:30 am from [origin|Los Angeles]."
+            ],
+            [
+                "agent2",
+                "Thanks for confirming. Can you please reserve a window seat for me?"
+            ],
+            [
+                "agent1",
+                "Sure, I can reserve a window seat for you. May I have your full name, please?"
+            ],
+            [
+                "agent2",
+                "My full name is John Smith."
+            ],
+            [
+                "agent1",
+                "Thank you, [full name|John Smith]. I have confirmed your booking for a window seat on the [airline|Global Airlines] flight number [flight number|GA123] departing at 8:30 am on [departure_date|November 20th] from [origin|Los Angeles] and arriving at [destination|New York]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's it. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [full name|John Smith]. Have a great flight and enjoy your trip to [destination|New York]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "international",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a international airline called [airline|Fast Airways] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Fast Airways] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hello! I am interested in booking a flight from [origin|New York] to [destination|Paris] for [departure_date|August 1st] and returning on [return date|August 15th]. Can you help me find a suitable flight?"
+            ],
+            [
+                "agent1",
+                "Sure, I'd be happy to help you with that. May I know if you have any specific time preference for the flights?"
+            ],
+            [
+                "agent2",
+                "Yes, ideally I would like to depart New York in the morning and arrive in Paris in the early evening. For the return flight, I would prefer a late afternoon or early evening departure from Paris and arrive in New York in the evening."
+            ],
+            [
+                "agent1",
+                "I see. I have some great options available for you. We have a direct flight from [origin|New York] to [destination|Paris] that departs at 8:00 AM and arrives at 9:35 PM. For the return flight, we have a direct flight that departs at 4:30 PM and arrives at 7:50 PM. Would you like me to book this itinerary for you?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Yes, please go ahead and book this itinerary for me."
+            ],
+            [
+                "agent1",
+                "Great! May I know how many passengers are traveling with you? And what is the preferred class of travel?"
+            ],
+            [
+                "agent2",
+                "There will be two passengers traveling. We would like to book economy class seats."
+            ],
+            [
+                "agent1",
+                "Sure. I have booked two economy class seats for you on the flights you mentioned. The total cost for both tickets would be [total cost| $1200]. May I know the names of the passengers, please?"
+            ],
+            [
+                "agent2",
+                "The names of the passengers are [passenger1_name|John Smith] and [passenger2_name|Mary Smith]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have successfully booked your tickets. Your booking reference number is [booking_number|FA123456]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help in booking my flight. Have a great day!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. Thank you for choosing Fast Airways. Have a great flight! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "international",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a international airline called [airline|Global Airlines] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Global Airlines] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure_date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Global Airlines. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a round-trip flight from [origin|Los Angeles] to [destination|New York] for [departure_date|October 15th] and returning on [return date|October 20th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several flights available for those dates. Would you prefer a specific time of day for your flights?"
+            ],
+            [
+                "agent2",
+                "I would prefer morning flights for both departure and return."
+            ],
+            [
+                "agent1",
+                "Great! Here are some options for you:\n\nDeparture from [origin|Los Angeles] on October 15th:\n- [flight number|GA123] departing at 7:00 AM and arriving at 3:00 PM\n- [flight number|GA456] departing at 9:00 AM and arriving at 5:00 PM\n\nReturn from [destination|New York] on October 20th:\n- [flight number|GA789] departing at 8:00 AM and arriving at 3:00 PM\n- [flight number|GA012] departing at 10:00 AM and arriving at 5:00 PM\n\nPlease let me know which flights you would like to book, and in which seat class you prefer to travel."
+            ],
+            [
+                "agent2",
+                "I would like to book the following flights, please:\n\n- [flight number|GA456] departing from [origin|Los Angeles] on October 15th at 9:00 AM and arriving at [destination|New York] at 5:00 PM in [seat class|economy]\n- [flight number|GA789] departing from [destination|New York] on October 20th at 8:00 AM and arriving at [origin|Los Angeles] at 3:00 PM in [seat class|economy] \n\nCan you please confirm the total cost for this booking?"
+            ],
+            [
+                "agent1",
+                "Sure, let me check that for you. The total cost for the booking is [total cost|$550] in economy class. \n\nWould you like to proceed with the booking?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to proceed with the booking. What details do you need from me?"
+            ],
+            [
+                "agent1",
+                "Great! To proceed with the booking, I need the following information:\n\n- Full name(s) of the passenger(s)\n- Date of birth for each passenger\n- Passport number and expiration date (for international flights)\n- Contact information (email and phone number)\n- Payment information (credit card number, expiration date, and security code)\n\nPlease provide me with this information so we can proceed with the booking."
+            ],
+            [
+                "agent2",
+                "Sure, here are the details:\n\n- Full name: [passenger_name|John Doe]\n- Date of birth: [passenger_dob|January 1, 1990]\n- Passport number and expiration date: [passport_number|123456789], [passport_expiration|December 31, 2025]\n- Contact information: [email|johndoe@example.com], [phone_number|+1 123-456-7890]\n- Payment information: [credit_card_number|1234 5678 9012 3456], [expiration_date|12/24], [security_code|123]\n\nPlease let me know if you need any additional information."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your details. I have processed your booking and your payment has been accepted. Your booking confirmation number is [booking_confirmation|GA789123]. \n\nYou will receive an email with your e-ticket and itinerary shortly. Please review the details and let us know if you have any questions or concerns. \n\nThank you for choosing Global Airlines. Have a great flight!"
+            ],
+            [
+                "agent2",
+                "Thank you for your help! Have a great day!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great day too! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "domestic",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a domestic airline called [airline|Fast Airways] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Fast Airways] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to book a flight from [origin|Los Angeles] to [destination|New York] on [departure date|July 10th] and return on [return date|July 15th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Let me check our available flights for you. What is your preferred departure time and seat class?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning departure and an [seat class|economy] seat."
+            ],
+            [
+                "agent1",
+                "Great! We have a flight departing from Los Angeles to New York on July 10th at 8:00 AM with a layover in Chicago. The return flight departs from New York on July 15th at 10:00 AM with a layover in Dallas. The total cost for this itinerary is [total cost|$450]. Would you like to proceed with the booking?"
+            ],
+            [
+                "agent2",
+                "That sounds good to me. Can you please confirm the flight numbers for both the departure and return flights?"
+            ],
+            [
+                "agent1",
+                "Sure! The flight number for the departure flight from Los Angeles to Chicago is FA123 and the flight number for the connecting flight from Chicago to New York is FA456. The flight number for the return flight from New York to Dallas is FA789 and the flight number for the connecting flight from Dallas to Los Angeles is FA012."
+            ],
+            [
+                "agent2",
+                "Thank you for confirming. I would like to proceed with the booking. What information do you need from me?"
+            ],
+            [
+                "agent1",
+                "Great! To book your flight, I will need the following information:\n\n1. Full name of the passenger(s) as it appears on the government-issued ID.\n2. Date of birth of the passenger(s).\n3. Contact information, including email and phone number.\n4. Payment information.\n\nPlease note that we accept all major credit cards."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. Here is the information you requested:\n\n1. Full name: [passenger name|John Smith]\n2. Date of birth: [passenger DOB|January 1st, 1990]\n3. Contact information: [email|johnsmith@email.com], [phone number|555-123-4567]\n4. Payment information: [credit card type|Visa], [credit card number|**** **** **** 1234], [expiration date|12/23], [CVV|123]\n\nPlease let me know if you need any further information."
+            ],
+            [
+                "agent1",
+                "Thank you for providing the information. I have successfully booked your flight from Los Angeles to New York on July 10th and return on July 15th. You will receive a confirmation email shortly with your itinerary and e-ticket. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great flight with Fast Airways. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "domestic",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a domestic airline called [airline|Global Airlines] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Global Airlines] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a few questions about an existing reservation I have with [airline|Global Airlines]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'll do my best to assist you. Can you please provide me with your reservation code or flight number so I can access your booking?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation code is [reservation code|ABC123]."
+            ],
+            [
+                "agent1",
+                "Thank you! How can I assist you with your reservation?"
+            ],
+            [
+                "agent2",
+                "I was wondering if it's possible to change the departure date of my flight. Is that something you can help me with?"
+            ],
+            [
+                "agent1",
+                "Certainly! Can you please provide me with your current departure date and the new date you would like to change it to?"
+            ],
+            [
+                "agent2",
+                "My current departure date is [current departure date|July 20th] and I would like to change it to [new departure date|July 25th]."
+            ],
+            [
+                "agent1",
+                "I see. Let me check if we have availability on the new date you want. Can you please provide me with your flight number and the origin and destination of your trip?"
+            ],
+            [
+                "agent2",
+                "Sure, my flight number is [flight number|GA123] and the origin is [origin|New York] while the destination is [destination|Los Angeles]."
+            ],
+            [
+                "agent1",
+                "Thank you. I have checked and there is availability on the new date you want. However, please note that there may be a difference in fare between your original booking and the new date you want. Would you like me to proceed with the change and provide you with the new fare?"
+            ],
+            [
+                "agent2",
+                "Yes, please proceed with the change and let me know the new fare."
+            ],
+            [
+                "agent1",
+                "Great! I have made the change to your reservation and the new fare is [new fare|$350]. Please note that this is subject to change until the booking is confirmed. Do you want me to confirm the change and send you the updated itinerary?"
+            ],
+            [
+                "agent2",
+                "Yes, please confirm the change and send me the updated itinerary. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! I have confirmed the change and sent the updated itinerary to your email address on file. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or concerns, don't hesitate to contact us again. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "international",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a international airline called [airline|Fast Airways] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Fast Airways] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|London] on [departure date|June 15th] and return on [return date|June 30th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Let me check our available flights for you. Would you prefer a specific time of day for your flights?"
+            ],
+            [
+                "agent2",
+                "No, I don't have any specific time preference. Just looking for the most affordable option."
+            ],
+            [
+                "agent1",
+                "Understood. We have several options available for your requested dates. The most affordable option is our [flight number|FA123] departing from [origin|Los Angeles] on [departure date|June 15th] at 10:00 PM and arriving in [destination|London] on [arrival date|June 16th] at 4:00 PM. The return flight is our [flight number|FA456] departing from [destination|London] on [return date|June 30th] at 8:00 AM and arriving in [origin|Los Angeles] on the same day at 12:00 PM. The total cost for this itinerary is [total cost|$850]. Would you like to book this flight?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you please confirm the baggage allowance for this flight?"
+            ],
+            [
+                "agent1",
+                "Certainly! For this flight, the baggage allowance for economy class passengers is one checked bag weighing up to 23 kg (50 lbs) and one carry-on bag weighing up to 7 kg (15 lbs). Additional baggage or overweight baggage may incur additional fees."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I would like to proceed with the booking. What are the payment options available?"
+            ],
+            [
+                "agent1",
+                "We accept all major credit cards, including Visa, Mastercard, American Express, and Discover. You can also pay using PayPal or Apple Pay. Which payment method would you like to use?"
+            ],
+            [
+                "agent2",
+                "I would like to pay using my Visa credit card. Can you please provide me with the payment link?"
+            ],
+            [
+                "agent1",
+                "Certainly! I will send you a secure payment link to the email address you provided during the booking process. Please check your email and follow the instructions to complete the payment. Once the payment is confirmed, you will receive an email with your e-ticket and all the details of your itinerary. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. Have a great trip and please don't hesitate to contact us if you need any further assistance. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "international",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a international airline called [airline|Global Airlines] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Global Airlines] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I have a reservation for a flight from [origin|New York] to [destination|Paris] on [departure date|July 20th]. I wanted to know if it's possible to change my seat to a window seat."
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you with that. May I have your [flight number|ABC123] and your name, please?"
+            ],
+            [
+                "agent2",
+                "Sure, my name is John Smith and my flight number is ABC123."
+            ],
+            [
+                "agent1",
+                "Thank you, John. Let me check our system. Yes, I see that you have a reservation for a [seat class|economy] seat. I can definitely help you change your seat to a window seat. Would you prefer a specific row or section of the plane?"
+            ],
+            [
+                "agent2",
+                "No, any window seat would be great. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! I have successfully changed your seat to a window seat. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John! It was my pleasure assisting you. Have a great flight with [airline|Global Airlines]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "domestic",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a domestic airline called [airline|Fast Airways] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Fast Airways] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello, welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to book a flight from [origin|Los Angeles] to [destination|New York] on [departure date|July 20th] and return on [return date|July 25th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course, I'd be happy to help you with that. Can you please tell me if you have a preferred departure time and if you have any flexibility with your return date?"
+            ],
+            [
+                "agent2",
+                "Yes, I would prefer a morning departure from Los Angeles and an evening return from New York. As for the return date, I'm afraid I don't have any flexibility as I need to be back on July 25th."
+            ],
+            [
+                "agent1",
+                "Understood. I have found a few options for you. For the outbound flight, we have a non-stop flight departing at 8:00 am and arriving in New York at 4:00 pm. For the return flight, we have a non-stop flight departing at 7:00 pm and arriving in Los Angeles at 10:00 pm. Would you like me to book this itinerary for you?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you please tell me the total cost for this itinerary?"
+            ],
+            [
+                "agent1",
+                "Sure, the total cost for this itinerary in [seat class|economy] is [total cost|$450]."
+            ],
+            [
+                "agent2",
+                "That sounds good. Can you please book this itinerary for me?"
+            ],
+            [
+                "agent1",
+                "Absolutely. Can you please provide me with the passenger's name, date of birth, and any frequent flyer number if applicable?"
+            ],
+            [
+                "agent2",
+                "Yes, the passenger's name is [passenger name|John Smith], date of birth is [date of birth|January 1st, 1990], and there is no frequent flyer number."
+            ],
+            [
+                "agent1",
+                "Great, I have booked the itinerary for [passenger name|John Smith] on the requested dates. Your confirmation number is [confirmation number|ABC123]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great day and safe travels. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "domestic",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a domestic airline called [airline|Global Airlines] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Global Airlines] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|New York] on [departure date|July 20th] and return on [return date|July 25th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several flights available on those dates. Would you prefer a morning or evening flight? And what seat class would you like to book?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning flight, and I would like to book an economy class seat."
+            ],
+            [
+                "agent1",
+                "Great! We have a flight departing from [origin|Los Angeles] at 8:00 AM and arriving at [destination|New York] at 4:00 PM on [departure date|July 20th]. The return flight departs from [destination|New York] at 10:00 AM and arrives at [origin|Los Angeles] at 2:00 PM on [return date|July 25th]. The total cost for this itinerary is [total cost|$350]. Would you like to proceed with this booking?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Yes, I would like to proceed with this booking."
+            ],
+            [
+                "agent1",
+                "Great! Can I have the passenger's name as it appears on their government-issued ID, please?"
+            ],
+            [
+                "agent2",
+                "Yes, the passenger's name is [passenger name|John Smith]."
+            ],
+            [
+                "agent1",
+                "Thank you. And can I have your email address and phone number for the booking confirmation and any updates regarding the flight?"
+            ],
+            [
+                "agent2",
+                "Sure, my email address is [email|johnsmith@gmail.com] and my phone number is [phone number|+1-555-123-4567]."
+            ],
+            [
+                "agent1",
+                "Thank you. Your booking is confirmed. Your flight itinerary and booking confirmation have been sent to your email address. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great day and safe travels. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "international",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a international airline called [airline|Fast Airways] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Fast Airways] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight from [origin|Los Angeles] to [destination|London] on [departure date|June 15th] and return on [return date|June 30th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several flights available on those dates. Can you please tell me how many passengers will be traveling and in which [seat class|economy/business/first] you would like to travel?"
+            ],
+            [
+                "agent2",
+                "I will be traveling alone and I would like to travel in [seat class|economy]."
+            ],
+            [
+                "agent1",
+                "Great! I have found a few options for you. The most affordable option is our direct flight on [flight number|FA123] departing from Los Angeles at 8:00 PM and arriving in London at 2:00 PM the following day. The return flight is also direct on [flight number|FA456] departing from London at 4:00 PM and arriving in Los Angeles at 7:00 PM the same day. The total cost for this itinerary is [total cost|$800]. Would you like to book this flight?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Yes, I would like to book this flight."
+            ],
+            [
+                "agent1",
+                "Great! I will need some information to complete your booking. Can you please provide me with your full name, date of birth, and passport number?"
+            ],
+            [
+                "agent2",
+                "Sure. My full name is [full name|John Smith], my date of birth is [date of birth|January 1st, 1990], and my passport number is [passport number|ABC123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for providing that information. Your flight is now booked. You will receive a confirmation email with your itinerary and booking details. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great trip and feel free to contact us if you need any further assistance. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "international",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a international airline called [airline|Global Airlines] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Global Airlines] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to book a flight from [origin|Los Angeles] to [destination|London] on [departure date|June 15th] and return on [return date|June 30th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several flights available on those dates. Would you prefer a morning or evening departure? And what is your preferred seat class?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning departure and an economy seat class."
+            ],
+            [
+                "agent1",
+                "Great! We have a flight available on June 15th departing from [origin|Los Angeles] at 9:00 AM and arriving in [destination|London] at 3:00 PM local time. The return flight is on June 30th departing from [destination|London] at 11:00 AM and arriving in [origin|Los Angeles] at 2:00 PM local time. The total cost for this itinerary is [total cost|$800]. Would you like to proceed with the booking?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Yes, I would like to proceed with the booking."
+            ],
+            [
+                "agent1",
+                "Great! Can you please provide me with the full name, date of birth, and passport number of the passenger(s)?"
+            ],
+            [
+                "agent2",
+                "Sure, the passenger's name is [full name|John Smith], date of birth is [date of birth|January 1st, 1990], and passport number is [passport number|ABC123456]."
+            ],
+            [
+                "agent1",
+                "Thank you for the information. Your booking is now confirmed. Your flight confirmation number is [flight number|GA123456]. Please note that you will need to check in at least 2 hours prior to your departure time. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great flight with [airline|Global Airlines]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "domestic",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a domestic airline called [airline|Fast Airways] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Fast Airways] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hello! I have a question about an existing reservation. Can you please help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course, I'll be happy to help you with that. Can you please provide me with your reservation code?"
+            ],
+            [
+                "agent2",
+                "Sure, my reservation code is ABC123."
+            ],
+            [
+                "agent1",
+                "Thank you. How may I assist you with your reservation?"
+            ],
+            [
+                "agent2",
+                "I would like to know if it is possible to change the departure date of my flight."
+            ],
+            [
+                "agent1",
+                "Sure, I can check that for you. Can you please tell me your current departure date and the new departure date that you have in mind?"
+            ],
+            [
+                "agent2",
+                "My current departure date is [departure date|August 1st] and I would like to change it to [new departure date|August 5th]."
+            ],
+            [
+                "agent1",
+                "Thank you for that information. I have checked and I see that we have available flights on [new departure date|August 5th]. However, please note that changing your departure date may result in a change in your fare and you may be charged a fee. Would you like me to proceed with changing your departure date?"
+            ],
+            [
+                "agent2",
+                "Thanks for letting me know. I understand that there may be additional fees and changes in the fare. Before proceeding, can you please let me know how much the fee would be and if there are any changes in the fare?"
+            ],
+            [
+                "agent1",
+                "Certainly, let me check that for you. The change fee for your flight is [change fee|$75]. The fare difference will depend on the availability of flights on the new departure date. Would you like me to check the fare difference for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please. That would be helpful."
+            ],
+            [
+                "agent1",
+                "I have checked the fares and I see that the fare difference for changing your departure date from [departure date|August 1st] to [new departure date|August 5th] is [fare difference|$120]."
+            ],
+            [
+                "agent2",
+                "Thanks for the information. It seems reasonable to me. Can you please go ahead and make the changes to my reservation?"
+            ],
+            [
+                "agent1",
+                "Sure, I can make the changes for you. I have successfully changed your departure date from [departure date|August 1st] to [new departure date|August 5th] and the fare difference is [fare difference|$120] along with a change fee of [change fee|$75]. So, the total amount due is [total cost|$195]. You will receive an email confirming the changes made to your reservation. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! If you have any further questions or concerns, please don't hesitate to contact us again. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "domestic",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a domestic airline called [airline|Global Airlines] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Global Airlines] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Thank you for contacting [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I have a few questions regarding an existing reservation. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'll do my best to assist you. Please provide me with your reservation code, and I'll take a look at your booking."
+            ],
+            [
+                "agent2",
+                "Sure thing. My reservation code is [reservation code|ABC123]."
+            ],
+            [
+                "agent1",
+                "Thank you! How may I assist you with your reservation, [user name|Sir/Madam]?"
+            ],
+            [
+                "agent2",
+                "I was wondering if it's possible to change my flight to an earlier time. My current flight is on [departure date|August 10th] at 3 PM, but I would like to change it to a flight on the same day, but at 11 AM. Is that possible?"
+            ],
+            [
+                "agent1",
+                "Let me check for you, [user name|Sir/Madam]. Can you please provide me with your flight number and departure and arrival airports?"
+            ],
+            [
+                "agent2",
+                "My flight number is [flight number|GA123], and the departure airport is [origin|New York], while the arrival airport is [destination|Los Angeles]."
+            ],
+            [
+                "agent1",
+                "Thank you for the information. I have checked the availability for the flight you are requesting, and there is availability for the 11 AM flight on August 10th. However, please note that there may be an additional fee to change your flight. Would you like me to make the change for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please! I would like to change my flight to the 11 AM flight on August 10th. How much is the fee?"
+            ],
+            [
+                "agent1",
+                "The fee to change your flight will depend on the fare rules of your original ticket. Please allow me to check that for you. What is your ticket number, please?"
+            ],
+            [
+                "agent2",
+                "I'm not sure about the ticket number. Is there any other information that you need from me to find out the fare rules?"
+            ],
+            [
+                "agent1",
+                "Sure! Can you please provide me with your full name and the email address used to make the reservation?"
+            ],
+            [
+                "agent2",
+                "Sure thing! My full name is [full name|John Smith], and the email address used to make the reservation is [email|john.smith@example.com]."
+            ],
+            [
+                "agent1",
+                "Thank you for that information, [user name|Sir/Madam]. I have found your reservation, and it looks like the fare rules of your ticket allow for changes, but there may be a difference in fare. The change fee will be $50, and the fare difference will be $75. Do you want me to proceed with the change?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to proceed with the change. Please let me know the total cost of the change, and how can I make the payment."
+            ],
+            [
+                "agent1",
+                "The total cost of the change will be $125. You can make the payment with the same payment method used to make the original reservation, or you can provide me with a new payment method. What is your preferred payment method?"
+            ],
+            [
+                "agent2",
+                "I would like to use the same payment method that I used to make the original reservation. How can I finalize the payment?"
+            ],
+            [
+                "agent1",
+                "To make the payment, I will just need to confirm the details of the card you used to make the reservation. Can you please provide me with the last four digits of the card number and the expiration date?"
+            ],
+            [
+                "agent2",
+                "Sure thing! The last four digits of the card number are [last 4 digits], and the expiration date is [expiration date]."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "international",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a international airline called [airline|Fast Airways] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Fast Airways] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I'm interested in booking a flight. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! I'd be happy to help you book a flight. Where are you planning to go and when?"
+            ],
+            [
+                "agent2",
+                "I'm planning to fly from [origin|Toronto] to [destination|London] on [departure date|October 10th] and return on [return date|October 20th]. Can you please let me know what options are available?"
+            ],
+            [
+                "agent1",
+                "Sure, let me check our system for available flights on those dates. Could you please tell me if you have a preferred departure time?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning departure, if possible."
+            ],
+            [
+                "agent1",
+                "Great! We have a morning departure at [departure time|8:00 am] on [flight number|FA123] with a layover in [layover city|New York] and then a direct flight to London. The return flight is in the evening at [return time|6:00 pm] on [flight number|FA456] with a layover in [layover city|New York] and then direct flight to Toronto. \n\nThe total cost for this roundtrip flight in the [seat class|economy] is [total cost|$900]. Would you like to book this flight?"
+            ],
+            [
+                "agent2",
+                "That sounds good to me! Could you please confirm the details of my itinerary - [origin|Toronto] to [destination|London] on [departure date|October 10th] at [departure time|8:00 am], returning on [return date|October 20th] at [return time|6:00 pm] on [flight number|FA456]?"
+            ],
+            [
+                "agent1",
+                "Absolutely! I have confirmed the following details for your itinerary:\n\n- Departing from [origin|Toronto] to [destination|London] on [departure date|October 10th] at [departure time|8:00 am] on [flight number|FA123] with a layover in [layover city|New York].\n\n- Returning from [destination|London] to [origin|Toronto] on [return date|October 20th] at [return time|6:00 pm] on [flight number|FA456] with a layover in [layover city|New York].\n\nThe total cost for this itinerary in the [seat class|economy] is [total cost|$900]. Would you like to proceed with booking this flight?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to proceed with booking this flight. What information do you need from me to complete the booking?"
+            ],
+            [
+                "agent1",
+                "Great! To book your flight, I'll need the following information:\n\n- Full name (as it appears on your government-issued ID)\n- Date of birth\n- Passport or government-issued ID number\n- Contact details (email and phone number)\n- Payment information (credit card number, expiration date, security code, and billing address)\n\nDo you have all of this information ready?"
+            ],
+            [
+                "agent2",
+                "Yes, I have all the information ready. Here are the details:\n\n- Full name: [full name|John Doe]\n- Date of birth: [date of birth|January 1st, 1990]\n- Passport/government-issued ID number: [ID number|1234567890]\n- Email: [email|johndoe@example.com]\n- Phone number: [phone number|+1 (555) 123-4567]\n- Credit card number: [credit card number|************1234]\n- Expiration date: [expiration date|10/23]\n- Security code: [security code|123]\n- Billing address: [billing address|123 Main St, Toronto, ON, Canada]\n\nPlease let me know if you need any additional information."
+            ],
+            [
+                "agent1",
+                "Thank you for providing all the required information. I have booked your flight and sent you an email confirmation with your itinerary and all the details. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all I needed. Thank you for your help in booking my flight!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Thank you for choosing Fast Airways. If you need any further assistance in the future, don't hesitate to contact us. Have a great trip! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "airline_type": "international",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a international airline called [airline|Global Airlines] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Global Airlines] and you are chatting online with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [airline|Global Airlines]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hello! I have a question about an existing reservation. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Certainly! Please provide me with your reservation code, and I'll be happy to assist you."
+            ],
+            [
+                "agent2",
+                "I don't have a reservation code yet. I would like to book a flight from [origin|New York] to [destination|Paris] for [departure date|September 10th] and return on [return date|September 20th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! Let me check our system to see what options are available for you. Would you like to travel in [seat class|economy] or [seat class|business] class?"
+            ],
+            [
+                "agent2",
+                "I would like to travel in [seat class|economy] class, please."
+            ],
+            [
+                "agent1",
+                "Great! We have several options available for your travel dates. Here are your flight options:\n\n1. [flight number|GA123] departing [origin|New York] at 9:00 a.m. and arriving in [destination|Paris] at 10:30 p.m. with one stopover. The return flight is [flight number|GA456], departing [destination|Paris] at 12:00 p.m. and arriving in [origin|New York] at 3:30 p.m. with one stopover. The total cost for this itinerary is [total cost|$800].\n\n2. [flight number|GA789] departing [origin|New York] at 11:00 p.m. and arriving in [destination|Paris] at 1:30 p.m. with one stopover. The return flight is [flight number|GA246], departing [destination|Paris] at 3:00 p.m. and arriving in [origin|New York] at 7:30 p.m. with one stopover. The total cost for this itinerary is [total cost|$850].\n\nWhich option would you like to choose?"
+            ],
+            [
+                "agent2",
+                "Option 1 sounds good to me. Can you please confirm the details of the itinerary?"
+            ],
+            [
+                "agent1",
+                "Sure! Your flight departs from [origin|New York] at 9:00 a.m. on [departure date|September 10th] and arrives in [destination|Paris] at 10:30 p.m. on the same day with one stopover. Your return flight departs from [destination|Paris] at 12:00 p.m. on [return date|September 20th] and arrives in [origin|New York] at 3:30 p.m. on the same day with one stopover. The total cost for your trip will be [total cost|$800]. Please let me know if you would like to proceed with this booking."
+            ],
+            [
+                "agent2",
+                "Yes, that sounds perfect! I would like to proceed with the booking."
+            ],
+            [
+                "agent1",
+                "Great! To proceed with the booking, I will need some information from you. Can you please provide me with the full name and date of birth of each passenger traveling?"
+            ],
+            [
+                "agent2",
+                "Sure! The full name and date of birth for each passenger are:\n\n1. John Doe, January 1st, 1990\n2. Jane Doe, February 2nd, 1995\n\nIs there any other information you need from me?"
+            ],
+            [
+                "agent1",
+                "Thanks for that information! I will also need your email address and phone number to complete the booking. Once I have that, I will send you a confirmation email with all the details of your trip."
+            ],
+            [
+                "agent2",
+                "Sure, my email address is johndoe@email.com and my phone number is +1-555-123-4567."
+            ],
+            [
+                "agent1",
+                "Great! I have all the required information to complete your booking. Your booking is confirmed, and your ticket details will be sent to your email address shortly. Is there anything else you would like to know?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help with booking my flight!"
+            ],
+            [
+                "agent1",
+                "It was my pleasure to assist you! Have a great trip and feel free to contact us if you need further assistance. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "domestic",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a domestic airline called [airline|Fast Airways] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Fast Airways] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to book a round-trip flight from [origin|Los Angeles] to [destination|New York] for [departure date|June 10th] and [return date|June 17th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Of course! We have several flight options available for those dates. Can you please tell me if you have a preferred time of departure or arrival, or any airline or seat class preferences?"
+            ],
+            [
+                "agent2",
+                "I would prefer a morning departure from Los Angeles and an evening departure from New York. Also, I would like to travel in [seat class|business class] if possible."
+            ],
+            [
+                "agent1",
+                "Great, I can definitely help you with that. We have a morning flight leaving Los Angeles at 8:00 am and arriving in New York at 4:00 pm, and an evening flight leaving New York at 7:00 pm and arriving in Los Angeles at 10:00 pm. Both flights have business class seats available. The total cost for this trip would be [total cost|$1,200]. Would you like me to book this for you?"
+            ],
+            [
+                "agent2",
+                "That sounds perfect! Yes, please go ahead and book it for me."
+            ],
+            [
+                "agent1",
+                "Great! Can you please provide the full name, date of birth, and frequent flyer number (if available) for each passenger?"
+            ],
+            [
+                "agent2",
+                "Sure. The passenger's name is John Doe, date of birth [date of birth|January 1st, 1990], and he doesn't have a frequent flyer number."
+            ],
+            [
+                "agent1",
+                "Thank you for the information. I have booked John Doe's round-trip flight from Los Angeles to New York departing on June 10th and returning on June 17th in business class. The flight details are as follows:\n\n- Outbound flight: Fast Airways flight [flight number|FA123] departing Los Angeles at 8:00 am and arriving in New York at 4:00 pm.\n- Inbound flight: Fast Airways flight [flight number|FA456] departing New York at 7:00 pm and arriving in Los Angeles at 10:00 pm.\n\nThe total cost for this trip is [total cost|$1,200]. An e-ticket has been sent to the email address you provided. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "That's perfect, thank you. No, that's all I needed. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was a pleasure assisting you. Have a great trip, and please don't hesitate to contact us again if you need any further assistance. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "domestic",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a domestic airline called [airline|Global Airlines] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the domestic airline called [airline|Global Airlines] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to book a flight please."
+            ],
+            [
+                "agent1",
+                "Absolutely! Where would you like to travel to and from, and on what dates?"
+            ],
+            [
+                "agent2",
+                "I would like to travel from [origin|Los Angeles] to [destination|New York] on [departure date|September 5th] and return on [return date|September 10th]."
+            ],
+            [
+                "agent1",
+                "Great! We have multiple flights available for those dates. Would you prefer any specific time of day for your flights?"
+            ],
+            [
+                "agent2",
+                "Yes, I would prefer a morning flight for my departure and an evening flight for my return, please."
+            ],
+            [
+                "agent1",
+                "Understood. Here are the flight options that match your criteria:\n\n- Departure from Los Angeles to New York on September 5th at 8:00 am, arriving at 4:00 pm.\n- Return from New York to Los Angeles on September 10th at 6:00 pm, arriving at 11:00 pm.\n\nWould you like me to book these flights for you?"
+            ],
+            [
+                "agent2",
+                "That sounds good! Can you please confirm the total cost for the flights?"
+            ],
+            [
+                "agent1",
+                "Certainly! The total cost for both flights would be [total cost|$520]. That includes taxes and fees."
+            ],
+            [
+                "agent2",
+                "Perfect! I would like to book those flights, please."
+            ],
+            [
+                "agent1",
+                "Great! May I please have your full name as it appears on your government-issued ID, as well as your date of birth?"
+            ],
+            [
+                "agent2",
+                "My name is [full name|John Doe] and my date of birth is [date of birth|January 1st, 1990]."
+            ],
+            [
+                "agent1",
+                "Thank you, John! I just need your email address and phone number to complete the booking."
+            ],
+            [
+                "agent2",
+                "Sure! My email address is [email|johndoe@email.com] and my phone number is [phone number|555-123-4567]."
+            ],
+            [
+                "agent1",
+                "Perfect! I have booked your flights and sent the confirmation to your email. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's everything. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Have a great day and safe travels! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "international",
+        "airline_name": "Fast Airways",
+        "agent1": "You are a representative at a international airline called [airline|Fast Airways] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Fast Airways] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Fast Airways. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I'm interested in booking a flight from [origin|New York] to [destination|Paris] departing on [departure date|July 10th] and returning on [return date|July 20th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Certainly, I'd be happy to help you book your flights. Do you have any specific travel preferences, such as a preferred airline, flight times, or seat class?"
+            ],
+            [
+                "agent2",
+                "I don't have any specific airline preference, but I would prefer a non-stop flight, if possible. As for seat class, I'm looking for an [seat class|economy] ticket."
+            ],
+            [
+                "agent1",
+                "I can help you with that. We do have non-stop flights available from [origin|New York] to [destination|Paris] on your preferred travel dates. The total cost for an economy ticket for those dates is [total cost|$800]. Would you like me to proceed with booking the flight for you?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Yes, please go ahead and book the flight for me. What information do you need from me?"
+            ],
+            [
+                "agent1",
+                "Great! To book your flight, I'll need the following information:\n\n- Full name of all passengers traveling\n- Date of birth for all passengers\n- Contact information (phone and email)\n- Payment information\n\nYou can provide me with this information now or I can email you a link to complete the booking later, whichever you prefer."
+            ],
+            [
+                "agent2",
+                "I can provide you with the information now. My full name is [passenger name|John Smith], and my date of birth is [passenger DOB|January 1, 1990]. My email address is [email|johnsmith@email.com], and my phone number is [phone number|+1 (555) 123-4567]. For payment, I will be using my [payment method|Visa] credit card."
+            ],
+            [
+                "agent1",
+                "Thank you for providing your information. I have booked your flight from [origin|New York] to [destination|Paris] departing on [departure date|July 10th] and returning on [return date|July 20th]. Your flight number is FA1234. You will depart at 10:00 am and arrive in Paris at 10:00 pm local time. Your return flight will depart Paris at 12:00 pm and arrive in New York at 3:00 pm local time. The total cost for your economy ticket is [total cost|$800]. We have charged your [payment method|Visa] credit card for the full amount. You will receive an email confirmation shortly with your itinerary and e-ticket. Is there anything else I can help you with today?"
+            ],
+            [
+                "agent2",
+                "No, that's all I needed. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was my pleasure to assist you. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day and safe travels! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "airline_type": "international",
+        "airline_name": "Global Airlines",
+        "agent1": "You are a representative at a international airline called [airline|Global Airlines] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the international airline called [airline|Global Airlines] and you are talking with a representative. Either try to book a flight or ask questions related to an existing reservation. You must replace any situation-specific details with label and value pairs - for example, [departure date|tomorrow], [return date|August 15th], [origin|New York], [destination|Paris], [flight number|...], [seat class|economy], [total cost|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello, welcome to Global Airlines. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to book a flight from [origin|Los Angeles] to [destination|London] on [departure date|December 10th] and return on [return date|December 20th]. Can you help me with that?"
+            ],
+            [
+                "agent1",
+                "Absolutely! We have several flights available for those dates. We have a direct flight with flight number GA123 leaving Los Angeles at 8:00 PM and arriving in London at 2:00 PM the following day. For your return flight, we have a direct flight with flight number GA456 leaving London at 10:00 AM and arriving in Los Angeles at 2:00 PM the same day. Would you like to book this flight?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you tell me the total cost for this round trip?"
+            ],
+            [
+                "agent1",
+                "Yes, sure. The total cost for a round trip economy class ticket from Los Angeles to London on the dates you mentioned is [total cost|$1200]."
+            ],
+            [
+                "agent2",
+                "Okay, that sounds good. Can you please book this flight for me and let me know the confirmation details?"
+            ],
+            [
+                "agent1",
+                "Of course! Can you please provide me with your personal details and payment information?"
+            ],
+            [
+                "agent2",
+                "Sure. My name is [passenger name|John Smith] and my credit card number is [credit card number|XXXX-XXXX-XXXX-XXXX]."
+            ],
+            [
+                "agent1",
+                "Thank you, John. Your booking has been confirmed. Your flight from Los Angeles to London is on December 10th at 8:00 PM with flight number GA123. Your return flight from London to Los Angeles is on December 20th at 10:00 AM with flight number GA456. Your total cost for this round trip is [total cost|$1200] and your payment has been processed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, John. Have a great trip! Goodbye!"
+            ]
+        ]
+    }
+]

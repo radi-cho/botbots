@@ -1,0 +1,3095 @@
+[
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Italian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [date|Saturday] at [time|7pm] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We would be happy to have you and your party join us on [date|Saturday] at [time|7pm]. How would you like me to reserve the table for you?"
+            ],
+            [
+                "agent2",
+                "Great! Can you please reserve the table under the name [name|Smith]?"
+            ],
+            [
+                "agent1",
+                "Of course, [name|Smith]. Your reservation for [party size|6] people on [date|Saturday] at [time|7pm] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you tell me what are the specials for tonight?"
+            ],
+            [
+                "agent1",
+                "Certainly! Our specials for tonight include [menu item 1|Lobster Ravioli], [menu item 2|Veal Marsala], and [menu item 3|Shrimp Scampi]. All of our specials are served with a side salad and your choice of soup or appetizer. Let me know if you have any questions or if you need any recommendations."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I would like to order the [menu item|Lobster Ravioli] special, please. Also, I have a food allergy to [allergies|shellfish]. Can you please let the chef know about my allergy?"
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Smith]. I have made a note of your allergy to [allergies|shellfish] and informed the chef. We will make sure that your [menu item|Lobster Ravioli] is prepared without any shellfish or cross-contamination. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Smith]. We look forward to seeing you on [date|Saturday] at [time|7pm]. If you have any other questions or requests, please don't hesitate to let us know. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Italian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [party size|2] on [reservation date|Friday] at [reservation time|7pm]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of 2 on Friday at 7pm. Would you like me to go ahead and make that reservation for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please! Can I also request a table by the window if possible?"
+            ],
+            [
+                "agent1",
+                "Of course! I have made a note of your request for a window table. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! We look forward to seeing you on Friday at 7pm for your window table reservation. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Thank you! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "French",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a French restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [date|next Saturday] at [time|7 PM] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We would be happy to have you and your party join us next Saturday at 7 PM. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sophie]."
+            ],
+            [
+                "agent1",
+                "Thank you, Sophie. I have reserved a table for 6 people on [date|next Saturday] at [time|7 PM]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you tell me what are the specials for next Saturday?"
+            ],
+            [
+                "agent1",
+                "Our specials change daily based on the availability of fresh ingredients, but I can tell you that we always have a variety of delicious options to choose from. Would you like me to email you a copy of our menu for next Saturday?"
+            ],
+            [
+                "agent2",
+                "Yes, please. That would be great!"
+            ],
+            [
+                "agent1",
+                "Great! Can you please provide me with your email address so I can send you the menu?"
+            ],
+            [
+                "agent2",
+                "Sure, my email address is [email|sophie@gmail.com]. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome, Sophie. I have just sent you an email with our menu for next Saturday. Please let me know if you have any questions or if you would like to make any changes to your reservation."
+            ],
+            [
+                "agent2",
+                "Thank you very much! I have received the email and the menu looks great. I will let you know if I have any questions or if I need to make any changes to my reservation."
+            ],
+            [
+                "agent1",
+                "You're welcome, Sophie. We look forward to seeing you and your party next Saturday. If you have any questions or concerns, please don't hesitate to contact us. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you! Have a great day too!"
+            ],
+            [
+                "agent1",
+                "Thank you, Sophie. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "French",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a French restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7pm]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of 2 on Saturday at 7pm. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Emily]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Emily]. Your reservation for 2 at Le Petit Bistro is confirmed for Saturday at 7pm. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, actually. Can you recommend any dishes on the menu?"
+            ],
+            [
+                "agent1",
+                "Certainly! Our menu changes seasonally, but some of our popular dishes include the [menu item|Beef Bourguignon], [menu item|Coq au Vin], and [menu item|Salade Ni\u00e7oise]. We also have a great selection of French wines to pair with your meal. Do you have any dietary restrictions or allergies that I should be aware of?"
+            ],
+            [
+                "agent2",
+                "No, I don't have any dietary restrictions or allergies. I think I'll go with the [menu item|Coq au Vin] and a glass of red wine."
+            ],
+            [
+                "agent1",
+                "Excellent choice! Our [menu item|Coq au Vin] is a classic French dish made with chicken braised in red wine, bacon, mushrooms, and onions. And for the wine, may I suggest a glass of our [wine|Ch\u00e2teauneuf-du-Pape]? It pairs perfectly with the [menu item|Coq au Vin]. Would you like me to make a note of your order?"
+            ],
+            [
+                "agent2",
+                "Yes, please. That sounds perfect. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Emily]. Your order for [menu item|Coq au Vin] and a glass of [wine|Ch\u00e2teauneuf-du-Pape] has been noted. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Emily]. We look forward to seeing you on Saturday at 7pm for your reservation. If you have any other questions or requests, please don't hesitate to let us know. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Asian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to make a reservation for [date|Saturday] at [time|7pm] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We would be happy to have you. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, Sarah. Your reservation for [party size|6] on [date|Saturday] at [time|7pm] has been confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Can you please tell me what's on the menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, Sarah. We have a wide variety of Asian dishes on our menu, including sushi, noodles, rice dishes, and more. Some of our most popular items include our Pad Thai, Sushi Rolls, and Teriyaki Chicken. Would you like me to send you a copy of our menu?"
+            ],
+            [
+                "agent2",
+                "Yes, please. That would be great!"
+            ],
+            [
+                "agent1",
+                "Sure thing! You can find our menu on our website at [website|www.labellaitalia.com/menu]. Let me know if you have any questions or if you'd like any recommendations."
+            ],
+            [
+                "agent2",
+                "Thank you! I have looked at the menu and I would like to order the [menu item|Pad Thai] and the [menu item|Sushi Rolls]. Can you please let me know if there are any peanuts in the Pad Thai? I have a peanut allergy."
+            ],
+            [
+                "agent1",
+                "I'm glad you found something you like, Sarah! Our Pad Thai does contain peanuts, but we can certainly make it without them to accommodate your allergy. Just let us know when you place your order. Our Sushi Rolls do not contain peanuts. Is there anything else you'd like to order?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, Sarah! It was my pleasure to assist you. Please let us know if you have any other questions or if there's anything else we can do for you. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Asian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [date|this Friday] at [time|7pm] for [party size|2]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for [party size|2] at [time|7pm] this Friday. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] at [time|7pm] this Friday is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Can you please recommend some dishes?"
+            ],
+            [
+                "agent1",
+                "Of course! We have a variety of delicious Asian dishes on our menu. Some of our popular dishes include [menu item|Pad Thai], [menu item|Beef and Broccoli], [menu item|Kung Pao Chicken], and [menu item|Sushi]. Do you have any dietary restrictions or preferences that I should be aware of?"
+            ],
+            [
+                "agent2",
+                "I'm allergic to [allergies|shellfish], so I'll have to avoid any dishes that contain it."
+            ],
+            [
+                "agent1",
+                "Thank you for letting me know. We have several dishes that do not contain shellfish. I would recommend our [menu item|Chicken Fried Rice], [menu item|Vegetable Stir Fry], or [menu item|Beef Teriyaki]. Would you like to place an order for pickup now?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to order the [menu item|Chicken Fried Rice] and [menu item|Beef Teriyaki] for pickup, please. Can I also request that the beef be cooked medium rare?"
+            ],
+            [
+                "agent1",
+                "Certainly, we can cook the beef medium rare for you. Is there anything else you would like to add or modify in your order?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Your order for [menu item|Chicken Fried Rice] and [menu item|Beef Teriyaki] with medium rare beef has been placed for pickup. Please come to the restaurant at your convenience to pick up your order. Thank you for choosing Le Petit Bistro. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you! Have a great day too!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Italian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [date|this Saturday] at [time|7 PM] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for you for [date|this Saturday] at [time|7 PM] for [party size|6] people. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|6] people on [date|this Saturday] at [time|7 PM] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you please recommend some popular dishes from your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have a variety of popular dishes on our menu. Some of our most popular dishes include our [menu item|Lasagna al Forno], [menu item|Spaghetti Carbonara], [menu item|Chicken Parmigiana], and [menu item|Margherita Pizza]. We also have a selection of seafood dishes, such as our [menu item|Grilled Salmon] and [menu item|Shrimp Scampi]. Do any of these dishes sound appealing to you?"
+            ],
+            [
+                "agent2",
+                "Yes, the [menu item|Lasagna al Forno] and [menu item|Grilled Salmon] sound delicious. Can you please let me know if any of these dishes contain peanuts or any other allergens?"
+            ],
+            [
+                "agent1",
+                "Our [menu item|Lasagna al Forno] does not contain peanuts, but it does contain dairy and gluten. Our [menu item|Grilled Salmon] does not contain peanuts, but it is cooked with butter and may contain dairy. If you have any other allergies or dietary restrictions, please let me know and I can recommend some other dishes that may be suitable for you."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. I don't have any other allergies or dietary restrictions, so I would like to order the [menu item|Lasagna al Forno] and [menu item|Grilled Salmon] for my party. Can you also please let me know if you have any vegetarian options on your menu?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have vegetarian options on our menu. Some of our popular vegetarian dishes include [menu item|Eggplant Parmigiana], [menu item|Caprese Salad], and [menu item|Margherita Pizza]. We also have a selection of pasta dishes that can be made vegetarian upon request. Would you like me to add any vegetarian dishes to your order?"
+            ],
+            [
+                "agent2",
+                "No, thank you. We will stick with the [menu item|Lasagna al Forno] and [menu item|Grilled Salmon] for now. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. Your order for [menu item|Lasagna al Forno] and [menu item|Grilled Salmon] has been noted. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help in making the reservation and taking our order."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you and your party on [date|this Saturday] at [time|7 PM]. If you have any other questions or requests, please don't hesitate to let us know. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Italian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [party size|2] on [reservation date|Friday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly, we have availability for a party of [party size|2] on [reservation date|Friday] at [reservation time|7 PM]. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] on [reservation date|Friday] at [reservation time|7 PM] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you recommend any popular dishes?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have many popular dishes on our menu. Our [menu item|Lasagna al Forno] and [menu item|Chicken Parmesan] are always a hit with our customers. Our [menu item|Margherita Pizza] is also a favorite. If you have any dietary restrictions or allergies, please let me know and I can recommend some dishes that would be suitable for you."
+            ],
+            [
+                "agent2",
+                "Thank you for the recommendations. I don't have any dietary restrictions or allergies, so I think I'll go with the [menu item|Lasagna al Forno] and the [menu item|Margherita Pizza]."
+            ],
+            [
+                "agent1",
+                "Great choices, [name|Sarah]. Would you like to add any appetizers or desserts to your order? We have a delicious [menu item|Caprese Salad] and [menu item|Tiramisu] that are very popular."
+            ],
+            [
+                "agent2",
+                "Yes, I would like to add the [menu item|Caprese Salad] to my order, but I think I'll skip the dessert for now."
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Sarah]. Your order for [menu item|Lasagna al Forno], [menu item|Margherita Pizza], and [menu item|Caprese Salad] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you on [reservation date|Friday] at [reservation time|7 PM]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "French",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a French restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for you for [party size|2] on [reservation date|Saturday] at [reservation time|7 PM]. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Emily]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Emily]. Your reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7 PM] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you please recommend some popular dishes?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have many popular dishes here at La Bella Italia. Our customers really enjoy our [menu item|Margherita Pizza], [menu item|Lasagna], and [menu item|Chicken Parmesan]. We also have a great selection of appetizers and desserts. Is there anything specific you are in the mood for?"
+            ],
+            [
+                "agent2",
+                "All of those options sound delicious! I think I'll start with the [menu item|Bruschetta] as an appetizer, and then I'll have the [menu item|Lasagna] for my main course. Can you also recommend a good wine to pair with the lasagna?"
+            ],
+            [
+                "agent1",
+                "Great choices! Our [menu item|Bruschetta] is a customer favorite. As for wine, I would recommend our [wine|Chianti Classico]. It pairs perfectly with our [menu item|Lasagna]. Would you like me to add the [menu item|Bruschetta], [menu item|Lasagna], and a bottle of [wine|Chianti Classico] to your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, that sounds perfect! Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Emily]. Your reservation has been updated to include [menu item|Bruschetta], [menu item|Lasagna], and a bottle of [wine|Chianti Classico]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Emily]. We look forward to seeing you on [reservation date|Saturday] at [reservation time|7 PM]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "French",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a French restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of [party size|2] on [reservation date|Saturday] at [reservation time|7 PM]. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7 PM] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you recommend any popular dishes?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have many popular dishes, but some of our most popular dishes include [menu item|Beef Bourguignon], [menu item|Coq au Vin], and [menu item|Salade Ni\u00e7oise]. We also have a variety of seafood dishes, including [menu item|Grilled Salmon] and [menu item|Seared Scallops]. Do any of these dishes sound appealing to you?"
+            ],
+            [
+                "agent2",
+                "Yes, the [menu item|Beef Bourguignon] sounds delicious. Can I also request that the dish be made without any [allergies|dairy]?"
+            ],
+            [
+                "agent1",
+                "Of course, we can prepare the [menu item|Beef Bourguignon] without any dairy. We take food allergies very seriously here at Le Petit Bistro, and our chefs are trained to accommodate any dietary restrictions or allergies. Is there anything else you would like to request or any other allergies we should be aware of?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you on [reservation date|Saturday] at [reservation time|7 PM]. If you have any other questions or requests, please don't hesitate to let us know. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Asian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [date|next Saturday] at [time|7 PM] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for you for [date|next Saturday] at [time|7 PM] for [party size|6] people. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|6] people on [date|next Saturday] at [time|7 PM] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Can I see your menu, please?"
+            ],
+            [
+                "agent1",
+                "Of course, here is our menu. [hands over menu or directs to online menu] Let me know if you have any questions or if you need any recommendations."
+            ],
+            [
+                "agent2",
+                "Thank you. I think I would like to order [menu item|Chicken Tikka Masala] and [menu item|Garlic Naan]. Can you tell me how spicy the Chicken Tikka Masala is? I don't like my food too spicy."
+            ],
+            [
+                "agent1",
+                "Our Chicken Tikka Masala is mildly spicy, but we can adjust the spice level to your preference. If you prefer it to be less spicy, we can make it mild or even non-spicy. Just let us know when you place your order."
+            ],
+            [
+                "agent2",
+                "Great, I would like the Chicken Tikka Masala to be mild, please. Also, I have a peanut allergy. Is there any chance that the dish contains peanuts or was prepared in an environment where peanuts are present?"
+            ],
+            [
+                "agent1",
+                "Thank you for letting us know about your allergy. Our Chicken Tikka Masala does not contain peanuts, but it is prepared in a kitchen where peanuts are present. However, we take allergies very seriously and we have strict protocols in place to prevent cross-contamination. We will make sure that your food is prepared safely and without any contact with peanuts."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. I appreciate your attention to my allergy. Can I also request for extra sauce on the side, please?"
+            ],
+            [
+                "agent1",
+                "Certainly, we can provide extra sauce on the side for you. Is there anything else you would like to order?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. Your order for Chicken Tikka Masala and Garlic Naan with extra sauce on the side will be ready for pickup shortly. Thank you for choosing La Bella Italia. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Asian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly, we have availability for a party of [party size|2] on [reservation date|Saturday] at [reservation time|7 PM]. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7 PM] has been confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you please recommend some dishes?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have a variety of Asian dishes that are popular among our customers. Some of our most popular dishes include [menu item|Pad Thai], [menu item|Beef and Broccoli], [menu item|Kung Pao Chicken], and [menu item|Sushi]. We also have vegetarian and gluten-free options available. Do you have any dietary restrictions or preferences that I should be aware of?"
+            ],
+            [
+                "agent2",
+                "Yes, I have a peanut allergy, so I need to avoid any dishes that contain peanuts."
+            ],
+            [
+                "agent1",
+                "Thank you for letting me know. We take allergies very seriously here at Le Petit Bistro and we will make sure to accommodate your needs. I would recommend that you avoid dishes such as [menu item|Kung Pao Chicken], [menu item|Pad Thai], and [menu item|Peanut Sauce Noodles] as they contain peanuts. However, we have many other delicious dishes that do not contain peanuts. Would you like me to recommend some dishes for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you recommend some dishes that do not contain peanuts?"
+            ],
+            [
+                "agent1",
+                "Certainly, some of our dishes that do not contain peanuts include [menu item|Beef and Broccoli], [menu item|Sweet and Sour Pork], [menu item|Teriyaki Salmon], and [menu item|Vegetable Fried Rice]. We also have a variety of sushi rolls that do not contain peanuts. Would you like me to make a note of your allergy on your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you also let the chef know about my allergy when I arrive?"
+            ],
+            [
+                "agent1",
+                "Absolutely, I will make sure to inform the chef about your allergy and make a note of it on your reservation. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you on [reservation date|Saturday] at [reservation time|7 PM]. If you have any further questions or requests, please do not hesitate to let us know. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Italian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to La Bella Italia. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to make a reservation for tonight at 7 pm."
+            ],
+            [
+                "agent1",
+                "Of course, we would be happy to accommodate you. Can I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. How many people will be in your party?"
+            ],
+            [
+                "agent2",
+                "There will be [party size|2] of us."
+            ],
+            [
+                "agent1",
+                "Great, thank you. Your reservation for [party size|2] at 7 pm tonight is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, can I take a look at your menu?"
+            ],
+            [
+                "agent1",
+                "Sure, here's a link to our menu: [menu link|https://www.labellaitalia.com/menu]. Let me know if you have any questions or if there's anything I can help you with."
+            ],
+            [
+                "agent2",
+                "Thank you! I would like to order [menu item|Fettuccine Alfredo] and [menu item|Tiramisu]. Is there any way to make sure that there are no peanuts or peanut oil used in the preparation of my meal?"
+            ],
+            [
+                "agent1",
+                "Absolutely, we take allergies very seriously here at La Bella Italia. I will make a note for the kitchen staff to ensure that there are no peanuts or peanut oil used in the preparation of your [menu item|Fettuccine Alfredo] and [menu item|Tiramisu]. Is there anything else you would like to let us know?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you tonight at 7 pm. If you have any further questions, please don't hesitate to ask. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day as well!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Italian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation, please."
+            ],
+            [
+                "agent1",
+                "Of course! When would you like to come in and for how many people?"
+            ],
+            [
+                "agent2",
+                "I would like to make a reservation for [date|October 15th] at [time|7:00 PM] for [party size|2] people, please."
+            ],
+            [
+                "agent1",
+                "Great, I have you down for a reservation on [date|October 15th] at [time|7:00 PM] for [party size|2] people. Can I get your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation is all set! Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Actually, I have a question. Can you tell me more about your menu options?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have a wide variety of Italian dishes on our menu, including pasta, pizza, seafood, and meat dishes. Some of our most popular items include our [menu item|Fettuccine Alfredo], [menu item|Margherita Pizza], [menu item|Grilled Salmon], and [menu item|Chicken Parmesan]. We also have a selection of appetizers, salads, and desserts. Do you have any dietary restrictions or allergies I should be aware of?"
+            ],
+            [
+                "agent2",
+                "No, I don't have any dietary restrictions or allergies, but can you tell me if any of your dishes contain peanuts?"
+            ],
+            [
+                "agent1",
+                "We do not use peanuts in our dishes here at Le Petit Bistro. However, we do use other nuts in some of our dishes, so please let your server know if you have any other nut allergies."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. I think I'm ready to order now. Can I get the [menu item|Fettuccine Alfredo] and a side of [menu item|Garlic Bread], please?"
+            ],
+            [
+                "agent1",
+                "Excellent choice! Would you like to add anything to drink, such as a glass of wine or some soda?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like a glass of [drink item|Chardonnay] to go with my meal, please."
+            ],
+            [
+                "agent1",
+                "Great! One order of [menu item|Fettuccine Alfredo], a side of [menu item|Garlic Bread], and a glass of [drink item|Chardonnay] coming up. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! We look forward to seeing you on [date|October 15th] at [time|7:00 PM]. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "French",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a French restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7 PM]. Can you please let me know if there are any available tables?"
+            ],
+            [
+                "agent1",
+                "Yes, we have availability for a party of [party size|2] on [reservation date|Saturday] at [reservation time|7 PM]. Would you like me to go ahead and make the reservation for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you please provide me with a confirmation number and the name under which the reservation will be made?"
+            ],
+            [
+                "agent1",
+                "Certainly! Your confirmation number is [confirmation number|123456] and the reservation will be under the name [reservation name|Smith]. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Can you please provide me with your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly! Here is a link to our online menu: [menu link|https://www.labellaitalia.com/menu]. Let me know if you have any questions or need recommendations."
+            ],
+            [
+                "agent2",
+                "Thank you! I'm actually interested in ordering the [menu item|Margherita Pizza] and the [menu item|Tiramisu]. Can you confirm if they are available for pickup and if there are any special instructions I need to provide?"
+            ],
+            [
+                "agent1",
+                "Yes, both the [menu item|Margherita Pizza] and the [menu item|Tiramisu] are available for pickup. There are no special instructions that we need for these dishes. However, if you have any allergies or special requests, please let us know and we will do our best to accommodate them."
+            ],
+            [
+                "agent2",
+                "Thank you for checking. I don't have any allergies or special requests. Can you confirm the total cost of my order?"
+            ],
+            [
+                "agent1",
+                "Certainly! The [menu item|Margherita Pizza] costs [price|15 USD] and the [menu item|Tiramisu] costs [price|8 USD]. So the total cost of your order will be [total price|23 USD]."
+            ],
+            [
+                "agent2",
+                "Great! I would like to proceed with the order. Can you provide me with the pickup time and location?"
+            ],
+            [
+                "agent1",
+                "Sure! Our pickup location is at [pickup location|123 Main Street, Paris] and your order will be ready for pickup at [pickup time|6:30 PM]. Please make sure to arrive on time to ensure that your order is still hot and fresh."
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I will make sure to arrive on time. It was a pleasure chatting with you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! It was a pleasure helping you. If you have any further questions or concerns, please don't hesitate to reach out. Have a great day and enjoy your meal! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "French",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a French restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [party size|2] on [reservation date|Friday] at [reservation time|7pm] please."
+            ],
+            [
+                "agent1",
+                "Absolutely! We have availability for a party of 2 on [reservation date|Friday] at [reservation time|7pm]. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] at [reservation time|7pm] on [reservation date|Friday] has been confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, may I also place an order for takeout please?"
+            ],
+            [
+                "agent1",
+                "Of course, I'd be happy to help you place a takeout order. What menu items would you like to order?"
+            ],
+            [
+                "agent2",
+                "I would like to order the [menu item|Beef Bourguignon] and the [menu item|Cr\u00e8me Br\u00fbl\u00e9e] for dessert."
+            ],
+            [
+                "agent1",
+                "Great choices! Would you like to pick up your order at a specific time?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to pick up my order at [pickup time|6:30pm]."
+            ],
+            [
+                "agent1",
+                "Perfect. Your order will be ready for pickup at [pickup time|6:30pm]. Is there anything else you'd like to add or any allergies we should be aware of?"
+            ],
+            [
+                "agent2",
+                "No, that's everything for now. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you on [reservation date|Friday] at [reservation time|7pm] for your reserved table, and we will have your takeout order ready for pickup at [pickup time|6:30pm]. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Asian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to La Bella Italia. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to make a reservation for [date|June 25th] at [time|7 PM] for [party size|4]."
+            ],
+            [
+                "agent1",
+                "Great! We'd be happy to accommodate your party of [party size|4] on [date|June 25th] at [time|7 PM]. Would you like a table indoors or outdoors?"
+            ],
+            [
+                "agent2",
+                "I'd like a table indoors, please."
+            ],
+            [
+                "agent1",
+                "You got it. Your reservation for [party size|4] on [date|June 25th] at [time|7 PM] is confirmed for an indoor table. Can I grab your name, please?"
+            ],
+            [
+                "agent2",
+                "Sure, the reservation is under [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, Sarah. Your reservation is confirmed under your name for [party size|4] on [date|June 25th] at [time|7 PM] for an indoor table. Is there anything else you need assistance with?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can I also place an order for takeout?"
+            ],
+            [
+                "agent1",
+                "Absolutely! What would you like to order for takeout?"
+            ],
+            [
+                "agent2",
+                "I would like to order [menu item|Chicken Pad Thai] and [menu item|Vegetable Spring Rolls], please."
+            ],
+            [
+                "agent1",
+                "Great choices! Would you like any modifications to your order or any additional items?"
+            ],
+            [
+                "agent2",
+                "No, that's all I need for now. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome, Sarah. Just to confirm, you would like to order [menu item|Chicken Pad Thai] and [menu item|Vegetable Spring Rolls] for takeout. Is that correct?"
+            ],
+            [
+                "agent2",
+                "Yes, that's correct. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Your order for [menu item|Chicken Pad Thai] and [menu item|Vegetable Spring Rolls] has been placed for takeout. Is there anything else you need assistance with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, Sarah! We look forward to seeing you on [date|June 25th] at [time|7 PM] for your reservation and we hope you enjoy your takeout order. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Asian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Le Petit Bistro. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [party size|2] for [date|Friday] at [time|7pm]. Do you have any availability?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of 2 on [date|Friday] at [time|7pm]. Would you like me to go ahead and make the reservation for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please! Can I also request a table by the window, if possible?"
+            ],
+            [
+                "agent1",
+                "Of course, we'll do our best to accommodate your request for a window table. Your reservation for [party size|2] on [date|Friday] at [time|7pm] is confirmed. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to order some food for delivery. Can you please give me your menu options?"
+            ],
+            [
+                "agent1",
+                "Certainly! We have a wide selection of Asian dishes such as sushi, stir-fry, noodles, and more. Here's a link to our online menu: [menu link|https://www.lepetitbistro.com/menu]. Let me know if there's anything specific you're interested in, or if you have any questions about our menu items."
+            ],
+            [
+                "agent2",
+                "Thanks for the link. I would like to order [menu item|Chicken Katsu] and [menu item|Pad Thai Noodles], please. Can you let me know the total cost, including tax and delivery fee?"
+            ],
+            [
+                "agent1",
+                "Great choices! The price for the Chicken Katsu is [price|$18] and the Pad Thai Noodles is [price|$15]. Our delivery fee is [price|$5] and tax is an additional [tax|8%]. So, the total cost for your order would be [total|$42.84]. Would you like to proceed with the order?"
+            ],
+            [
+                "agent2",
+                "Yes, that sounds good. Can you also make sure that there are no peanuts in these dishes since I'm allergic?"
+            ],
+            [
+                "agent1",
+                "Absolutely, we take food allergies very seriously. I will make sure to inform the kitchen that there should be no peanuts in your order. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all I need. Thank you so much for your help!"
+            ],
+            [
+                "agent1",
+                "You're very welcome! We're always here to assist you. Your order for [menu item|Chicken Katsu] and [menu item|Pad Thai Noodles] will be delivered shortly without peanuts. Thank you for choosing Le Petit Bistro. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Italian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [party size|2] for tonight at [reservation time|7:00pm], please."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for [party size|2] at [reservation time|7:00pm] tonight. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Emily]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Emily]. Your reservation for [party size|2] at [reservation time|7:00pm] tonight has been scheduled. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Could you please provide me with a menu?"
+            ],
+            [
+                "agent1",
+                "Of course, we have a variety of dishes available for pickup. You can find our menu on our website or I can email it to you. Which would you prefer?"
+            ],
+            [
+                "agent2",
+                "Could you please email it to me?"
+            ],
+            [
+                "agent1",
+                "Certainly, may I have your email address, please?"
+            ],
+            [
+                "agent2",
+                "Sure, it's [email|emily@gmail.com]."
+            ],
+            [
+                "agent1",
+                "Thank you, I have sent the menu to [email|emily@gmail.com]. Please let me know if you have any questions or if there's anything else I can help you with."
+            ],
+            [
+                "agent2",
+                "Thank you, I received the menu. I would like to order the [menu item|Margherita pizza] and [menu item|risotto ai funghi]. Can you please let me know the total cost and the pickup time?"
+            ],
+            [
+                "agent1",
+                "Great choices! The total cost for your order would be [price|15] for the Margherita pizza and [price|18] for the risotto ai funghi, which brings the total to [total|33]. Our pickup time for your order will be [pickup time|8:00pm]. Is that okay for you?"
+            ],
+            [
+                "agent2",
+                "Yes, that works fine. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome. Your order for Margherita pizza and risotto ai funghi will be ready for pickup at [pickup time|8:00pm]. Thank you for choosing La Bella Italia, and have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day too!"
+            ],
+            [
+                "agent1",
+                "Thank you, goodbye!"
+            ],
+            [
+                "agent2",
+                "Goodbye!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Italian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hello, I would like to make a reservation for [date|Saturday] at [time|7:00 pm] for [party size|2] under the name of [name|Smith]."
+            ],
+            [
+                "agent1",
+                "Absolutely, we would be delighted to have you join us on [date|Saturday] at [time|7:00 pm]. We have a table available for [party size|2] under the name of [name|Smith]. Is there any special occasion you are celebrating or any special requests for your table?"
+            ],
+            [
+                "agent2",
+                "No, there is no special occasion. But, we would prefer a table near the window if possible."
+            ],
+            [
+                "agent1",
+                "Certainly, we will do our best to accommodate your request for a table near the window. Your table for [party size|2] under the name of [name|Smith] is reserved for [date|Saturday] at [time|7:00 pm]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for the reservation. Thank you so much!"
+            ],
+            [
+                "agent1",
+                "You're welcome! We look forward to welcoming you to Le Petit Bistro on [date|Saturday] at [time|7:00 pm]. If you have any further questions or concerns, please do not hesitate to reach out to us. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day as well!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "French",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a French restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hello, I would like to make a reservation for [date|this Friday] at [time|7pm] for [party size|4] people."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for you on [date|this Friday] at [time|7pm] for [party size|4] people. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Anna]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Anna]. Your reservation is confirmed for [date|this Friday] at [time|7pm] for [party size|4] people. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you please suggest some popular items from your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Anna]. Some of our popular dishes are the Margherita Pizza, Fettuccine Alfredo, and Chicken Parmigiana. We also have a wide selection of seafood dishes, including Grilled Salmon and Shrimp Scampi. Our desserts, like Tiramisu and Cannoli, are also very popular. Is there anything that you are particularly interested in?"
+            ],
+            [
+                "agent2",
+                "The Grilled Salmon sounds great. Can I please have that with a side of [side dish|roasted vegetables] and a glass of [drink|Chardonnay]?"
+            ],
+            [
+                "agent1",
+                "Absolutely, [name|Anna]. You have made a great choice. Our Grilled Salmon is served with a side of [side dish|roasted vegetables]. And for your drink, would you like a glass or a bottle of [drink|Chardonnay]?"
+            ],
+            [
+                "agent2",
+                "Just a glass of [drink|Chardonnay], please. And do you have any gluten-free options on your menu? I have a gluten allergy."
+            ],
+            [
+                "agent1",
+                "Yes, we do have gluten-free options available on our menu. Our staff is trained to accommodate guests with dietary restrictions and allergies. You can ask your server for gluten-free options when you arrive, and they will be happy to help you choose a dish that suits your needs. Additionally, if you have any specific allergies or requests, please let us know and we will do our best to accommodate them."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. That's great to hear. I don't have any other requests or questions. Thanks for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Anna]. We look forward to seeing you on [date|this Friday] at [time|7pm]. If you have any further questions or requests, please don't hesitate to let us know. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "French",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a French restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [party size|2] people on [reservation date|Saturday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for two people on Saturday at 7 PM. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Jack]."
+            ],
+            [
+                "agent1",
+                "Thank you, Jack. Your reservation for two people on Saturday at 7 PM is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you please recommend some of your popular dishes?"
+            ],
+            [
+                "agent1",
+                "Of course, we have a variety of dishes to choose from. Our most popular dishes are our [menu item|Beef Bourguignon], [menu item|Coq au Vin], and our [menu item|Salmon en Papillote]. Would you like me to tell you more about any of these dishes?"
+            ],
+            [
+                "agent2",
+                "Yes, please tell me more about the [menu item|Salmon en Papillote]."
+            ],
+            [
+                "agent1",
+                "Our [menu item|Salmon en Papillote] is a delicious dish that features salmon fillet cooked in parchment paper with vegetables and herbs. It is served with a side of rice pilaf and steamed vegetables. It's a healthy and flavorful option that our guests love. Is this something you would like to order for your reservation?"
+            ],
+            [
+                "agent2",
+                "That sounds great, I would like to order the [menu item|Salmon en Papillote] for my reservation. Also, I have a [allergies|gluten allergy], can you please let me know if this dish is gluten-free?"
+            ],
+            [
+                "agent1",
+                "I'm glad to hear that you would like to order the [menu item|Salmon en Papillote]. Unfortunately, the dish is not gluten-free as it contains soy sauce which has wheat in it. However, we do have other gluten-free options on the menu that I can recommend. Would you like me to suggest some gluten-free dishes for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please suggest some gluten-free options for me."
+            ],
+            [
+                "agent1",
+                "Certainly. Our [menu item|Grilled Salmon], [menu item|Roasted Chicken], and [menu item|Grilled Ribeye Steak] are all gluten-free options that are very popular with our guests. We also have a variety of gluten-free sides like our [menu item|Roasted Vegetables] and [menu item|Steamed Asparagus]. Do any of these dishes appeal to you?"
+            ],
+            [
+                "agent2",
+                "The [menu item|Grilled Salmon] sounds great. I would like to order that dish for my reservation. And can you please make a note that I have a [allergies|gluten allergy] so the chef can take necessary precautions?"
+            ],
+            [
+                "agent1",
+                "Certainly, I will make a note of your gluten allergy on your reservation and inform the chef to take necessary precautions while preparing your dish. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your assistance in making my reservation and ordering the food."
+            ],
+            [
+                "agent1",
+                "You're welcome, Jack. We look forward to seeing you on Saturday at 7 PM. If you have any other questions or requests, please don't hesitate to let us know. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you very much, have a great day!"
+            ],
+            [
+                "agent1",
+                "You too! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Asian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [restaurant|La Bella Italia]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to make a reservation for tonight at 7 pm for [party size|5] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly, we would love to have you dine with us tonight at 7 pm. May I please have your name for the reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. And may I also have a contact number or email address in case we need to reach you?"
+            ],
+            [
+                "agent2",
+                "Sure, my phone number is [phone number|123-456-7890]."
+            ],
+            [
+                "agent1",
+                "Great, thank you [name|Sarah]. Your reservation for [party size|5] people is confirmed for tonight at 7 pm. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Actually, I would like to order some food for takeout. Can I place an order with you?"
+            ],
+            [
+                "agent1",
+                "Certainly, I'd be happy to assist with that. What menu items would you like to order?"
+            ],
+            [
+                "agent2",
+                "I would like to order [menu item|Pad Thai] and [menu item|Chicken Satay] with peanut sauce, please."
+            ],
+            [
+                "agent1",
+                "Great choices! Just to clarify, would you like the Pad Thai and Chicken Satay for takeout as well?"
+            ],
+            [
+                "agent2",
+                "Yes, that's correct. Both dishes are for takeout."
+            ],
+            [
+                "agent1",
+                "Understood. Would you like anything else with your order, such as drinks or dessert?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! Just to confirm, you would like to place an order for takeout of Pad Thai and Chicken Satay with peanut sauce. We will have your order ready for you at the requested time. Is there anything else you need assistance with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you very much!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you tonight for your reservation and thank you for choosing [restaurant|La Bella Italia]. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 0,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Asian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hello, I would like to make a reservation for [date|Saturday] at [time|7 PM] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of six at 7 PM on Saturday. May I have the name of the reservation, please?"
+            ],
+            [
+                "agent2",
+                "Yes, the name of the reservation is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Great, Sarah. Your reservation for six people at 7 PM on Saturday is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I also would like to know if you have any vegetarian options on the menu."
+            ],
+            [
+                "agent1",
+                "Absolutely, we have a variety of vegetarian options on our menu. Our chef's special is a vegetable stir-fry served with rice, and we also offer a vegetarian pasta dish made with fresh vegetables and homemade tomato sauce. Would you like me to email you a copy of our menu?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Yes, please email me a copy of the menu at [email|sarah@example.com]. Thank you!"
+            ],
+            [
+                "agent1",
+                "Of course, Sarah. The menu has been sent to [email|sarah@example.com]. Let us know if you have any further questions or if you would like to make any changes to your reservation."
+            ],
+            [
+                "agent2",
+                "Thank you so much. I appreciate your help. That's all for now."
+            ],
+            [
+                "agent1",
+                "You're welcome, Sarah. We look forward to seeing you on Saturday at 7 PM. If you have any further questions or concerns, please don't hesitate to contact us. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Italian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [date|this Friday] at [time|7pm] for [party size|2]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for [party size|2] at [time|7pm] this Friday. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] at [time|7pm] this Friday is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Can you please recommend some of your popular dishes?"
+            ],
+            [
+                "agent1",
+                "Of course! Our most popular dishes include our [menu item|Margherita Pizza], [menu item|Lasagna], [menu item|Chicken Parmigiana], and [menu item|Fettuccine Alfredo]. We also have a variety of appetizers and desserts to choose from. Is there anything specific you're in the mood for?"
+            ],
+            [
+                "agent2",
+                "All of those dishes sound delicious! I think I'll go with the [menu item|Lasagna] and a side of [menu item|Garlic Bread]."
+            ],
+            [
+                "agent1",
+                "Great choice! Would you like to add any drinks or desserts to your order?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to add a [menu item|Tiramisu] for dessert and a [menu item|Bottle of Chianti] to drink."
+            ],
+            [
+                "agent1",
+                "Excellent choices! Your order for [menu item|Lasagna], [menu item|Garlic Bread], [menu item|Tiramisu], and a [menu item|Bottle of Chianti] is confirmed for pickup. Your total comes to [total|$65]. When would you like to pick up your order?"
+            ],
+            [
+                "agent2",
+                "Thank you! I would like to pick up my order at [time|6:30pm] this Friday, just before my reservation."
+            ],
+            [
+                "agent1",
+                "Perfect! Your order will be ready for pickup at [time|6:30pm] this Friday. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]! We look forward to seeing you this Friday for your reservation and pickup order. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Italian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [party size|2] on [reservation date|Friday] at [reservation time|7pm]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of [party size|2] on [reservation date|Friday] at [reservation time|7pm]. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] on [reservation date|Friday] at [reservation time|7pm] has been confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Can you please provide me with your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Sarah]. Here is a link to our menu: [menu|https://www.lepetitbistro.com/menu]. Let me know if you have any questions or if you need any recommendations."
+            ],
+            [
+                "agent2",
+                "Thank you! I have looked at the menu and I would like to order the [menu item|Spaghetti Carbonara] and the [menu item|Margherita Pizza]. Can you please let me know the total cost and the estimated time for pickup?"
+            ],
+            [
+                "agent1",
+                "Great choices, [name|Sarah]! The total cost for your order of [menu item|Spaghetti Carbonara] and [menu item|Margherita Pizza] is [total cost|$35]. The estimated time for pickup is approximately [pickup time|30 minutes] from now. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. Thank you for choosing Le Petit Bistro. Have a great day and enjoy your meal! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "French",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a French restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [date|next Saturday] at [time|7pm] for a party of [size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We would be happy to have you and your party join us next Saturday at 7pm. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sophie]."
+            ],
+            [
+                "agent1",
+                "Thank you, Sophie. I have reserved a table for 6 people on [date|next Saturday] at [time|7pm]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you tell me what are the specials for next Saturday?"
+            ],
+            [
+                "agent1",
+                "Our specials change daily based on the availability of fresh ingredients, but I can tell you that we always have a variety of delicious options to choose from. I can have our chef prepare a special menu for your party if you would like. Would you like me to do that?"
+            ],
+            [
+                "agent2",
+                "That sounds great! Can you please make sure that the menu includes some vegetarian options as well?"
+            ],
+            [
+                "agent1",
+                "Of course! Our chef will be happy to prepare a special menu for your party that includes vegetarian options. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, can you please let me know if you have any gluten-free options on the menu?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have gluten-free options available on our menu. Our chef can also make modifications to certain dishes to accommodate gluten-free diets. If you have any specific dietary restrictions or allergies, please let me know and I can inform our chef."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. One of my guests has a peanut allergy. Can you please inform the chef about it?"
+            ],
+            [
+                "agent1",
+                "Absolutely, I will inform our chef about the peanut allergy. We take allergies very seriously and will make sure that your guest's meal is prepared safely. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, Sophie! We look forward to seeing you and your party next Saturday at 7pm. If you have any further questions or requests, please don't hesitate to let us know. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "French",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a French restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7pm]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of 2 on Saturday at 7pm. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Emily]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Emily]. Your reservation for 2 at Le Petit Bistro is confirmed for Saturday at 7pm. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Can you please provide me with your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Emily]. Here is a link to our menu: [menu link|https://www.lepetitbistro.com/menu]. Please let me know if you have any questions or if there is anything I can assist you with."
+            ],
+            [
+                "agent2",
+                "Thank you! I would like to order the [menu item|Beef Bourguignon] and the [menu item|Cr\u00e8me Br\u00fbl\u00e9e] for dessert. Can you please let me know the total cost and the estimated pickup time?"
+            ],
+            [
+                "agent1",
+                "Great choices, [name|Emily]! The Beef Bourguignon is $25 and the Cr\u00e8me Br\u00fbl\u00e9e is $10. The total cost for your order will be $35. As for the pickup time, we can have your order ready in approximately [pickup time|30] minutes. Would you like to proceed with the order?"
+            ],
+            [
+                "agent2",
+                "Yes, that sounds perfect. I will come to pick up my order in [pickup time|30] minutes. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Emily]! Your order for Beef Bourguignon and Cr\u00e8me Br\u00fbl\u00e9e will be ready for pickup in [pickup time|30] minutes. Please come to Le Petit Bistro at [restaurant address|123 Main St] to pick up your order. Thank you for choosing Le Petit Bistro and have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you! I will be there in [pickup time|30] minutes to pick up my order. Have a great day!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Emily]! We'll see you soon. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day too!"
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Emily]! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Asian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [date|Saturday] at [time|7pm] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We would be happy to have you and your party join us on [date|Saturday] at [time|7pm]. How would you like me to reserve the table for you?"
+            ],
+            [
+                "agent2",
+                "Great! Can you please reserve the table under the name [name|Smith]?"
+            ],
+            [
+                "agent1",
+                "Of course, [name|Smith]. Your reservation for [party size|6] people on [date|Saturday] at [time|7pm] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you tell me what are the most popular dishes on your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly! Our most popular dishes are our [menu item|Penne alla Vodka], [menu item|Margherita Pizza], [menu item|Chicken Parmigiana], and [menu item|Tiramisu]. Would you like me to provide you with more information about any of these dishes?"
+            ],
+            [
+                "agent2",
+                "No, thank you. I think I'll go with the [menu item|Margherita Pizza] and the [menu item|Tiramisu]. Can I also request that the pizza be made with extra cheese?"
+            ],
+            [
+                "agent1",
+                "Absolutely! We can definitely make your [menu item|Margherita Pizza] with extra cheese. Is there anything else you would like me to add to your order?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome! We look forward to seeing you on [date|Saturday] at [time|7pm] for your reservation under the name [name|Smith]. If you have any other questions or requests, please don't hesitate to let us know. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, you too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Asian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [date|next Saturday] at [time|7 PM] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We would be happy to have you and your party join us next Saturday at 7 PM. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, Sarah. I have you down for a reservation for 6 people on [date|next Saturday] at 7 PM. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I have a question about the menu. Do you have any vegetarian options available?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have vegetarian options available on our menu. We have a delicious [menu item|Vegetable Stir Fry] and [menu item|Eggplant Parmesan] that are both vegetarian. We also have a [menu item|Vegetarian Pad Thai] that can be made vegan upon request. Let me know if you have any other questions!"
+            ],
+            [
+                "agent2",
+                "Great, thank you for letting me know! I think I'll go ahead and order the [menu item|Vegetable Stir Fry] for myself. And for the rest of my party, can I please order the [menu item|Grilled Salmon] and the [menu item|Beef and Broccoli]? Also, one of my friends has a nut allergy, so please make sure there are no peanuts in any of the dishes."
+            ],
+            [
+                "agent1",
+                "Absolutely, Sarah. I have your order down for the [menu item|Vegetable Stir Fry], [menu item|Grilled Salmon], and [menu item|Beef and Broccoli]. And I will make sure to inform our kitchen staff about the nut allergy and ensure that there are no peanuts in any of the dishes. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, Sarah! We look forward to seeing you and your party next Saturday at 7 PM. If you have any other questions or concerns, please don't hesitate to reach out to us. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Italian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for tonight at 7 pm for [party size|4] under the name [name|Smith]."
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Smith]. We have availability for a party of [party size|4] at 7 pm tonight. Would you like a table inside or outside?"
+            ],
+            [
+                "agent2",
+                "I would like a table inside, please."
+            ],
+            [
+                "agent1",
+                "Great, we have you down for a table inside for [party size|4] at 7 pm tonight under the name [name|Smith]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for tonight. Can you recommend some of your popular dishes?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have many delicious dishes to choose from. Our most popular dishes include [menu item|Margherita Pizza], [menu item|Lasagna], [menu item|Chicken Parmesan], and [menu item|Fettuccine Alfredo]. We also have a variety of appetizers and desserts to choose from. Is there anything specific you're in the mood for?"
+            ],
+            [
+                "agent2",
+                "I think I'll go with the [menu item|Lasagna] and a side of [menu item|Garlic Bread]. Can you also please let the chef know that I have [allergies|lactose intolerance], so I would appreciate it if they could make sure there is no cheese in my dish?"
+            ],
+            [
+                "agent1",
+                "Absolutely, I will make a note of your [allergies|lactose intolerance] and inform the chef to prepare your [menu item|Lasagna] without cheese. Would you like anything to drink with your meal? We have a variety of wines, beers, and non-alcoholic beverages available."
+            ],
+            [
+                "agent2",
+                "Yes, I would like a glass of [menu item|Chianti] wine, please."
+            ],
+            [
+                "agent1",
+                "Excellent choice! One glass of [menu item|Chianti] wine coming up. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Smith]. We look forward to seeing you tonight at 7 pm for your reservation and hope you enjoy your meal. If you have any other questions or requests, please don't hesitate to ask. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Italian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [party size|2] on [reservation date|Friday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly, we have availability for a party of [party size|2] on [reservation date|Friday] at [reservation time|7 PM]. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] on [reservation date|Friday] at [reservation time|7 PM] has been confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you please recommend some popular dishes?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have many popular dishes on our menu. Some of our most popular dishes include the [menu item|Spaghetti Carbonara], [menu item|Margherita Pizza], [menu item|Veal Marsala], and [menu item|Chicken Parmesan]. We also have a variety of appetizers and desserts to choose from. Is there anything specific you are in the mood for?"
+            ],
+            [
+                "agent2",
+                "The [menu item|Veal Marsala] sounds delicious. Can you tell me if it contains any nuts or other allergens?"
+            ],
+            [
+                "agent1",
+                "Our [menu item|Veal Marsala] does not contain any nuts, but it does contain mushrooms and dairy. If you have any other allergies or dietary restrictions, please let me know and I can recommend some other dishes that would be suitable for you."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. I don't have any other allergies or dietary restrictions, so I would like to order the [menu item|Veal Marsala] for my reservation."
+            ],
+            [
+                "agent1",
+                "Great choice, [name|Sarah]. I have added the [menu item|Veal Marsala] to your reservation. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you on [reservation date|Friday] at [reservation time|7 PM]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "French",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a French restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [date|next Saturday] at [time|7 PM] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for you for [date|next Saturday] at [time|7 PM] for [party size|6] people. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|6] people on [date|next Saturday] at [time|7 PM] has been confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you please recommend some popular dishes from your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have a variety of popular dishes on our menu. Some of our most popular dishes include our [menu item|Margherita Pizza], [menu item|Lasagna], [menu item|Chicken Parmesan], and [menu item|Fettuccine Alfredo]. We also have a selection of seafood dishes, such as our [menu item|Grilled Salmon] and [menu item|Shrimp Scampi]. Would you like me to make a note of any allergies or dietary restrictions?"
+            ],
+            [
+                "agent2",
+                "Yes, please. I am allergic to [allergies|shellfish]."
+            ],
+            [
+                "agent1",
+                "Thank you for letting me know, [name|Sarah]. I will make a note of your allergy to shellfish and inform the kitchen staff. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you on [date|next Saturday] at [time|7 PM]. If you have any further questions or requests, please don't hesitate to let us know. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "French",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a French restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7pm]."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for you for [party size|2] on [reservation date|Saturday] at [reservation time|7pm]. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Emily]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Emily]. Your reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7pm] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you recommend any popular dishes?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have many popular dishes at Le Petit Bistro. Our [menu item|Beef Bourguignon] is a classic French dish that is very popular among our customers. Our [menu item|Coq au Vin] is also a delicious option. If you prefer seafood, our [menu item|Pan-Seared Scallops] are a customer favorite. And for vegetarians, we have a delicious [menu item|Vegetable Ratatouille]. Do any of these options sound appealing to you?"
+            ],
+            [
+                "agent2",
+                "They all sound delicious, but I think I'll go with the [menu item|Pan-Seared Scallops]. Can you also let me know if there are any allergens in this dish?"
+            ],
+            [
+                "agent1",
+                "Certainly, the [menu item|Pan-Seared Scallops] are served with a side of roasted vegetables and a lemon butter sauce. The scallops themselves do not contain any common allergens, but the dish is prepared in a kitchen that also handles shellfish, dairy, and gluten. If you have any specific allergies or dietary restrictions, please let me know and I can recommend some alternative dishes or ask the chef to make modifications to the dish."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. I don't have any specific allergies or dietary restrictions, so I'll stick with the [menu item|Pan-Seared Scallops] as is."
+            ],
+            [
+                "agent1",
+                "Great choice! Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help with the reservation and food order. I'm looking forward to dining at Le Petit Bistro!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Emily]. We look forward to having you dine with us. If you have any further questions or requests, please don't hesitate to ask. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Asian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [date|this Saturday] at [time|7 PM] for [party size|6] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for [party size|6] at [time|7 PM] this Saturday. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|6] at [time|7 PM] this Saturday is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you please recommend some popular dishes from your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have a variety of popular dishes on our menu. Some of our most popular dishes include our [menu item|Chicken Parmesan], [menu item|Fettuccine Alfredo], [menu item|Margherita Pizza], and [menu item|Shrimp Scampi]. We also have a variety of appetizers and desserts to choose from. Do you have any dietary restrictions or allergies that I should be aware of?"
+            ],
+            [
+                "agent2",
+                "Yes, I have a peanut allergy, so please let me know if any of the dishes contain peanuts or were prepared in an environment where peanuts are present."
+            ],
+            [
+                "agent1",
+                "Thank you for letting me know. We take allergies very seriously here at La Bella Italia and we will make sure to take all necessary precautions to ensure your safety. None of the dishes you mentioned contain peanuts, but we do have some dishes that may have come into contact with peanuts during preparation. If you would like, I can have our chef prepare your dishes separately to avoid any cross-contamination."
+            ],
+            [
+                "agent2",
+                "Thank you, that would be great. Can I please order the [menu item|Chicken Parmesan] and the [menu item|Margherita Pizza]? And could you also let the chef know that I would like my dishes prepared separately to avoid any cross-contamination with peanuts?"
+            ],
+            [
+                "agent1",
+                "Of course, I will make sure to inform the chef about your allergy and your request for separate preparation. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you this Saturday at [time|7 PM]. If you have any further questions or requests, please don't hesitate to let us know. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.1,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Asian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [party size|2] on [reservation date|Friday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly, we have availability for a party of [party size|2] on [reservation date|Friday] at [reservation time|7 PM]. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] on [reservation date|Friday] at [reservation time|7 PM] has been confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you please recommend some popular dishes from your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have a variety of popular dishes on our menu. Some of our most popular dishes include [menu item|Pad Thai], [menu item|Beef and Broccoli], [menu item|Kung Pao Chicken], and [menu item|Sushi]. We also have a selection of vegetarian and gluten-free options available. Do you have any dietary restrictions or preferences that I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Thank you for the recommendations. I have a peanut allergy, so I would like to avoid any dishes that contain peanuts. Do you have any recommendations for peanut-free dishes?"
+            ],
+            [
+                "agent1",
+                "Yes, we take allergies very seriously here at Le Petit Bistro and we have several peanut-free dishes on our menu. Some of our peanut-free dishes include [menu item|Chicken Teriyaki], [menu item|Shrimp Fried Rice], [menu item|Vegetable Curry], and [menu item|Beef Satay]. If you have any other allergies or dietary restrictions, please let me know and I will be happy to assist you in finding a suitable dish."
+            ],
+            [
+                "agent2",
+                "Thank you, those options sound great. I think I will go with the [menu item|Chicken Teriyaki] and my guest will have the [menu item|Beef Satay]. Is it possible to make a special request for the chicken to be cooked well-done?"
+            ],
+            [
+                "agent1",
+                "Certainly, we can accommodate your request to have the chicken cooked well-done. Is there anything else you would like me to note for your order?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you on [reservation date|Friday] at [reservation time|7 PM]. If you have any further questions or requests, please don't hesitate to let us know. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day too!"
+            ],
+            [
+                "agent1",
+                "Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Italian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia! How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I'd like to make a reservation for tonight at 7 pm for a party of 4, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of 4 at 7 pm tonight. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation has been made for tonight at 7 pm for a party of 4. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for pickup. Can you tell me what's on the menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Sarah]. Our menu features a wide variety of Italian dishes, including pasta, pizza, seafood, and salads. We also have a selection of appetizers and desserts. Is there anything specific you're interested in?"
+            ],
+            [
+                "agent2",
+                "Yes, I'm interested in ordering some pasta for pickup. What do you recommend?"
+            ],
+            [
+                "agent1",
+                "Great choice, [name|Sarah]! Our most popular pasta dishes are our Spaghetti Carbonara and our Fettuccine Alfredo. We also have a delicious Lasagna and a Penne Arrabbiata for those who prefer a spicy sauce. Would you like me to give you more information about any of these dishes?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you tell me more about the Spaghetti Carbonara?"
+            ],
+            [
+                "agent1",
+                "Definitely, [name|Sarah]! Our Spaghetti Carbonara is made with spaghetti pasta, pancetta, eggs, and parmesan cheese in a rich and creamy sauce. It's a classic Italian dish that's popular for its rich and savory flavors. Would you like to order the Spaghetti Carbonara for pickup?"
+            ],
+            [
+                "agent2",
+                "That sounds delicious! Yes, please put me down for the Spaghetti Carbonara for pickup. When will it be ready?"
+            ],
+            [
+                "agent1",
+                "Great! Your order for the Spaghetti Carbonara is confirmed. It should be ready for pickup in approximately 30 minutes. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now, thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]! Thank you for choosing La Bella Italia. Please don't hesitate to reach out if you have any further questions or requests. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Italian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [restaurant|Le Petit Bistro]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7pm]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability for a party of [party size|2] on [reservation date|Saturday] at [reservation time|7pm]. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7pm] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, please. Can you tell me more about your menu? I am interested in seafood options."
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Sarah]. Our menu features a variety of seafood options such as [menu item|Linguine with Clams], [menu item|Grilled Octopus], and [menu item|Pan-Seared Sea Bass]. We also have a [menu item|Grilled Salmon] dish that is very popular among our customers. Would you like me to provide you with more details about any of our seafood options?"
+            ],
+            [
+                "agent2",
+                "The [menu item|Pan-Seared Sea Bass] sounds delicious! Can you tell me if it contains any allergens? I have an allergy to shellfish."
+            ],
+            [
+                "agent1",
+                "Our [menu item|Pan-Seared Sea Bass] is a great choice! I'm glad you asked about allergens. While this dish does not contain any shellfish, it is cooked in a kitchen where shellfish is present. If you have a severe allergy, please let me know and we can make arrangements to ensure your meal is prepared safely."
+            ],
+            [
+                "agent2",
+                "Thank you for letting me know. I do have a severe allergy to shellfish, so I appreciate your willingness to accommodate me. Can I make a special request to have my meal prepared separately to avoid cross-contamination?"
+            ],
+            [
+                "agent1",
+                "Absolutely, [name|Sarah]. We take all allergies seriously and want to ensure a safe dining experience for all of our guests. I will make a note on your reservation that you have a severe shellfish allergy and that your meal should be prepared separately to avoid cross-contamination. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "That's great, thank you! That's all for now. I look forward to dining at [restaurant|Le Petit Bistro] on [reservation date|Saturday] at [reservation time|7pm]."
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to having you dine with us on [reservation date|Saturday] at [reservation time|7pm]. If you have any other special requests or if anything changes with your reservation, please don't hesitate to contact us. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "French",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a French restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [date|October 15th] at [time|7 PM] for [party size|2] people, please."
+            ],
+            [
+                "agent1",
+                "Certainly! We would be happy to have you dine with us on [date|October 15th] at [time|7 PM]. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah]."
+            ],
+            [
+                "agent1",
+                "Thank you, Sarah. I have reserved a table for two people on [date|October 15th] at [time|7 PM]. Is there anything else I can help you with?"
+            ],
+            [
+                "agent2",
+                "Yes, could you please tell me about your menu options?"
+            ],
+            [
+                "agent1",
+                "Of course! We offer a variety of Italian dishes, including pasta, pizza, seafood, and meat dishes. We also have a selection of appetizers and desserts. Would you like me to send you a copy of our menu?"
+            ],
+            [
+                "agent2",
+                "Yes, please! That would be great."
+            ],
+            [
+                "agent1",
+                "Certainly. You can find our menu on our website at [website|www.labellaitalia.com/menu]. Alternatively, you can also view our menu when you come to the restaurant."
+            ],
+            [
+                "agent2",
+                "Thank you very much! I have one more question. Do you have any gluten-free options on your menu?"
+            ],
+            [
+                "agent1",
+                "Yes, we do have gluten-free options available on our menu. We offer gluten-free pasta and pizza, and we can also accommodate other dietary restrictions or allergies. Just let us know when you make your order, and our chef will be happy to tailor your meal to your needs."
+            ],
+            [
+                "agent2",
+                "That's great to hear! Thank you for letting me know. I look forward to dining at La Bella Italia on [date|October 15th] at [time|7 PM]."
+            ],
+            [
+                "agent1",
+                "You're welcome, Sarah! We look forward to having you dine with us on [date|October 15th] at [time|7 PM]. If you have any other questions or requests before then, please don't hesitate to reach out. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "French",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a French restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Bonjour! Welcome to Le Petit Bistro. How can I assist you today?"
+            ],
+            [
+                "agent2",
+                "Bonjour! I would like to make a reservation for [party size|2] on [reservation date|Friday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly! We would be happy to have you for dinner on Friday at 7 PM. May I have your name and phone number to confirm the reservation?"
+            ],
+            [
+                "agent2",
+                "My name is [name|Anna] and my phone number is [phone number|555-1234]."
+            ],
+            [
+                "agent1",
+                "Thank you, Anna. Your reservation for two on Friday at 7 PM is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to pre-order some food. Can you recommend some of your most popular dishes?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have many delicious dishes on our menu. Some of our most popular dishes are Coq au Vin, Beef Bourguignon, and Ratatouille. We also have a selection of seafood dishes like Grilled Salmon and Scallops Provencal. If you have any specific dietary restrictions or allergies, please let me know and I can recommend dishes accordingly."
+            ],
+            [
+                "agent2",
+                "Thank you for the recommendations. I'm allergic to [allergies|peanuts], do any of these dishes contain peanuts?"
+            ],
+            [
+                "agent1",
+                "None of the dishes I mentioned contain peanuts, but I recommend letting your server know about your allergy when you arrive so they can take any necessary precautions. Additionally, our kitchen staff is trained to prepare dishes with any necessary modifications to accommodate dietary restrictions or allergies."
+            ],
+            [
+                "agent2",
+                "That's great to hear. I would like to order the Grilled Salmon and the Ratatouille, please."
+            ],
+            [
+                "agent1",
+                "Excellent choices! Would you like to add any appetizers or drinks to your order? Or perhaps a dessert to finish your meal?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to start with the Escargots and a glass of your house red wine. And for dessert, I would like to have the Cr\u00e8me Br\u00fbl\u00e9e."
+            ],
+            [
+                "agent1",
+                "Wonderful choices! Your order for Escargots, Grilled Salmon, Ratatouille, a glass of house red wine, and Cr\u00e8me Br\u00fbl\u00e9e for dessert is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's everything. Thank you for your help in making the reservation and ordering the food. I'm looking forward to dining at Le Petit Bistro on Friday!"
+            ],
+            [
+                "agent1",
+                "You're very welcome, Anna. We look forward to having you at Le Petit Bistro on Friday. If you have any questions or concerns before then, please don't hesitate to reach out. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Asian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|La Bella Italia] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|La Bella Italia] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to [restaurant|La Bella Italia]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [party size|2] on [reservation date|Saturday] at [reservation time|7pm]. Do you have any available tables at that time?"
+            ],
+            [
+                "agent1",
+                "Of course, we would be delighted to have you dine with us. Let me check our availability for [reservation date|Saturday] at [reservation time|7pm]. Yes, we have availability for [party size|2]. Would you like me to make a reservation for you?"
+            ],
+            [
+                "agent2",
+                "Yes, please! Can you please reserve a table by the window, if possible?"
+            ],
+            [
+                "agent1",
+                "Sure, I will note your preference for a window table in your reservation. Can I please have your name and a contact number for the reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Sarah] and my contact number is [phone number|555-1234]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Sarah]. Your reservation for [party size|2] is confirmed for [reservation date|Saturday] at [reservation time|7pm]. We have reserved a table by the window as per your request. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you very much for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Sarah]. We look forward to seeing you on [reservation date|Saturday] at [reservation time|7pm]. If you have any other questions or requests, feel free to contact us. Thank you for choosing [restaurant|La Bella Italia]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "chatting online",
+        "restaurant_type": "Asian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Asian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Asian restaurant called [restaurant|Le Petit Bistro] and you are chatting online with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to [restaurant|Le Petit Bistro]. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi! I would like to make a reservation for tonight at 7pm for [party size|2]."
+            ],
+            [
+                "agent1",
+                "Certainly! We have availability at 7 pm for a party size of 2. May I have your name, please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Alex]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Alex]. Your reservation for 2 is confirmed for tonight at 7 pm. Can I help you with anything else?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to see the menu, please."
+            ],
+            [
+                "agent1",
+                "Of course, [name|Alex]! You can view our menu on our website [restaurant website|www.lepetitbistronyc.com/menu]. Is there anything in particular you are interested in or have any questions about?"
+            ],
+            [
+                "agent2",
+                "Thank you for the website link. I would like to order the [menu item|Beef Bourguignon] and the [menu item|Cr\u00e8me Br\u00fbl\u00e9e] for dessert. Can you also let me know if the dish contains any [allergies|nuts]?"
+            ],
+            [
+                "agent1",
+                "The [menu item|Beef Bourguignon] is nut-free, but the [menu item|Cr\u00e8me Br\u00fbl\u00e9e] contains almonds. If you have a nut allergy, I would recommend not ordering the [menu item|Cr\u00e8me Br\u00fbl\u00e9e]. Do you have any other allergies or dietary restrictions I should be aware of?"
+            ],
+            [
+                "agent2",
+                "No, I don't have any other allergies or dietary restrictions. Thank you for letting me know about the [menu item|Cr\u00e8me Br\u00fbl\u00e9e]. In that case, I will go ahead and order the [menu item|Beef Bourguignon]. Can you tell me the price of the dish, please?"
+            ],
+            [
+                "agent1",
+                "The [menu item|Beef Bourguignon] is priced at [price|$32]. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "That's all for now, thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome, [name|Alex]. We look forward to seeing you tonight at 7 pm. If you have any special requests, please don't hesitate to let us know. Have a great day! Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Italian",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to La Bella Italia! How may I assist you?"
+            ],
+            [
+                "agent2",
+                "Hi, I would like to make a reservation for [party size|2] for [reservation date|next Saturday] at [reservation time|7 PM]."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for you for [party size|2] on [reservation date|next Saturday] at [reservation time|7 PM]. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Emily]."
+            ],
+            [
+                "agent1",
+                "Thank you, Emily. Your reservation for [party size|2] on [reservation date|next Saturday] at [reservation time|7 PM] has been booked. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to know if you have any vegetarian options on your menu?"
+            ],
+            [
+                "agent1",
+                "Absolutely! We have a variety of vegetarian options on our menu, including pasta dishes, salads, and vegetarian pizzas. May I recommend our [menu item|Eggplant Parmigiana], which is a classic Italian dish made with layers of breaded eggplant, tomato sauce, and melted mozzarella cheese? It's one of our most popular vegetarian dishes."
+            ],
+            [
+                "agent2",
+                "That sounds great! I would like to order the Eggplant Parmigiana, please."
+            ],
+            [
+                "agent1",
+                "Excellent choice, Emily! Our Eggplant Parmigiana is a delicious and satisfying dish. Is there anything else I can get for you?"
+            ],
+            [
+                "agent2",
+                "No, thank you. That's all I need for now."
+            ],
+            [
+                "agent1",
+                "Alright, your order for [menu item|Eggplant Parmigiana] has been placed. Please let us know if you have any allergies or special requests so we can make sure your meal is perfect."
+            ],
+            [
+                "agent2",
+                "Thank you for asking. I don't have any allergies or special requests."
+            ],
+            [
+                "agent1",
+                "Great! We will make sure your meal is prepared to your liking. Thank you for choosing La Bella Italia. Do you have any other questions or is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all for now. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're welcome, Emily! It was my pleasure assisting you. We look forward to seeing you soon. Have a great day! Goodbye."
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "Italian",
+        "restaurant_name": "Le Petit Bistro",
+        "agent1": "You are a representative at a Italian restaurant called [restaurant|Le Petit Bistro] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the Italian restaurant called [restaurant|Le Petit Bistro] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello and welcome to Le Petit Bistro. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there, I would like to make a reservation for tonight at 7 PM for [party size|2] under the name [name|Smith]."
+            ],
+            [
+                "agent1",
+                "Certainly, [name|Smith]. We would be happy to accommodate you at 7 PM tonight for [party size|2]. May I also have a contact number to confirm your reservation?"
+            ],
+            [
+                "agent2",
+                "Yes, my contact number is [phone number|555-1234]."
+            ],
+            [
+                "agent1",
+                "Great, thank you for providing your contact number. Your reservation is confirmed for tonight at 7 PM for [party size|2] under the name [name|Smith]. We look forward to seeing you then. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes please, could you tell me what kinds of dishes you have on your menu?"
+            ],
+            [
+                "agent1",
+                "Certainly, we have a variety of Italian dishes on our menu, including pastas, pizzas, seafood, and meat dishes. Some of our popular menu items include lasagna, spaghetti carbonara, margherita pizza, grilled salmon, and chicken parmesan. We also have a selection of appetizers and desserts. Would you like me to email you a copy of our full menu?"
+            ],
+            [
+                "agent2",
+                "Thank you for the information. I think I know what I want to order now. I would like to start with the [appetizer|bruschetta] and for the main course, I would like to have the [menu item|Chicken Parmesan]. Can you please tell me if the dish contains any [allergies|nuts]?"
+            ],
+            [
+                "agent1",
+                "Our [menu item|Chicken Parmesan] does not contain any [allergies|nuts]. However, please let me know if you have any other dietary restrictions or allergies, so we can ensure that your food is prepared safely. And would you like to pair your meal with any drinks or wine? Our staff would be happy to make a recommendation for you."
+            ],
+            [
+                "agent2",
+                "No, I don't have any other dietary restrictions or allergies to worry about. As for drinks, I'll just have a glass of water for now. Thank you for your help."
+            ],
+            [
+                "agent1",
+                "You're welcome. We will make sure to prepare your [appetizer|bruschetta] and [menu item|Chicken Parmesan] without any [allergies|nuts]. And we will also serve you a glass of water with your meal. If you have any other special requests, please let us know. We want to make sure you have an enjoyable dining experience with us."
+            ],
+            [
+                "agent2",
+                "Thank you so much. That's all I need for now. I'm really looking forward to my meal tonight."
+            ],
+            [
+                "agent1",
+                "You're welcome, and we're glad to hear that. We will see you tonight at 7 PM for your reservation. If you need anything else, please don't hesitate to ask. Have a great day!"
+            ],
+            [
+                "agent2",
+                "Thank you, have a great day too!"
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Smith]. Goodbye!"
+            ]
+        ]
+    },
+    {
+        "sample_id": 1,
+        "length": 10,
+        "temperature": 0.7,
+        "initial_utterance": "Hello.",
+        "interaction_type": "talking",
+        "restaurant_type": "French",
+        "restaurant_name": "La Bella Italia",
+        "agent1": "You are a representative at a French restaurant called [restaurant|La Bella Italia] and you are talking with a client. Provide assistance and answer to their questions. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc. When the whole conversation is over end with \"Goodbye\".",
+        "agent2": "You are a client of the French restaurant called [restaurant|La Bella Italia] and you are talking with a representative. Either try to make a reservation or order some food. You must replace any situation-specific details with label and value pairs - for example, [name|John], [reservation date|tomorrow], [party size|4], [menu item|Grilled Salmon], [allergies|peanuts], [special request|...], etc.",
+        "utterances": [
+            [
+                "agent1",
+                "Hello! Welcome to La Bella Italia. How may I assist you today?"
+            ],
+            [
+                "agent2",
+                "Hi there! I would like to make a reservation for [date|next Saturday] at [time|7 PM] for a party of [size|6]."
+            ],
+            [
+                "agent1",
+                "Certainly, I can make a reservation for you for [date|next Saturday] at [time|7 PM] for a party of [size|6]. May I have your name please?"
+            ],
+            [
+                "agent2",
+                "Yes, my name is [name|Emily]."
+            ],
+            [
+                "agent1",
+                "Thank you, [name|Emily]. Your reservation for [date|next Saturday] at [time|7 PM] for a party of [size|6] is confirmed. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "Yes, I would also like to order some food for my reservation. Can you recommend some popular dishes at your restaurant?"
+            ],
+            [
+                "agent1",
+                "Certainly, some of our most popular dishes here at La Bella Italia are our homemade lasagna, our grilled salmon, and our margherita pizza. We also have a variety of appetizers, salads, and desserts to choose from. Do you have any dietary restrictions or preferences I should be aware of?"
+            ],
+            [
+                "agent2",
+                "I'm allergic to [allergies|shellfish], so I can't have any dishes that contain them. Other than that, I'm open to any recommendations you have."
+            ],
+            [
+                "agent1",
+                "Thank you for letting me know about your allergy. We do have some great options that don't include shellfish. Our homemade lasagna is always a popular choice, as well as our chicken parmesan and our vegetarian pasta primavera. And of course, we have plenty of delicious salads and appetizers to choose from as well. Do any of those options sound good to you?"
+            ],
+            [
+                "agent2",
+                "The homemade lasagna sounds great, I would like to order that. Is there anything else you would recommend as a side dish or appetizer?"
+            ],
+            [
+                "agent1",
+                "Great choice! Our homemade lasagna is definitely a customer favorite. For an appetizer, I would recommend our bruschetta, which is made with fresh tomatoes, basil, and garlic on top of toasted Italian bread. Or, if you're in the mood for something a bit more filling, our Caesar salad is always a hit. Would you like me to add one of those to your order?"
+            ],
+            [
+                "agent2",
+                "The bruschetta sounds perfect, I would like to add that to my order. Thank you!"
+            ],
+            [
+                "agent1",
+                "You're welcome! So to recap, you would like to order our homemade lasagna and our bruschetta appetizer. Would you like to add any drinks or desserts to your order?"
+            ],
+            [
+                "agent2",
+                "Yes, I would like to order a glass of [drink|Chianti] with my meal, and also the [dessert|tiramisu] for dessert."
+            ],
+            [
+                "agent1",
+                "Perfect! So, you would like a glass of [drink|Chianti] with your meal and our [dessert|tiramisu] for dessert. Is there anything else I can assist you with?"
+            ],
+            [
+                "agent2",
+                "No, that's all. Thank you for your help!"
+            ],
+            [
+                "agent1",
+                "You're very welcome! We look forward to seeing you on [date|next Saturday] at [time|7 PM] for your reservation. If you have any other questions, feel free to ask. Goodbye!"
+            ]
+        ]
+    }
+]
