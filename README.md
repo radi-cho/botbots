@@ -11,7 +11,7 @@ Use cases may include:
 
 A total of 2361 conversations between two ChatGPT instances with 29796 utterances.
 
-### `.gpt.txt`
+### `.gpt4.txt`
 
 A [datasetGPT](https://github.com/radi-cho/datasetGPT) command was manually designed for the generation of a task-oriented dialogue dataset (`tod/hotels.json`). Then, GPT-4 was prompted to produce similar commands for the generation of TOD scenarios in other domains and to come up with domain ideas altogether. Then, it was tasked to extend the commands to other types of conversations - reasoning, and brainstorming. You can find more details in the `.gpt4.txt` files of which `brainstorming.gpt4.txt` is the most insightful.
 
