@@ -187,7 +187,7 @@ datasetGPT conversations \
     --option service_type "electrical" \
     --option maintenance_service_name "Quick Fixers" \
     --option maintenance_service_name "Home Repair Pros" \
-    --num-samples 2 \
+    --num-samples 10 \
     --path "tod/home_maintenance.json" \
     --single-file
 ```
